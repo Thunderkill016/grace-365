@@ -17,6 +17,10 @@ export interface MicroTask {
   check: string;
   minutes: number;
   type: "learn" | "practice" | "review" | "project" | "capstone";
+  // Field V3 (optional để tương thích ngược): archetype bài tập, chủ đề tuần, tham chiếu giáo trình
+  archetype?: string;
+  theme?: string;
+  ref?: string | null;
 }
 
 export interface SkillSeason {
@@ -26,11 +30,18 @@ export interface SkillSeason {
   focus: string;
 }
 
+export interface SkillSource {
+  name: string;
+  url: string;
+}
+
 export interface Skill {
   id: string;
   name: string;
   tagline: string;
-  seasons: SkillSeason[];
+  // V3: seasons là 4 chuỗi mô tả (spec CONTENT_SPEC_V3.md); giữ union để tương thích JSON cũ
+  seasons: (SkillSeason | string)[];
+  source?: SkillSource;
   tasks: MicroTask[];
 }
 
@@ -38,6 +49,7 @@ export interface SkillMeta {
   id: string;
   name: string;
   tagline: string;
+  source?: string;
 }
 
 const SKILLS: Record<string, Skill> = {
