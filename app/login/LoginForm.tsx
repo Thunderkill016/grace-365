@@ -1,121 +1,61 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 
 export function LoginForm() {
-  const router = useRouter();
-  const [email, setEmail] = useState("");
-  const [otp, setOtp] = useState("");
-  const [step, setStep] = useState<"email" | "otp">("email");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  async function sendCode(e: React.FormEvent) {
-    e.preventDefault();
+  async function signInWithGoogle() {
     setError("");
     setLoading(true);
     try {
-      const res = await authClient.emailOtp.sendVerificationOtp({
-        email: email.trim(),
-        type: "sign-in",
+      await authClient.signIn.social({
+        provider: "google",
+        callbackURL: "/today",
       });
-      if (res.error) {
-        setError(res.error.message ?? "Không gửi được mã. Thử lại nhé.");
-      } else {
-        setStep("otp");
-      }
     } catch {
-      setError("Có lỗi xảy ra. Thử lại nhé.");
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  async function verify(e: React.FormEvent) {
-    e.preventDefault();
-    setError("");
-    setLoading(true);
-    try {
-      const res = await authClient.signIn.emailOtp({
-        email: email.trim(),
-        otp: otp.trim(),
-        fetchOptions: {
-          onSuccess: () => router.push("/today"),
-        },
-      });
-      if (res.error) {
-        setError("Mã chưa đúng hoặc đã hết hạn. Kiểm tra lại nhé.");
-      }
-    } catch {
-      setError("Có lỗi xảy ra. Thử lại nhé.");
-    } finally {
+      setError("Không mở được trang đăng nhập Google. Thử lại nhé.");
       setLoading(false);
     }
   }
 
   return (
     <div className="rounded-3xl bg-white p-6 shadow-sm">
-      {step === "email" ? (
-        <form onSubmit={sendCode} className="space-y-4">
-          <label className="block">
-            <span className="text-sm font-medium text-slate-700">
-              Email của bạn
-            </span>
-            <input
-              type="email"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="ban@example.com"
-              className="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3"
-            />
-          </label>
-          {error && <p className="text-sm text-red-600">{error}</p>}
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full rounded-2xl bg-emerald-600 px-6 py-3.5 font-bold text-white disabled:opacity-50"
-          >
-            {loading ? "Đang gửi…" : "Gửi mã OTP →"}
-          </button>
-        </form>
-      ) : (
-        <form onSubmit={verify} className="space-y-4">
-          <p className="text-sm text-slate-600">
-            Đã gửi mã 6 số tới <strong>{email}</strong> (hết hạn sau 5 phút).
-          </p>
-          <label className="block">
-            <span className="text-sm font-medium text-slate-700">Mã OTP</span>
-            <input
-              inputMode="numeric"
-              required
-              minLength={6}
-              maxLength={6}
-              value={otp}
-              onChange={(e) => setOtp(e.target.value.replace(/\D/g, ""))}
-              placeholder="••••••"
-              className="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3 text-center text-2xl tracking-[0.5em]"
-            />
-          </label>
-          {error && <p className="text-sm text-red-600">{error}</p>}
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full rounded-2xl bg-emerald-600 px-6 py-3.5 font-bold text-white disabled:opacity-50"
-          >
-            {loading ? "Đang kiểm tra…" : "Đăng nhập →"}
-          </button>
-          <button
-            type="button"
-            onClick={() => setStep("email")}
-            className="w-full text-sm text-slate-500 underline"
-          >
-            Đổi email khác
-          </button>
-        </form>
-      )}
+      <p className="mb-4 text-sm text-slate-600">
+        Đăng nhập bằng tài khoản Google để bắt đầu hành trình 365 ngày.
+      </p>
+      {error && <p className="mb-3 text-sm text-red-600">{error}</p>}
+      <button
+        type="button"
+        onClick={signInWithGoogle}
+        disabled={loading}
+        className="flex w-full items-center justify-center gap-3 rounded-2xl border border-slate-300 bg-white px-6 py-3.5 font-bold text-slate-800 shadow-sm transition hover:bg-slate-50 disabled:opacity-50"
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            fill="#4285F4"
+            d="M23.5 12.27c0-.85-.08-1.66-.22-2.45H12v4.64h6.45a5.52 5.52 0 0 1-2.39 3.62v3h3.87c2.26-2.09 3.57-5.16 3.57-8.81z"
+          />
+          <path
+            fill="#34A853"
+            d="M12 24c3.24 0 5.96-1.07 7.94-2.91l-3.87-3c-1.07.72-2.45 1.15-4.07 1.15-3.13 0-5.78-2.11-6.73-4.96H1.29v3.1A12 12 0 0 0 12 24z"
+          />
+          <path
+            fill="#FBBC05"
+            d="M5.27 14.28A7.2 7.2 0 0 1 4.89 12c0-.79.14-1.56.38-2.28v-3.1H1.29a12 12 0 0 0 0 10.76l3.98-3.1z"
+          />
+          <path
+            fill="#EA4335"
+            d="M12 4.76c1.76 0 3.34.6 4.58 1.8l3.44-3.44A11.98 11.98 0 0 0 12 0 12 12 0 0 0 1.29 6.62l3.98 3.1C6.22 6.87 8.87 4.76 12 4.76z"
+          />
+        </svg>
+        {loading ? "Đang chuyển…" : "Đăng nhập bằng Google"}
+      </button>
+      <p className="mt-4 text-center text-xs text-slate-400">
+        Miễn phí · Không cần thẻ · Chỉ dùng email để giữ streak của bạn
+      </p>
     </div>
   );
 }

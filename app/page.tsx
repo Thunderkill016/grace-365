@@ -38,7 +38,7 @@ export default function LandingPage() {
           Bắt đầu ngày 1 →
         </Link>
         <p className="text-center text-xs text-slate-400">
-          Miễn phí · Không cần thẻ · Đăng nhập bằng mã OTP qua email
+          Miễn phí · Không cần thẻ · Đăng nhập bằng Google
         </p>
       </div>
 
