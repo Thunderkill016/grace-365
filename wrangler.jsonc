@@ -14,7 +14,7 @@
       "binding": "DB",
       "database_name": "grace-365-db",
       // Tạo bằng: npx wrangler d1 create grace-365-db  -> rồi dán database_id thật vào đây
-      "database_id": "REPLACE_AFTER_WRANGLER_D1_CREATE",
+      "database_id": "91bf3077-052c-4438-adf1-8d60e73d717f",
       "migrations_dir": "drizzle"
     }
   ],
