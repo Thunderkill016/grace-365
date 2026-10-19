@@ -145,6 +145,11 @@ export function CheckInPanel({
               <span>✓</span>
               <span>{task.check}</span>
             </p>
+            {task.ref && (
+              <p className="mt-2 text-[11px] text-slate-400">
+                📚 Theo giáo trình: {task.ref}
+              </p>
+            )}
           </>
         ) : (
           <p className="mt-2 text-lg font-bold leading-snug">{customTaskText}</p>
