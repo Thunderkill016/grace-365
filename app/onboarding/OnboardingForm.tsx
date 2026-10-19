@@ -104,6 +104,11 @@ export function OnboardingForm() {
                 <p className="text-xl">{SKILL_EMOJI[s.id] ?? "⭐"}</p>
                 <p className="mt-1 text-sm font-bold text-slate-800">{s.name}</p>
                 <p className="text-xs text-slate-500">{s.tagline}</p>
+                {"source" in s && typeof (s as { source?: string }).source === "string" && (
+                  <p className="mt-1 text-[11px] text-slate-400">
+                    📚 {(s as { source?: string }).source}
+                  </p>
+                )}
               </button>
             );
           })}
