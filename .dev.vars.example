@@ -1,0 +1,8 @@
+# Copy thành .dev.vars cho `next dev` (KHÔNG commit file thật)
+# Tạo secret 32+ ký tự: openssl rand -base64 32
+BETTER_AUTH_SECRET=doi-secret-nay-bang-openssl-rand-base64-32
+# Chỉ cần khi gửi mail thật; bỏ trống => OTP in ra console (dev)
+RESEND_API_KEY=
+# URL public của app khi deploy (vd https://grace-365.ten.workers.dev)
+BETTER_AUTH_URL=http://localhost:3000
+EMAIL_FROM="Grace 365 <onboarding@resend.dev>"

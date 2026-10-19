@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Grace 365 — tông sáng: đẹp, hiện đại, tươi sáng, tin cậy */
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family:
+    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+input, select, textarea, button {
+  font: inherit;
+}

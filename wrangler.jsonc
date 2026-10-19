@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Entry là wrapper worker.ts: re-export fetch của opennext worker (.open-next/worker.js)
+  // + handler scheduled() cho cron nhắc giờ. Chạy `npm run cf:build` trước để có .open-next/.
+  "main": "worker.ts",
+  "name": "grace-365",
+  "compatibility_date": "2026-01-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "triggers": {
+    "crons": ["0 * * * *"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "grace-365-db",
+      // Tạo bằng: npx wrangler d1 create grace-365-db  -> rồi dán database_id thật vào đây
+      "database_id": "REPLACE_AFTER_WRANGLER_D1_CREATE",
+      "migrations_dir": "drizzle"
+    }
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    // Resend free: chưa verify domain thì dùng onboarding@resend.dev để test
+    "EMAIL_FROM": "Grace 365 <onboarding@resend.dev>"
+  }
+}
