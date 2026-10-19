@@ -105,6 +105,8 @@ export const challenge = sqliteTable("challenge", {
     .notNull()
     .references(() => user.id, { onDelete: "cascade" }),
   skill: text("skill").notNull(),
+  // id trong thư viện content/skills/*.json; null = kỹ năng tự đặt
+  skillId: text("skillId"),
   minutesPerDay: integer("minutesPerDay").notNull().default(2),
   remindAt: text("remindAt"), // 'HH:MM' theo timezone của user
   ifThen: text("ifThen").notNull(),

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import skillIndex from "@/content/skills/index.json";
 
 const TIMEZONES = [
   "Asia/Ho_Chi_Minh",
@@ -16,9 +17,19 @@ const TIMEZONES = [
   "UTC",
 ];
 
+const SKILL_EMOJI: Record<string, string> = {
+  english: "🗣️",
+  writing: "✍️",
+  python: "🐍",
+  drawing: "🎨",
+  guitar: "🎸",
+  fitness: "💪",
+};
+
 export function OnboardingForm() {
   const router = useRouter();
-  const [skill, setSkill] = useState("");
+  const [skillId, setSkillId] = useState<string | null>(null);
+  const [customSkill, setCustomSkill] = useState("");
   const [minutesPerDay, setMinutesPerDay] = useState("15");
   const [remindAt, setRemindAt] = useState("21:00");
   const [ifThen, setIfThen] = useState("");
@@ -27,10 +38,18 @@ export function OnboardingForm() {
   const [error, setError] = useState("");
 
   const ifThenOk = ifThen.trim().length >= 10;
+  const picked = skillIndex.find((s) => s.id === skillId) ?? null;
+  const skillName =
+    skillId === "custom" ? customSkill.trim() : (picked?.name ?? "");
+  const skillOk = skillName.length > 0;
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
     setError("");
+    if (!skillOk) {
+      setError("Hãy chọn 1 kỹ năng trong thư viện, hoặc tự đặt kỹ năng nhé.");
+      return;
+    }
     if (!ifThenOk) {
       setError("Câu if-then phải tối thiểu 10 ký tự nhé.");
       return;
@@ -41,7 +60,8 @@ export function OnboardingForm() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          skill: skill.trim(),
+          skill: skillName.slice(0, 80),
+          skillId: skillId === "custom" ? null : skillId,
           minutesPerDay: Number(minutesPerDay),
           remindAt,
           ifThen: ifThen.trim(),
@@ -63,19 +83,58 @@ export function OnboardingForm() {
 
   return (
     <form onSubmit={submit} className="space-y-5">
-      <label className="block">
+      <div>
         <span className="text-sm font-medium text-slate-700">
           Kỹ năng bạn muốn rèn trong 365 ngày
         </span>
-        <input
-          required
-          value={skill}
-          onChange={(e) => setSkill(e.target.value)}
-          placeholder="VD: tiếng Anh, code, vẽ, gym…"
-          maxLength={80}
-          className="mt-1 w-full rounded-xl border border-slate-300 px-4 py-3"
-        />
-      </label>
+        <div className="mt-2 grid grid-cols-2 gap-2">
+          {skillIndex.map((s) => {
+            const active = skillId === s.id;
+            return (
+              <button
+                key={s.id}
+                type="button"
+                onClick={() => setSkillId(active ? null : s.id)}
+                className={`rounded-2xl border p-3 text-left transition ${
+                  active
+                    ? "border-emerald-500 bg-emerald-50 ring-2 ring-emerald-200"
+                    : "border-slate-200 bg-white hover:border-slate-300"
+                }`}
+              >
+                <p className="text-xl">{SKILL_EMOJI[s.id] ?? "⭐"}</p>
+                <p className="mt-1 text-sm font-bold text-slate-800">{s.name}</p>
+                <p className="text-xs text-slate-500">{s.tagline}</p>
+              </button>
+            );
+          })}
+          <button
+            type="button"
+            onClick={() => setSkillId(skillId === "custom" ? null : "custom")}
+            className={`col-span-2 rounded-2xl border p-3 text-left transition ${
+              skillId === "custom"
+                ? "border-emerald-500 bg-emerald-50 ring-2 ring-emerald-200"
+                : "border-dashed border-slate-300 bg-white hover:border-slate-400"
+            }`}
+          >
+            <p className="text-sm font-bold text-slate-800">
+              ✏️ Tự đặt kỹ năng
+            </p>
+            <p className="text-xs text-slate-500">
+              Kỹ năng khác — bạn tự viết micro-task mỗi ngày
+            </p>
+          </button>
+        </div>
+        {skillId === "custom" && (
+          <input
+            required
+            value={customSkill}
+            onChange={(e) => setCustomSkill(e.target.value)}
+            placeholder="VD: học đàn piano, chạy bộ, nấu ăn…"
+            maxLength={80}
+            className="mt-2 w-full rounded-xl border border-slate-300 px-4 py-3"
+          />
+        )}
+      </div>
 
       <div className="grid grid-cols-2 gap-4">
         <label className="block">

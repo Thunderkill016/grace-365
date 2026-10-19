@@ -100,6 +100,31 @@ wrangler.jsonc        main=worker.ts, D1 binding DB, nodejs_compat, cron hourly
 6. 4 mùa × 91 ngày = 364, ngày 365 tổng kết. Mốc mùa 1: 7/21/40/66.
 7. 1 user = 1 challenge active (MVP).
 
+## Thư viện kỹ năng 365 ngày
+
+Mỗi kỹ năng có 365 micro-task tiếng Việt soạn sẵn trong `content/skills/<id>.json`
+(định dạng xem `~/workspace/grace-365/CONTENT_SPEC.md`):
+
+```json
+{ "day": 1, "title": "Chào 5 cụm từ",
+  "action": "Đọc to 5 cụm chào hỏi, mỗi cụm 3 lần, ghi âm lại nghe.",
+  "check": "Nghe lại ghi âm, phát âm rõ cả 5 cụm.",
+  "minutes": 5, "type": "learn" }
+```
+
+- Nhịp tuần: 6 ngày học + 1 ngày review (`day % 7 == 0` → `type: "review"`,
+  ôn bằng retrieval, không nội dung mới). Ngày 365 là `type: "capstone"`.
+- `lib/skill-content.ts`: loader import tĩnh (chạy được trên Workers, không dùng fs) —
+  `listSkills()`, `getSkill(id)`, `getMicroTask(skillId, dayNumber)` (clamp 1–365).
+- Onboarding: picker 6 skill + ô "Tự đặt kỹ năng"; `challenge.skill_id` lưu id thư viện
+  (null = tự đặt → dùng gợi ý xoay vòng `lib/microtask.ts` như cũ).
+- `/today`: thẻ micro-task theo `dayNumber = today - startsOn + 1`; khi check-in,
+  `check_in.microTask` lưu **title** của task.
+
+**Thêm skill mới:** tạo `content/skills/<id>.json` đủ 365 tasks đúng format,
+thêm 1 dòng vào `content/skills/index.json`, thêm import vào `lib/skill-content.ts`
+(mảng `SKILLS`), không cần migration (skill đọc từ JSON, không từ DB).
+
 ## Chưa làm
 
 - Xếp hạng / bảng thành tích

@@ -6,6 +6,7 @@ import { monthKeyInTz, todayInTz } from "@/lib/dates";
 import { getStreak } from "@/lib/streak";
 import { dayIndexOf } from "@/lib/season";
 import { microTaskFor } from "@/lib/microtask";
+import { getMicroTask } from "@/lib/skill-content";
 import { GRACE_QUOTA_PER_MONTH } from "@/app/api/grace/route";
 import { Nav } from "@/components/Nav";
 import { CheckInPanel } from "./CheckInPanel";
@@ -35,6 +36,11 @@ export default async function TodayPage() {
 
   const today = todayInTz(prof.timezone);
   const dayIdx = Math.max(dayIndexOf(ch.startsOn, today), 1);
+
+  // Micro-task thư viện theo dayNumber = today - startsOn + 1;
+  // kỹ năng tự đặt (skillId null) thì dùng gợi ý xoay vòng cũ.
+  const libTask = getMicroTask(ch.skillId, dayIdx);
+  const customTaskText = microTaskFor(ch.skill, dayIdx);
 
   const existing = await ctx.db
     .select()
@@ -81,7 +87,9 @@ export default async function TodayPage() {
 
         <div className="mt-5">
           <CheckInPanel
-            microTask={microTaskFor(ch.skill, dayIdx)}
+            task={libTask}
+            customTaskText={customTaskText}
+            dayNumber={dayIdx}
             minutesDefault={ch.minutesPerDay}
             alreadyDone={existing?.kind === "done"}
             alreadyGrace={existing?.kind === "grace"}

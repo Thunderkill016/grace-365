@@ -3,6 +3,7 @@ import { eq } from "drizzle-orm";
 import { getSessionUser } from "@/lib/session";
 import { challenge, profile } from "@/lib/schema";
 import { todayInTz } from "@/lib/dates";
+import { SKILL_IDS } from "@/lib/skill-content";
 
 function slugify(s: string): string {
   return (
@@ -41,6 +42,7 @@ export async function POST(req: Request) {
 
   const body = (await req.json().catch(() => ({}))) as {
     skill?: string;
+    skillId?: string | null;
     minutesPerDay?: number;
     remindAt?: string;
     ifThen?: string;
@@ -48,6 +50,11 @@ export async function POST(req: Request) {
   };
 
   const skill = (body.skill ?? "").toString().trim().slice(0, 80);
+  // skillId chỉ nhận 1 trong 6 id thư viện; còn lại → null (kỹ năng tự đặt)
+  const skillId =
+    typeof body.skillId === "string" && SKILL_IDS.includes(body.skillId)
+      ? body.skillId
+      : null;
   const ifThen = (body.ifThen ?? "").toString().trim().slice(0, 280);
   const timezone = (body.timezone ?? "Asia/Ho_Chi_Minh").toString().slice(0, 64);
   const minutesPerDay = Math.min(
@@ -99,6 +106,7 @@ export async function POST(req: Request) {
     .values({
       userId: ctx.user.id,
       skill,
+      skillId,
       minutesPerDay,
       remindAt,
       ifThen,

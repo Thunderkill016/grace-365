@@ -2,16 +2,29 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import type { MicroTask } from "@/lib/skill-content";
+
+const TYPE_LABEL: Record<MicroTask["type"], string> = {
+  learn: "📖 Học mới",
+  practice: "🔁 Luyện tập",
+  review: "🧠 Ôn tập tuần",
+  project: "🛠️ Mini-project",
+  capstone: "🏆 Tổng kết",
+};
 
 export function CheckInPanel({
-  microTask,
+  task,
+  customTaskText,
+  dayNumber,
   minutesDefault,
   alreadyDone,
   alreadyGrace,
   graceUsed,
   graceQuota,
 }: {
-  microTask: string;
+  task: MicroTask | null;
+  customTaskText: string;
+  dayNumber: number;
   minutesDefault: number;
   alreadyDone: boolean;
   alreadyGrace: boolean;
@@ -24,6 +37,9 @@ export function CheckInPanel({
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [graceLeft, setGraceLeft] = useState(graceQuota - graceUsed);
+
+  // microTask lưu vào check-in = title của task thư viện, hoặc gợi ý cũ
+  const microTaskTitle = task?.title ?? customTaskText;
 
   // Giữ quota mới nhất (sau khi bấm tha)
   useEffect(() => {
@@ -40,7 +56,7 @@ export function CheckInPanel({
         body: JSON.stringify({
           minutes: Number(minutes),
           note: note.trim(),
-          microTask,
+          microTask: microTaskTitle,
         }),
       });
       const data = (await res.json()) as { error?: string };
@@ -108,10 +124,31 @@ export function CheckInPanel({
   return (
     <div className="space-y-4">
       <div className="rounded-3xl bg-white p-6 shadow-sm">
-        <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
-          Micro-task hôm nay
-        </p>
-        <p className="mt-2 text-lg font-bold leading-snug">{microTask}</p>
+        <div className="flex items-center justify-between">
+          <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+            Micro-task hôm nay · Ngày {dayNumber}
+          </p>
+          {task && (
+            <span className="rounded-full bg-slate-100 px-2.5 py-1 text-[11px] font-semibold text-slate-600">
+              {TYPE_LABEL[task.type]} · {task.minutes}′
+            </span>
+          )}
+        </div>
+
+        {task ? (
+          <>
+            <p className="mt-2 text-lg font-bold leading-snug">{task.title}</p>
+            <p className="mt-2 text-sm leading-relaxed text-slate-700">
+              {task.action}
+            </p>
+            <p className="mt-2 flex gap-2 rounded-xl bg-emerald-50 p-3 text-sm text-emerald-800">
+              <span>✓</span>
+              <span>{task.check}</span>
+            </p>
+          </>
+        ) : (
+          <p className="mt-2 text-lg font-bold leading-snug">{customTaskText}</p>
+        )}
 
         <div className="mt-4 grid grid-cols-2 gap-3">
           <label className="block">
