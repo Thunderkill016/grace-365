@@ -1,0 +1,2953 @@
+{
+  "id": "writing",
+  "name": "Viết mỗi ngày",
+  "tagline": "Viết 100–200 từ/ngày, từ nhật ký tới bài hoàn chỉnh",
+  "seasons": [
+    {
+      "season": 1,
+      "range": "1–91",
+      "name": "Viết tự do, vượt sợ trang trắng",
+      "focus": "Viết liên tục mỗi ngày mà không sửa, để tay quen với trang giấy trước khi học kỹ thuật."
+    },
+    {
+      "season": 2,
+      "range": "92–182",
+      "name": "Cấu trúc đoạn, mở–thân–kết",
+      "focus": "Mọi bài viết đều bắt đầu từ dàn ý 3 gạch đầu dòng và có đủ mở bài, thân bài, kết bài."
+    },
+    {
+      "season": 3,
+      "range": "183–273",
+      "name": "Giọng văn, sửa bài cũ",
+      "focus": "Viết lại bài cũ cho hay hơn, thử nhiều giọng văn, cắt từ thừa và đọc to để nghe nhịp câu."
+    },
+    {
+      "season": 4,
+      "range": "274–364",
+      "name": "1 bài dài hoàn chỉnh + portfolio",
+      "focus": "Chọn một chủ đề, viết dần thành bài 800–1000 từ qua nhiều ngày, rồi biên tập và nhờ người đọc góp ý."
+    }
+  ],
+  "tasks": [
+    {
+      "day": 1,
+      "title": "Viết 5 phút không dừng",
+      "action": "Bấm giờ 5 phút, viết liên tục về hôm nay của bạn, không xóa không sửa.",
+      "check": "Đếm được ít nhất 80 từ trên trang.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 2,
+      "title": "Liệt kê 10 điều hôm nay",
+      "action": "Liệt kê 10 việc bạn đã làm hoặc thấy hôm nay, mỗi việc 1 dòng, viết thêm 1 câu cho việc đáng nhớ nhất.",
+      "check": "Có đủ 10 dòng liệt kê.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 3,
+      "title": "Kể lại một chuyện nhỏ",
+      "action": "Kể lại 1 chuyện xảy ra hôm nay (vui, bực hay lạ) bằng 100–150 từ, viết như đang kể cho bạn thân.",
+      "check": "Bài kể có đầu có cuối, đủ 100 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 4,
+      "title": "Miêu tả đồ vật quen",
+      "action": "Chọn 1 đồ vật trước mặt, miêu tả nó trong 8–10 câu: màu sắc, hình dáng, cảm giác khi chạm vào.",
+      "check": "Đọc lại thấy hình dung được đồ vật.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 5,
+      "title": "Viết thư cho chính mình",
+      "action": "Viết 1 bức thư ngắn (100 từ) gửi chính bạn của 1 tháng sau, kể điều bạn đang nghĩ lúc này.",
+      "check": "Thư có lời chào, nội dung và lời kết.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 6,
+      "title": "Viết về cảm xúc hiện tại",
+      "action": "Viết liên tục 7 phút về cảm xúc của bạn lúc này, không cần lý do, không cần hay.",
+      "check": "Viết đủ 7 phút không dừng quá 10 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 7,
+      "title": "Ôn tuần 1: tóm tắt 6 bài",
+      "action": "Đọc lại 6 bài đã viết, viết 6 câu tóm tắt, mỗi bài 1 câu.",
+      "check": "Có đủ 6 câu tóm tắt.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 8,
+      "title": "Nghe và viết âm thanh",
+      "action": "Nhắm mắt 2 phút, liệt kê mọi âm thanh bạn nghe được, rồi viết 1 đoạn 80 từ về âm thanh rõ nhất.",
+      "check": "Đoạn văn nhắc tới ít nhất 3 âm thanh.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 9,
+      "title": "Miêu tả bằng mắt",
+      "action": "Nhìn ra cửa sổ 2 phút, viết 10 câu miêu tả những gì bạn thấy, mỗi câu bắt đầu bằng 'Tôi thấy...'.",
+      "check": "Có đủ 10 câu bắt đầu bằng 'Tôi thấy'.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 10,
+      "title": "Viết về một mùi hương",
+      "action": "Nhớ lại 1 mùi hương gắn với kỷ niệm (mưa đầu mùa, cơm mới...), viết 100 từ về mùi đó và kỷ niệm đi kèm.",
+      "check": "Bài viết nêu được mùi hương và 1 kỷ niệm cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 11,
+      "title": "Miêu tả món ăn chi tiết",
+      "action": "Viết 100–150 từ miêu tả món ăn bạn thích nhất: vị, mùi, màu sắc, cảm giác khi ăn miếng đầu tiên.",
+      "check": "Người đọc tưởng tượng được vị món ăn.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 12,
+      "title": "Viết bằng xúc giác",
+      "action": "Chạm vào 3 đồ vật khác nhau, viết 1 đoạn 80 từ so sánh cảm giác: nhám, mịn, lạnh, ấm.",
+      "check": "Đoạn văn nhắc tới cả 3 đồ vật.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 13,
+      "title": "Trộn 3 giác quan",
+      "action": "Viết 1 đoạn 100 từ về buổi sáng hôm nay, phải dùng ít nhất 3 giác quan (nhìn, nghe, ngửi/nếm/chạm).",
+      "check": "Đếm được ít nhất 3 giác quan trong đoạn.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 14,
+      "title": "Chọn câu ưng ý nhất",
+      "action": "Đọc lại 6 bài tuần qua, gạch chân 1 câu bạn thích nhất mỗi bài, chép 6 câu vào 1 trang riêng.",
+      "check": "Có 6 câu được chép riêng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 15,
+      "title": "Kể kỷ niệm tuổi thơ",
+      "action": "Viết 150 từ kể 1 kỷ niệm thời nhỏ mà bạn nhớ rõ nhất, bắt đầu bằng 'Hồi đó...'.",
+      "check": "Bài kể có bối cảnh, sự việc và cảm xúc.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 16,
+      "title": "Viết về thời đi học",
+      "action": "Kể 1 chuyện ở trường (vui hoặc dở khóc dở cười) trong 120–150 từ, viết tên 1 người bạn xuất hiện trong chuyện.",
+      "check": "Chuyện có ít nhất 1 nhân vật cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 17,
+      "title": "Món quà đáng nhớ",
+      "action": "Viết 100 từ về món quà bạn nhớ nhất: ai tặng, dịp nào, vì sao nhớ.",
+      "check": "Nêu được người tặng, dịp tặng và lý do.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 18,
+      "title": "Chuyến đi đầu tiên",
+      "action": "Kể lại chuyến đi xa đầu tiên bạn nhớ được, 150 từ, tập trung vào 1 khoảnh khắc ấn tượng nhất.",
+      "check": "Có 1 khoảnh khắc được miêu tả kỹ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 19,
+      "title": "Viết về ông bà cha mẹ",
+      "action": "Viết 120 từ về 1 thói quen hoặc câu nói của ba/mẹ/ông bà mà bạn nhớ mãi.",
+      "check": "Nêu được thói quen/câu nói cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 20,
+      "title": "Ngày đặc biệt của bạn",
+      "action": "Chọn 1 ngày đặc biệt trong đời, viết 150 từ kể lại ngày đó như đang sống lại.",
+      "check": "Bài viết có mốc thời gian rõ ràng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 21,
+      "title": "Viết lại 1 đoạn cũ",
+      "action": "Chọn 1 đoạn bạn chưa ưng tuần qua, viết lại hay hơn trong 100 từ.",
+      "check": "Bản mới khác hẳn bản cũ.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 22,
+      "title": "Chân dung bạn thân",
+      "action": "Viết 120 từ miêu tả bạn thân nhất: ngoại hình, tính cách, 1 tật xấu đáng yêu.",
+      "check": "Người đọc hình dung được người đó.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 23,
+      "title": "Viết về người lạ",
+      "action": "Nhớ lại 1 người lạ bạn từng gặp (trên xe, quán cà phê...), tưởng tượng và viết 100 từ về cuộc đời họ.",
+      "check": "Có ít nhất 3 chi tiết tưởng tượng cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 24,
+      "title": "Tự miêu tả mình",
+      "action": "Viết 100 từ miêu tả chính bạn như thể bạn là nhân vật trong truyện, dùng ngôi thứ ba ('Anh ấy/Cô ấy...').",
+      "check": "Viết được ở ngôi thứ ba suốt bài.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 25,
+      "title": "Người truyền cảm hứng",
+      "action": "Viết 120 từ về 1 người khiến bạn muốn cố gắng hơn, nêu 1 việc cụ thể họ đã làm.",
+      "check": "Nêu được 1 việc cụ thể của người đó.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 26,
+      "title": "Viết đối thoại tưởng tượng",
+      "action": "Tưởng tượng bạn gặp thần tượng, viết 1 đoạn đối thoại 10 lượt lời giữa bạn và người đó.",
+      "check": "Có đủ 10 lượt lời thoại.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 27,
+      "title": "Thư chưa gửi",
+      "action": "Viết 1 bức thư 120 từ cho người bạn chưa dám nói điều gì đó, không cần gửi thật.",
+      "check": "Thư nói được điều bạn giấu kín.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 28,
+      "title": "Kể lại tuần viết",
+      "action": "Viết 100 từ kể lại: tuần này bạn viết về những gì, bài nào khó nhất.",
+      "check": "Nhắc được chủ đề các bài và bài khó nhất.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 29,
+      "title": "Miêu tả căn phòng bạn",
+      "action": "Viết 120 từ miêu tả căn phòng bạn đang ngồi, từ góc bạn thích nhất tới góc bừa bộn nhất.",
+      "check": "Nhắc tới ít nhất 5 đồ vật trong phòng.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 30,
+      "title": "Con đường quen thuộc",
+      "action": "Viết 120 từ về con đường bạn đi mỗi ngày: 3 điểm mốc và 1 điều chỉ người đi quen mới biết.",
+      "check": "Có 3 điểm mốc và 1 chi tiết riêng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 31,
+      "title": "Quán quen của bạn",
+      "action": "Miêu tả 1 quán ăn/quán cà phê bạn hay tới trong 120 từ: không gian, món tủ, chủ quán.",
+      "check": "Nêu được không gian, món tủ và 1 chi tiết về chủ quán.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 32,
+      "title": "Viết về quê nhà",
+      "action": "Viết 150 từ về quê bạn (hoặc nơi bạn lớn lên): 1 hình ảnh, 1 âm thanh, 1 mùi vị đặc trưng.",
+      "check": "Có đủ hình ảnh, âm thanh và mùi vị.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 33,
+      "title": "Nơi muốn đến nhất",
+      "action": "Viết 120 từ về nơi bạn mơ được đến: nó trông thế nào, bạn sẽ làm gì đầu tiên ở đó.",
+      "check": "Nêu được việc đầu tiên bạn sẽ làm.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 34,
+      "title": "Nơi trong mơ",
+      "action": "Tưởng tượng 1 nơi không có thật, viết 120 từ miêu tả nó như thể bạn vừa trở về từ đó.",
+      "check": "Nơi tưởng tượng có ít nhất 4 chi tiết cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 35,
+      "title": "Tìm từ lặp cả tuần",
+      "action": "Đọc lại 6 bài, tìm 1 từ bạn lặp nhiều nhất, viết 5 câu mới không dùng từ đó.",
+      "check": "Tìm được từ lặp và viết 5 câu không dùng nó.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 36,
+      "title": "Nếu có siêu năng lực",
+      "action": "Viết 120 từ: nếu bạn có 1 siêu năng lực trong 24 giờ, bạn làm gì đầu tiên, với ai.",
+      "check": "Nêu được năng lực, việc đầu tiên và người liên quan.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 37,
+      "title": "Nếu trúng số độc đắc",
+      "action": "Viết 120 từ về ngày đầu tiên sau khi trúng số: 3 việc bạn làm theo thứ tự.",
+      "check": "Liệt kê được 3 việc theo thứ tự.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 38,
+      "title": "Nói với mình 10 năm trước",
+      "action": "Viết 120 từ gửi bạn của 10 năm trước: 1 lời khuyên, 1 lời cảnh báo, 1 lời động viên.",
+      "check": "Có đủ 3 phần: khuyên, cảnh báo, động viên.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 39,
+      "title": "Đổi nghề trong 1 ngày",
+      "action": "Viết 120 từ tưởng tượng bạn làm 1 nghề hoàn toàn khác trong hôm nay, kể 3 việc bạn sẽ làm.",
+      "check": "Kể được 3 việc của nghề mới.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 40,
+      "title": "Một ngày không điện thoại",
+      "action": "Viết 120 từ tưởng tượng 24 giờ không điện thoại: bạn làm gì thay thế, cảm giác ra sao.",
+      "check": "Nêu được ít nhất 3 việc thay thế.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 41,
+      "title": "Nếu được quay lại hôm qua",
+      "action": "Viết 120 từ: nếu được sống lại hôm qua 1 lần nữa, bạn sẽ làm khác điều gì và giữ nguyên điều gì.",
+      "check": "Nêu được 1 điều làm khác và 1 điều giữ nguyên.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 42,
+      "title": "Chấm điểm tuần",
+      "action": "Tự chấm 6 bài tuần này theo 1 tiêu chí: 'có chi tiết cụ thể không', cho mỗi bài 1 câu nhận xét.",
+      "check": "Có 6 câu nhận xét.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 43,
+      "title": "Viết về niềm vui",
+      "action": "Viết 120 từ về lần gần nhất bạn cười thật to: chuyện gì, với ai, ở đâu.",
+      "check": "Nêu được chuyện, người và nơi.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 44,
+      "title": "Viết về nỗi buồn",
+      "action": "Viết 120 từ về 1 chuyện buồn bạn đã vượt qua, kết bằng 1 câu về điều bạn học được.",
+      "check": "Có câu kết nêu điều học được.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 45,
+      "title": "Viết về cơn giận",
+      "action": "Viết 100 từ về lần gần nhất bạn tức giận: điều gì châm ngòi, bạn phản ứng thế nào.",
+      "check": "Nêu được nguyên nhân và phản ứng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 46,
+      "title": "Viết về nỗi lo",
+      "action": "Liệt kê 5 điều đang làm bạn lo, chọn 1 điều và viết 80 từ: điều tệ nhất có thể xảy ra là gì.",
+      "check": "Có 5 điều liệt kê và 1 đoạn 80 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 47,
+      "title": "Viết 5 điều biết ơn",
+      "action": "Liệt kê 5 điều bạn biết ơn hôm nay, mỗi điều viết thêm 1 câu giải thích vì sao.",
+      "check": "Có đủ 5 điều kèm giải thích.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 48,
+      "title": "Viết về hy vọng",
+      "action": "Viết 120 từ về 1 điều bạn mong sẽ xảy ra trong năm nay, miêu tả như thể nó đã thành sự thật.",
+      "check": "Viết ở thì hiện tại như điều đã xảy ra.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 49,
+      "title": "Đọc to 2 bài",
+      "action": "Chọn 2 bài tuần này, đọc to, đánh dấu 3 chỗ vấp và sửa lại.",
+      "check": "Sửa được 3 chỗ vấp.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 50,
+      "title": "Thư cảm ơn ai đó",
+      "action": "Viết 1 bức thư 120 từ cảm ơn 1 người đã giúp bạn gần đây, nêu việc cụ thể họ đã làm.",
+      "check": "Thư nêu được việc cụ thể và lời cảm ơn.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 51,
+      "title": "Thư xin lỗi",
+      "action": "Viết 1 bức thư 120 từ xin lỗi ai đó (không cần gửi), nói rõ bạn sai ở đâu.",
+      "check": "Thư chỉ ra được lỗi sai cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 52,
+      "title": "Đối thoại với chính mình",
+      "action": "Viết 1 đoạn đối thoại 8 lượt lời giữa 'bạn hôm nay' và 'bạn 5 năm nữa'.",
+      "check": "Có đủ 8 lượt lời, 2 giọng khác nhau.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 53,
+      "title": "Lời nhắn cho người lạ",
+      "action": "Viết 80 từ như 1 mẩu giấy nhắn gửi người lạ sẽ đọc được: 1 lời chúc và 1 lời khuyên ngắn.",
+      "check": "Có lời chúc và lời khuyên.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 54,
+      "title": "Thư gửi tác giả yêu thích",
+      "action": "Viết 120 từ gửi tác giả cuốn sách/bài hát bạn thích: điều gì trong tác phẩm chạm tới bạn.",
+      "check": "Nêu được chi tiết cụ thể trong tác phẩm.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 55,
+      "title": "Viết lời tự động viên",
+      "action": "Viết 100 từ tự động viên mình như 1 người bạn thân sẽ nói lúc bạn nản nhất.",
+      "check": "Đọc lại thấy được an ủi thật.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 56,
+      "title": "Ghép 3 bài thành 1",
+      "action": "Chọn 3 bài ngắn tuần này, viết 150 từ kết hợp chúng thành 1 bài liền mạch.",
+      "check": "Bài mới nhắc tới cả 3 bài cũ.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 57,
+      "title": "5 chi tiết trên đường",
+      "action": "Nhớ lại đường đi hôm nay, viết 5 chi tiết nhỏ bạn thường bỏ qua (vết nứt, quán mới, cây...).",
+      "check": "Liệt kê được 5 chi tiết cụ thể.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 58,
+      "title": "Chuyện đời người lạ",
+      "action": "Chọn 1 người bạn thấy hôm nay, viết 120 từ tưởng tượng 1 ngày của họ từ sáng tới tối.",
+      "check": "Có mốc sáng–trưa–tối trong câu chuyện.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 59,
+      "title": "Viết về thời tiết",
+      "action": "Viết 100 từ về thời tiết hôm nay như 1 nhân vật: nó đang vui, buồn hay giận dữ.",
+      "check": "Thời tiết được nhân hóa rõ rệt.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 60,
+      "title": "Âm thanh buổi sáng",
+      "action": "Viết 80 từ liệt kê và miêu tả các âm thanh từ lúc bạn thức dậy tới lúc ra khỏi nhà.",
+      "check": "Nhắc tới ít nhất 4 âm thanh theo trình tự.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 61,
+      "title": "Mùi của ký ức",
+      "action": "Viết 100 từ về 1 mùi gắn với 1 nơi cụ thể (chợ, bếp nhà, trường cũ...).",
+      "check": "Nêu được mùi và nơi gắn với nó.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 62,
+      "title": "Viết nhanh 10 phút",
+      "action": "Bấm giờ 10 phút, viết liên tục về bất cứ điều gì xuất hiện trong đầu, cấm dừng.",
+      "check": "Viết đủ 10 phút, đếm được trên 150 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 63,
+      "title": "Viết tiếp 1 bài cũ",
+      "action": "Chọn 1 bài tuần này còn dang dở trong đầu, viết thêm 100 từ nối tiếp.",
+      "check": "Đoạn mới nối mạch với bài cũ.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 64,
+      "title": "Mở đầu câu chuyện",
+      "action": "Viết 3 câu mở đầu khác nhau cho 1 câu chuyện tưởng tượng, chọn câu hay nhất viết thêm 80 từ.",
+      "check": "Có 3 câu mở đầu và 1 đoạn 80 từ.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 65,
+      "title": "Nhân vật + rắc rối",
+      "action": "Tạo 1 nhân vật (tên, tuổi, nghề) rồi viết 100 từ đẩy họ vào 1 rắc rối bất ngờ.",
+      "check": "Có nhân vật cụ thể và 1 rắc rối rõ ràng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 66,
+      "title": "Kết thúc bất ngờ",
+      "action": "Viết 1 câu chuyện 120 từ với cái kết khiến người đọc bất ngờ (twist ở 2 câu cuối).",
+      "check": "2 câu cuối làm đổi hướng câu chuyện.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 67,
+      "title": "Viết lại cổ tích",
+      "action": "Chọn 1 truyện cổ tích, viết lại 120 từ với bối cảnh hiện đại (xe máy, điện thoại...).",
+      "check": "Có ít nhất 3 chi tiết hiện đại.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 68,
+      "title": "Chuyện 100 từ",
+      "action": "Viết 1 câu chuyện trọn vẹn (có mở, diễn biến, kết) trong đúng 100 từ, không hơn không kém.",
+      "check": "Đếm đúng 100 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 69,
+      "title": "Kể chuyện bằng hội thoại",
+      "action": "Kể 1 chuyện 120 từ chỉ bằng lời thoại của nhân vật, không lời dẫn.",
+      "check": "Toàn bài chỉ có lời thoại.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 70,
+      "title": "So sánh bài đầu và cuối tuần",
+      "action": "Đọc bài ngày đầu tuần và cuối tuần, viết 80 từ: bạn thấy mình khác ở đâu.",
+      "check": "Nêu được ít nhất 2 điểm khác.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 71,
+      "title": "Bảo vệ 1 quan điểm",
+      "action": "Chọn 1 quan điểm (VD: nên dậy sớm), viết 120 từ bảo vệ nó bằng 2 lý do.",
+      "check": "Có quan điểm rõ và 2 lý do.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 72,
+      "title": "Viết điều bạn phản đối",
+      "action": "Viết 120 từ phản đối 1 ý kiến phổ biến, đưa 2 lý do vì sao bạn không đồng tình.",
+      "check": "Có ý kiến bị phản đối và 2 lý do.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 73,
+      "title": "So sánh 2 thứ",
+      "action": "Chọn 2 thứ (2 món ăn, 2 thành phố...), viết 120 từ so sánh: 2 điểm giống, 2 điểm khác.",
+      "check": "Có 2 điểm giống và 2 điểm khác.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 74,
+      "title": "Viết 200 từ không dừng",
+      "action": "Bấm giờ, viết liên tục tới khi đủ 200 từ về chủ đề tự chọn, không sửa.",
+      "check": "Đếm đủ 200 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 75,
+      "title": "Kể từ góc nhìn khác",
+      "action": "Kể lại 1 chuyện đã viết tuần trước nhưng từ góc nhìn của người khác trong chuyện.",
+      "check": "Góc nhìn mới khác hẳn bản cũ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 76,
+      "title": "Viết về thói quen viết",
+      "action": "Viết 120 từ: sau 10 tuần viết mỗi ngày, điều gì thay đổi ở bạn.",
+      "check": "Nêu được ít nhất 2 thay đổi cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 77,
+      "title": "Sổ câu hay tuần",
+      "action": "Chép 5 câu hay nhất tuần vào 1 trang 'sổ câu hay', mỗi câu ghi thêm vì sao hay.",
+      "check": "Có 5 câu kèm lý do.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 78,
+      "title": "Nhật ký 10 phút",
+      "action": "Bấm giờ 10 phút, viết nhật ký hôm nay chi tiết nhất có thể, không sửa.",
+      "check": "Viết đủ 10 phút không dừng.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 79,
+      "title": "20 điều biết ơn",
+      "action": "Liệt kê 20 điều bạn biết ơn (nhỏ cũng được: ly cà phê sáng...), không lặp ý.",
+      "check": "Đủ 20 điều không trùng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 80,
+      "title": "Tóm tắt 1 tuần của bạn",
+      "action": "Viết 150 từ tóm tắt tuần vừa qua: việc tốt nhất, việc tệ nhất, điều bất ngờ nhất.",
+      "check": "Có đủ 3 mục: tốt nhất, tệ nhất, bất ngờ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 81,
+      "title": "Thư gửi mình 3 tháng trước",
+      "action": "Viết 150 từ gửi bạn của 3 tháng trước: 2 điều nên làm và 1 điều đừng lo.",
+      "check": "Có 2 lời khuyên và 1 lời trấn an.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 82,
+      "title": "Tự phỏng vấn",
+      "action": "Viết 5 câu hỏi phỏng vấn chính mình rồi trả lời từng câu trong 2–3 câu.",
+      "check": "Có 5 câu hỏi và đủ 5 câu trả lời.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 83,
+      "title": "Bài viết tự do dài nhất",
+      "action": "Viết 1 bài tự do 200 từ về bất cứ điều gì bạn muốn, đây là bài dài nhất mùa 1.",
+      "check": "Đếm đủ 200 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 84,
+      "title": "Kể cho người khác nghe",
+      "action": "Tưởng tượng kể cho 1 người bạn về tuần viết này, viết 100 từ như đang kể miệng.",
+      "check": "Viết được giọng kể tự nhiên.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 85,
+      "title": "Chọn 3 bài thích nhất",
+      "action": "Đọc lại các bài mùa 1, chọn 3 bài bạn thích nhất và viết 1 câu cho mỗi bài: vì sao thích.",
+      "check": "Có 3 bài được chọn kèm lý do.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 86,
+      "title": "Mở rộng 1 bài cũ",
+      "action": "Chọn 1 trong 3 bài trên, viết thêm 100 từ: thêm chi tiết, thêm cảm xúc.",
+      "check": "Bài mở rộng dài hơn bản cũ 100 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 87,
+      "title": "Viết lời giới thiệu",
+      "action": "Viết 80 từ giới thiệu 'tuyển tập mùa 1' của bạn như bìa sau cuốn sách.",
+      "check": "Đọc lên nghe như lời giới thiệu sách thật.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 88,
+      "title": "Sắp xếp tuyển tập",
+      "action": "Sắp 3 bài theo thứ tự bạn muốn người khác đọc, viết 1 câu giải thích thứ tự.",
+      "check": "Có thứ tự và 1 câu giải thích.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 89,
+      "title": "Đọc to cả 3 bài",
+      "action": "Đọc to 3 bài đã chọn, đánh dấu 3 chỗ nghe vấp, sửa cho trôi chảy.",
+      "check": "Sửa được 3 chỗ vấp.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 90,
+      "title": "Viết 1 bức thư hoàn chỉnh",
+      "action": "Viết 1 bức thư 200 từ gửi người bạn quý nhất, kể về hành trình viết 90 ngày của bạn.",
+      "check": "Thư đủ 200 từ, có thể gửi thật.",
+      "minutes": 10,
+      "type": "project"
+    },
+    {
+      "day": 91,
+      "title": "Tổng kết mùa 1",
+      "action": "Viết 150 từ tổng kết mùa 1: bài thích nhất, kỹ thuật mới học được, mục tiêu mùa 2.",
+      "check": "Có đủ 3 phần: bài thích nhất, điều học được, mục tiêu.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 92,
+      "title": "Viết 5 câu chủ đề",
+      "action": "Chọn 1 chủ đề (VD: cà phê sáng), viết 5 câu chủ đề khác nhau, mỗi câu nêu 1 ý chính.",
+      "check": "Có 5 câu chủ đề không trùng ý.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 93,
+      "title": "Chọn và mở rộng",
+      "action": "Chọn 1 câu chủ đề hôm qua, viết thêm 3 câu triển khai ý đó thành 1 đoạn 4 câu.",
+      "check": "Đoạn 4 câu cùng nói về 1 ý.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 94,
+      "title": "Đoạn 5 câu hoàn chỉnh",
+      "action": "Viết 1 đoạn 5 câu về 1 kỷ niệm: câu 1 nêu ý chính, 3 câu kể chi tiết, câu cuối kết lại.",
+      "check": "Đoạn đủ 5 câu đúng vai trò.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 95,
+      "title": "Sửa đoạn lan man",
+      "action": "Viết 1 đoạn 6 câu về hôm nay, rồi xóa 1 câu lạc đề nhất, đọc lại xem đoạn gọn hơn không.",
+      "check": "Xóa được 1 câu và đoạn còn 5 câu.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 96,
+      "title": "Câu chủ đề 3 chủ đề",
+      "action": "Viết 1 câu chủ đề cho mỗi chủ đề: gia đình, công việc, sở thích.",
+      "check": "Có 3 câu chủ đề rõ ý.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 97,
+      "title": "Đoạn miêu tả có chủ đề",
+      "action": "Viết 1 đoạn 5 câu miêu tả 1 nơi, câu đầu nêu cảm nhận chung về nơi đó.",
+      "check": "Câu đầu nêu cảm nhận chung.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 98,
+      "title": "Ôn cấu trúc tuần",
+      "action": "Đọc lại 6 bài tuần này, với mỗi bài viết 1 câu: mở bài có hook không.",
+      "check": "Có 6 câu nhận xét về mở bài.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 99,
+      "title": "3 kiểu câu hook",
+      "action": "Viết 3 câu mở đầu khác nhau cho cùng 1 chủ đề: 1 câu hỏi, 1 con số, 1 câu chuyện ngắn.",
+      "check": "Có đủ 3 kiểu hook.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 100,
+      "title": "Mở bài 3 câu",
+      "action": "Chọn 1 hook hôm qua, viết tiếp 2 câu thành mở bài 3 câu cho chủ đề đó.",
+      "check": "Mở bài đủ 3 câu liền mạch.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 101,
+      "title": "Mở bài kể chuyện",
+      "action": "Viết mở bài 3 câu cho 1 kỷ niệm, bắt đầu bằng 1 chi tiết cụ thể (mùi, âm thanh...).",
+      "check": "Câu đầu có chi tiết giác quan.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 102,
+      "title": "Mở bài nêu quan điểm",
+      "action": "Viết mở bài 3 câu cho 1 quan điểm bạn tin, câu cuối nêu rõ quan điểm.",
+      "check": "Câu cuối nêu quan điểm rõ ràng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 103,
+      "title": "So sánh 2 mở bài",
+      "action": "Viết 2 mở bài cho cùng 1 chủ đề (1 khô, 1 hấp dẫn), chọn bản hay hơn và viết 1 câu vì sao.",
+      "check": "Chọn được bản hay hơn kèm lý do.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 104,
+      "title": "Mở bài cho thư",
+      "action": "Viết mở bài 3 câu cho 1 bức thư cảm ơn: câu đầu gợi kỷ niệm chung.",
+      "check": "Câu đầu gợi được kỷ niệm chung.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 105,
+      "title": "Chấm dàn ý",
+      "action": "Đọc lại dàn ý 6 bài tuần qua, chọn dàn ý tốt nhất, viết 1 câu vì sao tốt.",
+      "check": "Chọn được dàn ý tốt nhất kèm lý do.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 106,
+      "title": "1 ý + 1 ví dụ",
+      "action": "Viết 1 ý kiến (1 câu) rồi viết 3 câu ví dụ chứng minh ý đó.",
+      "check": "Có 1 ý và 3 câu ví dụ.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 107,
+      "title": "Triển khai 3 ý",
+      "action": "Chọn 1 chủ đề, viết 3 ý chính (mỗi ý 1 câu), mỗi ý thêm 2 câu giải thích.",
+      "check": "Có 3 ý, mỗi ý 2 câu giải thích.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 108,
+      "title": "Sắp xếp ý logic",
+      "action": "Lấy 3 ý hôm qua, sắp lại theo thứ tự hợp lý nhất, viết 1 câu giải thích thứ tự.",
+      "check": "Có thứ tự mới và 1 câu giải thích.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 109,
+      "title": "Thân bài kể chuyện",
+      "action": "Viết thân bài 5 câu kể 1 sự việc theo trình tự thời gian: trước – trong – sau.",
+      "check": "Có đủ 3 mốc thời gian.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 110,
+      "title": "Ý đối lập",
+      "action": "Viết 4 câu: 2 câu nêu ý kiến A, 2 câu nêu ý kiến ngược lại, giữ giọng công bằng.",
+      "check": "Cả 2 mặt được trình bày công bằng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 111,
+      "title": "Thân bài miêu tả",
+      "action": "Viết thân bài 5 câu miêu tả 1 người: từ ngoại hình tới tính cách, mỗi câu 1 chi tiết.",
+      "check": "Mỗi câu có 1 chi tiết riêng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 112,
+      "title": "Viết lại mở bài cũ",
+      "action": "Chọn 1 mở bài yếu nhất tuần, viết lại 3 câu mở mới hay hơn.",
+      "check": "Bản mới hay hơn bản cũ rõ rệt.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 113,
+      "title": "3 kiểu câu kết",
+      "action": "Viết 3 câu kết khác nhau cho 1 chủ đề: tóm tắt, lời khuyên, câu hỏi để ngỏ.",
+      "check": "Có đủ 3 kiểu câu kết.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 114,
+      "title": "Kết bài tóm tắt",
+      "action": "Viết kết bài 3 câu tóm tắt lại 3 ý chính của 1 chủ đề bạn đã viết.",
+      "check": "Nhắc lại được 3 ý chính.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 115,
+      "title": "Kết bài cảm xúc",
+      "action": "Viết kết bài 3 câu cho 1 kỷ niệm: câu cuối nêu cảm xúc đọng lại.",
+      "check": "Câu cuối có cảm xúc rõ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 116,
+      "title": "Kết bài kêu gọi",
+      "action": "Viết kết bài 3 câu kêu gọi người đọc làm 1 việc cụ thể.",
+      "check": "Nêu được việc cụ thể cần làm.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 117,
+      "title": "Tránh kết sáo rỗng",
+      "action": "Viết 1 kết bài dở kiểu 'Tóm lại...' rồi viết lại hay hơn, so sánh 2 bản.",
+      "check": "Bản mới không dùng 'Tóm lại/Nói chung'.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 118,
+      "title": "Kết bài 1 câu đắt",
+      "action": "Viết 1 câu kết duy nhất (dưới 20 từ) cho 1 câu chuyện, sao cho người đọc nhớ mãi.",
+      "check": "Câu kết dưới 20 từ và đáng nhớ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 119,
+      "title": "Viết lại kết bài cũ",
+      "action": "Chọn 1 kết bài nhạt nhất tuần, viết lại 3 câu kết mới ấn tượng hơn.",
+      "check": "Bản mới không sáo rỗng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 120,
+      "title": "Dàn ý đầu tiên",
+      "action": "Chọn 1 chủ đề, lập dàn ý 3 gạch đầu dòng (mở–thân–kết), mỗi gạch 1 câu.",
+      "check": "Có đủ 3 gạch đầu dòng.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 121,
+      "title": "Dàn ý rồi viết",
+      "action": "Lập dàn ý 3 gạch cho chủ đề '1 ngày lý tưởng', rồi viết 1 đoạn 6 câu theo dàn ý.",
+      "check": "Bài viết bám đúng 3 gạch.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 122,
+      "title": "Dàn ý kể chuyện",
+      "action": "Lập dàn ý 3 gạch cho 1 kỷ niệm rồi viết 120 từ, không lệch dàn ý.",
+      "check": "Bài viết đủ 120 từ theo dàn ý.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 123,
+      "title": "Dàn ý nêu quan điểm",
+      "action": "Lập dàn ý 3 gạch: quan điểm + 2 lý do, rồi viết 120 từ.",
+      "check": "Bài có quan điểm và 2 lý do.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 124,
+      "title": "Dàn ý viết thư",
+      "action": "Lập dàn ý 3 gạch cho 1 bức thư xin lỗi rồi viết thư 120 từ.",
+      "check": "Thư bám dàn ý, đủ 120 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 125,
+      "title": "Dàn ý hướng dẫn",
+      "action": "Lập dàn ý 3 gạch hướng dẫn làm 1 món ăn rồi viết 120 từ theo từng bước.",
+      "check": "Các bước theo đúng thứ tự.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 126,
+      "title": "Ghép mở-thân-kết",
+      "action": "Lấy mở bài của bài A, thân bài của bài B, kết bài của bài C, viết 150 từ thành bài mới.",
+      "check": "Bài mới liền mạch dù ghép 3 nguồn.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 127,
+      "title": "Đoạn so sánh",
+      "action": "Viết 1 đoạn 6 câu so sánh 2 quán bạn hay tới: 2 giống, 2 khác, 1 câu kết.",
+      "check": "Có 2 giống, 2 khác, 1 kết.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 128,
+      "title": "Đoạn nguyên nhân",
+      "action": "Viết 1 đoạn 6 câu: vì sao bạn thích 1 thói quen, nêu 3 nguyên nhân.",
+      "check": "Nêu được 3 nguyên nhân.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 129,
+      "title": "Đoạn kết quả",
+      "action": "Viết 1 đoạn 6 câu: viết mỗi ngày đã thay đổi bạn thế nào, nêu 3 kết quả.",
+      "check": "Nêu được 3 kết quả cụ thể.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 130,
+      "title": "Đoạn liệt kê",
+      "action": "Viết 1 đoạn 6 câu liệt kê 4 lợi ích của việc đọc sách, câu cuối kết lại.",
+      "check": "Liệt kê đủ 4 lợi ích.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 131,
+      "title": "Đoạn phản biện",
+      "action": "Viết 1 đoạn 6 câu phản đối ý kiến 'tiền mua được hạnh phúc'.",
+      "check": "Có lập luận phản đối rõ ràng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 132,
+      "title": "Đoạn đồng tình",
+      "action": "Viết 1 đoạn 6 câu đồng tình với ý kiến 'sức khỏe là vốn quý nhất'.",
+      "check": "Có 3 lý do đồng tình.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 133,
+      "title": "Kể lại 6 dàn ý",
+      "action": "Không nhìn lại, viết ra 6 dàn ý bạn đã lập tuần này từ trí nhớ, rồi đối chiếu.",
+      "check": "Nhớ được ít nhất 4/6 dàn ý.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 134,
+      "title": "Chuyện có mở-thân-kết",
+      "action": "Lập dàn ý 3 gạch rồi viết 150 từ kể 1 chuyện vui tuần này.",
+      "check": "Truyện đủ 3 phần theo dàn ý.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 135,
+      "title": "Chuyện có nút thắt",
+      "action": "Viết 150 từ kể 1 rắc rối bạn từng gặp: mở (bối cảnh), thân (rắc rối), kết (cách gỡ).",
+      "check": "Có đủ bối cảnh, rắc rối, cách gỡ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 136,
+      "title": "Chuyện có bài học",
+      "action": "Viết 150 từ kể 1 lần thất bại, kết bài nêu 1 bài học rút ra.",
+      "check": "Câu kết nêu bài học cụ thể.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 137,
+      "title": "Chuyện người khác",
+      "action": "Viết 150 từ kể câu chuyện của 1 người bạn (xin phép), đủ mở-thân-kết.",
+      "check": "Truyện có đủ 3 phần.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 138,
+      "title": "Chuyện tưởng tượng",
+      "action": "Lập dàn ý 3 gạch rồi viết 150 từ 1 câu chuyện tưởng tượng có kết bất ngờ.",
+      "check": "Có dàn ý và cái kết bất ngờ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 139,
+      "title": "Chuyện 1 ngày",
+      "action": "Viết 150 từ kể lại hôm nay như 1 câu chuyện: mở (sáng), thân (chiều), kết (tối).",
+      "check": "Có đủ 3 phần sáng–chiều–tối.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 140,
+      "title": "Sửa thân bài lan man",
+      "action": "Chọn 1 thân bài dài dòng nhất tuần, cắt còn 5 câu giữ đủ ý.",
+      "check": "Bản mới 5 câu vẫn đủ ý.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 141,
+      "title": "Tả người có dàn ý",
+      "action": "Lập dàn ý 3 gạch (ngoại hình–tính cách–kỷ niệm) rồi viết 150 từ tả 1 người thân.",
+      "check": "Bài bám dàn ý 3 gạch.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 142,
+      "title": "Tả cảnh có dàn ý",
+      "action": "Lập dàn ý 3 gạch (toàn cảnh–chi tiết–cảm xúc) rồi viết 150 từ tả 1 nơi.",
+      "check": "Có đủ toàn cảnh, chi tiết, cảm xúc.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 143,
+      "title": "Tả đồ vật",
+      "action": "Lập dàn ý 3 gạch rồi viết 120 từ tả 1 món đồ gắn với kỷ niệm.",
+      "check": "Nêu được kỷ niệm gắn với đồ vật.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 144,
+      "title": "Tả món ăn",
+      "action": "Lập dàn ý 3 gạch (nhìn–nếm–nhớ) rồi viết 120 từ tả 1 món ăn quê.",
+      "check": "Có đủ nhìn, nếm, nhớ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 145,
+      "title": "Tả âm thanh",
+      "action": "Viết 120 từ tả không gian âm thanh của 1 buổi chợ theo dàn ý 3 gạch.",
+      "check": "Có dàn ý và 120 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 146,
+      "title": "Tả bằng so sánh",
+      "action": "Viết 120 từ tả 1 người dùng ít nhất 3 phép so sánh ('như', 'tựa', 'giống').",
+      "check": "Có ít nhất 3 phép so sánh.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 147,
+      "title": "So sánh 2 bài cùng chủ đề",
+      "action": "Tìm 2 bài tuần này gần chủ đề nhau, viết 80 từ so sánh cấu trúc 2 bài.",
+      "check": "Nêu được điểm giống/khác cấu trúc.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 148,
+      "title": "Email xin việc tưởng tượng",
+      "action": "Lập dàn ý 3 gạch rồi viết email 150 từ ứng tuyển 1 công việc mơ ước.",
+      "check": "Email có đủ 3 phần.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 149,
+      "title": "Thư cảm ơn có cấu trúc",
+      "action": "Viết thư cảm ơn 150 từ: mở (gợi kỷ niệm), thân (việc được giúp), kết (lời hứa).",
+      "check": "Có đủ 3 phần.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 150,
+      "title": "Thư đề nghị",
+      "action": "Viết 150 từ viết thư đề nghị 1 người giúp bạn việc cụ thể, nêu rõ việc cần giúp.",
+      "check": "Nêu rõ việc cần giúp và thời gian.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 151,
+      "title": "Email phàn nàn lịch sự",
+      "action": "Viết email 150 từ phàn nàn về 1 dịch vụ, giữ giọng lịch sự nhưng rõ ràng.",
+      "check": "Nêu được vấn đề và mong muốn cụ thể.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 152,
+      "title": "Thư chia tay",
+      "action": "Viết 150 từ viết thư chia tay 1 thói quen xấu như chia tay 1 người bạn.",
+      "check": "Thư có đủ mở-thân-kết.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 153,
+      "title": "Lời mời",
+      "action": "Viết 150 từ viết lời mời bạn bè đi chơi cuối tuần: thời gian, địa điểm, lý do.",
+      "check": "Có đủ thời gian, địa điểm, lý do.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 154,
+      "title": "Tự chấm mở-thân-kết",
+      "action": "Chấm 6 bài tuần này: bài nào thiếu phần nào, viết 6 câu nhận xét.",
+      "check": "Có 6 câu nhận xét đủ 3 phần.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 155,
+      "title": "Bài ngắn đầu tiên",
+      "action": "Lập dàn ý 3 gạch rồi viết 1 bài 180 từ về 'điều nhỏ làm nên ngày vui'.",
+      "check": "Bài đủ 180 từ, có 3 phần.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 156,
+      "title": "Bài về thói quen",
+      "action": "Viết 180 từ về 1 thói quen tốt bạn đang giữ, đủ mở-thân-kết.",
+      "check": "Bài đủ 180 từ, có 3 phần.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 157,
+      "title": "Bài về 1 cuốn sách",
+      "action": "Viết 180 từ cảm nhận về 1 cuốn sách: mở (giới thiệu), thân (điều tâm đắc), kết (ai nên đọc).",
+      "check": "Có đủ 3 phần.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 158,
+      "title": "Bài về 1 bộ phim",
+      "action": "Viết 180 từ cảm nhận về 1 bộ phim: cảnh ấn tượng nhất và vì sao.",
+      "check": "Nêu được cảnh ấn tượng và lý do.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 159,
+      "title": "Bài về quê hương",
+      "action": "Viết 180 từ về 1 nét đẹp của quê bạn mà người ngoài chưa biết.",
+      "check": "Nêu được nét đẹp cụ thể.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 160,
+      "title": "Bài về tương lai",
+      "action": "Viết 180 từ tưởng tượng cuộc sống của bạn 5 năm nữa, viết như đã xảy ra.",
+      "check": "Viết ở thì hiện tại/quá khứ như đã xảy ra.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 161,
+      "title": "Viết lại bài dở nhất",
+      "action": "Chọn bài dở nhất tuần, lập dàn ý mới và viết lại 150 từ.",
+      "check": "Bản mới có dàn ý rõ ràng.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 162,
+      "title": "Đoạn chuyển ý",
+      "action": "Viết 2 đoạn 4 câu về 2 ý khác nhau, thêm 1 câu chuyển ý nối giữa 2 đoạn.",
+      "check": "Có câu chuyển ý rõ ràng.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 163,
+      "title": "Mở bài dài 5 câu",
+      "action": "Viết mở bài 5 câu cho chủ đề 'viết mỗi ngày': hook, bối cảnh, 3 ý sẽ nói.",
+      "check": "Mở bài nêu được 3 ý sẽ triển khai.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 164,
+      "title": "Thân bài 3 đoạn",
+      "action": "Viết thân bài 3 đoạn (mỗi đoạn 4 câu), mỗi đoạn 1 ý về 'lợi ích của viết'.",
+      "check": "Có 3 đoạn, mỗi đoạn 1 ý.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 165,
+      "title": "Bài 200 từ hoàn chỉnh",
+      "action": "Lập dàn ý chi tiết rồi viết 1 bài 200 từ về '1 người hùng thầm lặng quanh bạn'.",
+      "check": "Bài đủ 200 từ, cấu trúc rõ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 166,
+      "title": "Sửa cấu trúc bài cũ",
+      "action": "Chọn 1 bài mùa 2, kiểm tra có đủ mở-thân-kết không, viết lại phần còn thiếu.",
+      "check": "Bài sau sửa đủ 3 phần.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 167,
+      "title": "Tóm tắt 1 bài dài",
+      "action": "Chọn 1 bài dài bạn thích, viết 100 từ tóm tắt giữ đúng cấu trúc mở-thân-kết.",
+      "check": "Tóm tắt đủ 100 từ, giữ 3 phần.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 168,
+      "title": "Sổ mở bài hay",
+      "action": "Chép 5 câu mở bài hay nhất tuần vào 1 trang, mỗi câu ghi 1 từ khóa kỹ thuật (hook, câu hỏi...).",
+      "check": "Có 5 câu kèm từ khóa.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 169,
+      "title": "Tranh luận 2 mặt",
+      "action": "Viết 180 từ về 'có nên làm việc từ xa': 2 đoạn, mỗi đoạn 1 mặt.",
+      "check": "Cả 2 mặt được trình bày.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 170,
+      "title": "Bài kể có đối thoại",
+      "action": "Viết 180 từ kể 1 kỷ niệm, chèn ít nhất 4 lượt lời thoại.",
+      "check": "Có ít nhất 4 lượt thoại.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 171,
+      "title": "Bài hướng dẫn",
+      "action": "Viết 180 từ hướng dẫn 1 người mới bắt đầu viết nhật ký, đủ 5 bước.",
+      "check": "Có đủ 5 bước theo thứ tự.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 172,
+      "title": "Bài so sánh dài",
+      "action": "Viết 180 từ so sánh 'sống ở quê' và 'sống ở thành phố', kết bằng lựa chọn của bạn.",
+      "check": "Có so sánh và lựa chọn cuối.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 173,
+      "title": "Bài cảm nhận",
+      "action": "Viết 180 từ cảm nhận về 1 bài hát: lời nào chạm tới bạn nhất.",
+      "check": "Trích được câu lời cụ thể.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 174,
+      "title": "Bài tự sự",
+      "action": "Viết 180 từ tự sự về 1 bước ngoặt trong đời bạn, đủ mở-thân-kết.",
+      "check": "Nêu được bước ngoặt cụ thể.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 175,
+      "title": "Dạy lại cấu trúc",
+      "action": "Viết 100 từ giải thích cho người mới: 1 đoạn văn cần những gì (như đang dạy bạn mình).",
+      "check": "Giải thích được mở-thân-kết đơn giản.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 176,
+      "title": "Chọn chủ đề bài cuối",
+      "action": "Chọn 1 chủ đề cho bài viết cuối mùa 2, viết 3 câu: vì sao chọn chủ đề này.",
+      "check": "Có chủ đề và 3 câu lý do.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 177,
+      "title": "Dàn ý chi tiết",
+      "action": "Lập dàn ý chi tiết cho bài cuối mùa: mở 3 câu, thân 3 ý, kết 3 câu.",
+      "check": "Dàn ý có đủ các phần.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 178,
+      "title": "Viết mở + thân",
+      "action": "Viết mở bài và thân bài (150 từ) theo dàn ý hôm qua.",
+      "check": "Viết được mở và thân theo dàn ý.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 179,
+      "title": "Viết kết + rà soát",
+      "action": "Viết kết bài 3 câu, đọc lại toàn bài, sửa 3 chỗ chưa ổn.",
+      "check": "Có kết bài và 3 chỗ sửa.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 180,
+      "title": "Đọc to bài cuối",
+      "action": "Đọc to bài cuối mùa, đánh dấu chỗ vấp, sửa cho trôi, đếm đủ 200 từ.",
+      "check": "Bài đủ 200 từ, đọc trôi.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 181,
+      "title": "Hoàn thiện bài mùa 2",
+      "action": "Hoàn thiện 1 bài viết 200 từ có đủ mở–thân–kết, đây là sản phẩm cuối mùa 2.",
+      "check": "Bài đủ 200 từ, đủ 3 phần, có thể khoe.",
+      "minutes": 10,
+      "type": "project"
+    },
+    {
+      "day": 182,
+      "title": "Tổng kết mùa 2",
+      "action": "Viết 150 từ tổng kết mùa 2: cấu trúc bạn nắm chắc nhất, phần còn yếu, mục tiêu mùa 3.",
+      "check": "Có đủ 3 phần.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 183,
+      "title": "Viết lại bài cũ hay hơn",
+      "action": "Chọn 1 bài mùa 1–2 bạn chưa ưng, viết lại 150 từ với chi tiết giàu hơn.",
+      "check": "Bản mới có thêm chi tiết cụ thể.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 184,
+      "title": "Thêm giác quan vào bài cũ",
+      "action": "Chọn 1 bài miêu tả cũ, viết lại 120 từ, thêm ít nhất 3 chi tiết giác quan.",
+      "check": "Bản mới có 3 chi tiết giác quan mới.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 185,
+      "title": "Đổi góc nhìn bài cũ",
+      "action": "Chọn 1 bài kể chuyện cũ, viết lại 120 từ từ góc nhìn người khác.",
+      "check": "Góc nhìn mới rõ rệt.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 186,
+      "title": "Kéo dài bài cũ",
+      "action": "Chọn 1 đoạn ngắn cũ, viết thêm 100 từ mở rộng 1 ý trong đó.",
+      "check": "Viết thêm được 100 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 187,
+      "title": "Rút gọn bài cũ",
+      "action": "Chọn 1 bài dài dòng cũ, viết lại còn 100 từ giữ đủ ý chính.",
+      "check": "Bản mới 100 từ vẫn đủ ý.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 188,
+      "title": "Đổi cái kết bài cũ",
+      "action": "Chọn 1 bài cũ, giữ nguyên thân bài, viết 3 cái kết khác nhau, chọn 1.",
+      "check": "Có 3 cái kết để chọn.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 189,
+      "title": "Ôn giọng văn tuần",
+      "action": "Đọc lại 6 bài tuần này, mỗi bài viết 1 câu: giọng văn của bài là gì.",
+      "check": "Có 6 câu nhận định giọng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 190,
+      "title": "Thử giọng hài hước",
+      "action": "Viết 120 từ kể 1 chuyện thường ngày bằng giọng hài hước, phóng đại 1 chi tiết.",
+      "check": "Có ít nhất 1 chi tiết phóng đại gây cười.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 191,
+      "title": "Chuyện xui hài hước",
+      "action": "Kể 1 chuyện xui của bạn trong 120 từ bằng giọng tự trào.",
+      "check": "Giọng tự trào rõ, không than vãn.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 192,
+      "title": "Miêu tả hài hước",
+      "action": "Miêu tả 1 người thân trong 100 từ bằng giọng hài hước nhưng vẫn tình cảm.",
+      "check": "Vừa buồn cười vừa ấm áp.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 193,
+      "title": "Đối thoại hài",
+      "action": "Viết 1 đoạn đối thoại 8 lượt lời thật hài giữa bạn và 1 người bạn.",
+      "check": "Có ít nhất 2 câu gây cười.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 194,
+      "title": "Viết lại nghiêm túc thành hài",
+      "action": "Chọn 1 bài nghiêm túc cũ, viết lại 120 từ bằng giọng hài hước.",
+      "check": "Cùng nội dung, giọng khác hẳn.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 195,
+      "title": "Tiêu đề hài hước",
+      "action": "Viết 5 tiêu đề hài hước cho 1 câu chuyện thường ngày của bạn.",
+      "check": "Có 5 tiêu đề khác nhau.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 196,
+      "title": "Chấm độ hài",
+      "action": "Đọc lại 6 bài hài tuần qua, chấm mỗi bài 1–5 sao độ buồn cười, viết 1 câu cho bài cao nhất.",
+      "check": "Có điểm số và 1 câu nhận xét.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 197,
+      "title": "Thử giọng trang trọng",
+      "action": "Viết 120 từ về 1 kỷ niệm gia đình bằng giọng trang trọng, dùng từ ngữ chọn lọc.",
+      "check": "Không dùng từ suồng sã.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 198,
+      "title": "Thư trang trọng",
+      "action": "Viết 1 bức thư cảm ơn 120 từ bằng giọng trang trọng gửi thầy cô/người lớn tuổi.",
+      "check": "Giọng lễ phép, trang trọng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 199,
+      "title": "Viết như diễn văn",
+      "action": "Viết 100 từ như 1 đoạn diễn văn ngắn về 'lòng biết ơn'.",
+      "check": "Có nhịp điệu diễn văn.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 200,
+      "title": "Miêu tả trang trọng",
+      "action": "Miêu tả 1 cảnh đẹp quê hương 120 từ bằng giọng văn trang trọng.",
+      "check": "Từ ngữ chọn lọc, không xuề xòa.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 201,
+      "title": "Viết lại suồng sã thành trang trọng",
+      "action": "Chọn 1 bài viết suồng sã cũ, viết lại 120 từ bằng giọng trang trọng.",
+      "check": "Cùng nội dung, giọng khác hẳn.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 202,
+      "title": "Câu nói để đời",
+      "action": "Viết 5 câu ngắn (mỗi câu dưới 15 từ) theo giọng trang trọng về 1 bài học đời.",
+      "check": "Có 5 câu, mỗi câu dưới 15 từ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 203,
+      "title": "So sánh 3 giọng",
+      "action": "Đọc 1 bài hài, 1 bài trang trọng, 1 bài giản dị của bạn, viết 80 từ so sánh.",
+      "check": "Nêu được điểm khác của 3 giọng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 204,
+      "title": "Thử giọng giản dị",
+      "action": "Viết 120 từ kể 1 ngày của bạn bằng lời lẽ giản dị nhất, như kể cho đứa trẻ.",
+      "check": "Câu ngắn, từ đơn giản.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 205,
+      "title": "Giải thích đơn giản",
+      "action": "Giải thích 1 khái niệm khó (lãi suất, AI...) trong 100 từ cho người chưa biết gì.",
+      "check": "Người ngoài ngành đọc hiểu được.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 206,
+      "title": "Kể chuyện giản dị",
+      "action": "Kể 1 chuyện cảm động trong 120 từ, càng ít từ hoa mỹ càng tốt.",
+      "check": "Không dùng quá 3 tính từ hoa mỹ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 207,
+      "title": "Viết như nhật ký",
+      "action": "Viết 100 từ nhật ký hôm nay bằng giọng thủ thỉ, câu ngắn.",
+      "check": "Giọng thủ thỉ, tự nhiên.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 208,
+      "title": "Viết lại hoa mỹ thành giản dị",
+      "action": "Chọn 1 đoạn văn hoa mỹ cũ, viết lại 100 từ thật giản dị mà vẫn hay.",
+      "check": "Bản mới ngắn gọn, dễ đọc.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 209,
+      "title": "Cùng chủ đề 3 giọng",
+      "action": "Viết 3 đoạn 50 từ về cùng 1 bữa cơm: giọng hài hước, trang trọng, giản dị.",
+      "check": "3 đoạn giọng khác nhau rõ rệt.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 210,
+      "title": "Kể lại kỹ thuật cắt từ",
+      "action": "Không nhìn lại, viết 80 từ kể lại 3 cách cắt từ thừa bạn đã học tuần này.",
+      "check": "Kể được 3 cách từ trí nhớ.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 211,
+      "title": "Săn từ thừa",
+      "action": "Đọc 1 bài cũ, gạch chân 10 từ/cụm có thể xóa mà ý không đổi, viết lại đoạn gọn hơn.",
+      "check": "Xóa được 10 từ thừa.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 212,
+      "title": "Cắt câu vòng vo",
+      "action": "Tìm 3 câu vòng vo trong bài cũ, viết lại mỗi câu ngắn hơn một nửa.",
+      "check": "3 câu mới ngắn hơn một nửa.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 213,
+      "title": "Xóa 'rất', 'rất là'",
+      "action": "Đọc 1 bài cũ, thay mọi từ 'rất' bằng từ mạnh hơn hoặc xóa hẳn.",
+      "check": "Không còn từ 'rất' nào.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 214,
+      "title": "Cắt mở bài dài dòng",
+      "action": "Chọn 1 mở bài dài, cắt còn 2 câu vẫn đủ ý.",
+      "check": "Mở bài mới chỉ 2 câu.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 215,
+      "title": "Bài 150 từ còn 100",
+      "action": "Chọn 1 bài 150 từ, viết lại còn đúng 100 từ, không mất ý chính.",
+      "check": "Bản mới đúng 100 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 216,
+      "title": "Cắt 20% bài dài",
+      "action": "Chọn bài dài nhất của bạn, cắt 20% số từ mà ý vẫn nguyên.",
+      "check": "Đếm số từ giảm 20%.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 217,
+      "title": "Đọc to kiểm tra",
+      "action": "Chọn 2 bài tuần này, đọc to, viết 1 câu cho mỗi bài: nhịp ổn hay chưa.",
+      "check": "Có 2 câu nhận xét nhịp.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 218,
+      "title": "Đọc to tìm chỗ vấp",
+      "action": "Đọc to 1 bài cũ, đánh dấu 5 chỗ vấp lưỡi, viết lại 5 chỗ đó.",
+      "check": "Sửa được 5 chỗ vấp.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 219,
+      "title": "Trộn câu ngắn dài",
+      "action": "Viết 1 đoạn 8 câu về 1 kỷ niệm: xen kẽ câu ngắn (dưới 8 từ) và câu dài.",
+      "check": "Có cả câu ngắn và câu dài xen kẽ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 220,
+      "title": "Câu ngắn tạo nhịp",
+      "action": "Viết 1 đoạn 100 từ toàn câu ngắn (dưới 10 từ) về 1 khoảnh khắc hồi hộp.",
+      "check": "Mọi câu dưới 10 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 221,
+      "title": "Câu dài miêu tả",
+      "action": "Viết 1 đoạn 100 từ với 3 câu dài (trên 20 từ) miêu tả 1 khung cảnh.",
+      "check": "Có 3 câu trên 20 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 222,
+      "title": "Đọc to bài mới",
+      "action": "Viết 1 đoạn 120 từ rồi đọc to ngay, sửa 3 chỗ nghe chưa trôi.",
+      "check": "Sửa được 3 chỗ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 223,
+      "title": "Nhịp 3 câu",
+      "action": "Viết 3 câu liên tiếp cùng nhịp điệu (ngắn–ngắn–dài) về 1 cảm xúc.",
+      "check": "3 câu có nhịp ngắn–ngắn–dài.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 224,
+      "title": "Sổ từ hay",
+      "action": "Chép 10 từ/cụm hay bạn đã dùng tuần này vào 1 trang, mỗi từ 1 ví dụ câu.",
+      "check": "Có 10 từ kèm ví dụ.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 225,
+      "title": "Thay tính từ chung chung",
+      "action": "Tìm 5 tính từ chung chung ('đẹp', 'tốt') trong bài cũ, thay bằng từ cụ thể hơn.",
+      "check": "Thay được 5 từ.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 226,
+      "title": "Dùng phép so sánh",
+      "action": "Viết 1 đoạn 100 từ miêu tả 1 người với ít nhất 4 phép so sánh.",
+      "check": "Có ít nhất 4 phép so sánh.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 227,
+      "title": "Động từ mạnh",
+      "action": "Tìm 5 động từ yếu ('làm', 'có') trong bài cũ, thay bằng động từ mạnh, cụ thể.",
+      "check": "Thay được 5 động từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 228,
+      "title": "Viết bằng ẩn dụ",
+      "action": "Viết 1 đoạn 100 từ về nỗi buồn dùng ít nhất 2 ẩn dụ.",
+      "check": "Có ít nhất 2 ẩn dụ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 229,
+      "title": "Từ láy tiếng Việt",
+      "action": "Viết 1 đoạn 100 từ dùng ít nhất 5 từ láy (lấp lánh, rì rào...).",
+      "check": "Có ít nhất 5 từ láy.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 230,
+      "title": "Tránh lặp từ",
+      "action": "Đọc 1 bài cũ, tìm từ lặp quá 3 lần, thay bằng từ đồng nghĩa.",
+      "check": "Không còn từ lặp quá 3 lần.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 231,
+      "title": "Tìm lỗi lặp",
+      "action": "Đọc 6 bài tuần này, tìm 1 lỗi bạn lặp lại nhiều nhất, viết 3 câu đúng để sửa.",
+      "check": "Tìm được lỗi và 3 câu sửa đúng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 232,
+      "title": "Sửa câu thiếu chủ ngữ",
+      "action": "Đọc 1 bài cũ, tìm 3 câu thiếu chủ ngữ/vị ngữ, viết lại đầy đủ.",
+      "check": "Sửa được 3 câu.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 233,
+      "title": "Sửa lỗi chính tả",
+      "action": "Đọc chậm 1 bài cũ, tìm và sửa mọi lỗi chính tả.",
+      "check": "Không còn lỗi chính tả nào.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 234,
+      "title": "Dấu câu",
+      "action": "Đọc 1 bài cũ, kiểm tra dấu phẩy/chấm: tách câu quá dài, nối câu quá ngắn.",
+      "check": "Sửa được ít nhất 5 dấu câu.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 235,
+      "title": "Thì nhất quán",
+      "action": "Đọc 1 bài kể chuyện cũ, sửa mọi chỗ nhảy thì lung tung về 1 thì chính.",
+      "check": "Cả bài 1 thì nhất quán.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 236,
+      "title": "Đại từ rõ ràng",
+      "action": "Đọc 1 bài cũ, tìm chỗ 'nó', 'họ' gây nhầm, viết lại cho rõ.",
+      "check": "Sửa được mọi đại từ gây nhầm.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 237,
+      "title": "Checklist sửa bài",
+      "action": "Tạo checklist 5 mục sửa bài của riêng bạn, áp dụng cho 1 bài cũ.",
+      "check": "Có checklist 5 mục và bài đã sửa.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 238,
+      "title": "Chấm biên tập",
+      "action": "Lấy 1 bài đã biên tập tuần này, tự chấm 3 vòng (ý, từ, nhịp), viết 3 câu nhận xét.",
+      "check": "Có 3 câu nhận xét 3 vòng.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 239,
+      "title": "Biên tập vòng 1: ý",
+      "action": "Chọn 1 bài 200 từ, đọc và xóa mọi câu lạc đề, viết 1 câu nêu ý chính còn lại.",
+      "check": "Xóa được câu lạc đề, còn 1 ý chính.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 240,
+      "title": "Biên tập vòng 2: từ",
+      "action": "Lấy bài hôm qua, cắt 15% số từ, thay 5 từ yếu.",
+      "check": "Giảm 15% số từ, thay 5 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 241,
+      "title": "Biên tập vòng 3: nhịp",
+      "action": "Lấy bài hôm qua, đọc to, sửa nhịp câu cho trôi.",
+      "check": "Đọc to không vấp.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 242,
+      "title": "Nhờ 'biên tập viên' trong đầu",
+      "action": "Đọc 1 bài như bạn là biên tập viên khó tính, viết 5 nhận xét chê thẳng.",
+      "check": "Có 5 nhận xét cụ thể.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 243,
+      "title": "Sửa theo nhận xét",
+      "action": "Lấy 5 nhận xét hôm qua, sửa bài theo từng nhận xét.",
+      "check": "Sửa đủ 5 điểm.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 244,
+      "title": "Bản cuối 200 từ",
+      "action": "Hoàn thiện 1 bài 200 từ đã qua 3 vòng biên tập, đây là bản tốt nhất của bạn.",
+      "check": "Bài qua đủ 3 vòng sửa.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 245,
+      "title": "Kể lại tuần thử giọng",
+      "action": "Viết 100 từ kể lại: tuần này bạn thử giọng gì, giọng nào hợp bạn nhất.",
+      "check": "Nêu được giọng hợp nhất và vì sao.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 246,
+      "title": "Tìm giọng của bạn",
+      "action": "Đọc 5 bài bạn thích nhất, viết 80 từ: giọng văn của bạn là gì (hài, trầm, thẳng...).",
+      "check": "Nêu được 3 tính từ về giọng mình.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 247,
+      "title": "Viết đúng giọng mình",
+      "action": "Viết 150 từ về 1 chủ đề tự chọn bằng đúng giọng văn bạn vừa định nghĩa.",
+      "check": "Bài viết đúng 3 tính từ đã nêu.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 248,
+      "title": "Thử giọng trầm lắng",
+      "action": "Viết 120 từ về 1 mất mát/tiếc nuối bằng giọng trầm lắng.",
+      "check": "Giọng trầm lắng rõ rệt.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 249,
+      "title": "Thử giọng sôi nổi",
+      "action": "Viết 120 từ cổ vũ ai đó (hoặc chính mình) bằng giọng sôi nổi.",
+      "check": "Đọc lên thấy hừng hực.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 250,
+      "title": "Thử giọng châm biếm nhẹ",
+      "action": "Viết 120 từ châm biếm nhẹ 1 thói quen xấu của chính bạn.",
+      "check": "Châm biếm mà không cay độc.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 251,
+      "title": "So sánh 2 giọng",
+      "action": "Viết 2 đoạn 80 từ cùng chủ đề: 1 đoạn giọng bạn, 1 đoạn giọng ngược lại.",
+      "check": "2 đoạn giọng khác nhau rõ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 252,
+      "title": "Viết lại 1 bài tuần",
+      "action": "Chọn bài chưa ưng nhất tuần, viết lại 120 từ hay hơn.",
+      "check": "Bản mới khác hẳn bản cũ.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 253,
+      "title": "Viết lại từ trí nhớ",
+      "action": "Đọc 1 bài cũ 2 phút, úp lại, viết lại từ trí nhớ 150 từ, so sánh 2 bản.",
+      "check": "Viết được 150 từ từ trí nhớ.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 254,
+      "title": "Nâng cấp mở bài",
+      "action": "Chọn 3 bài cũ, viết lại mở bài mỗi bài bằng 1 hook mới.",
+      "check": "Có 3 mở bài mới.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 255,
+      "title": "Nâng cấp kết bài",
+      "action": "Chọn 3 bài cũ, viết lại kết bài mỗi bài ấn tượng hơn.",
+      "check": "Có 3 kết bài mới.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 256,
+      "title": "Thêm đối thoại",
+      "action": "Chọn 1 bài kể chuyện cũ, chèn thêm 1 đoạn đối thoại 6 lượt lời.",
+      "check": "Chèn được 6 lượt thoại hợp mạch.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 257,
+      "title": "Thêm chi tiết giác quan",
+      "action": "Chọn 1 bài khô khan cũ, thêm 5 chi tiết giác quan vào.",
+      "check": "Thêm được 5 chi tiết.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 258,
+      "title": "Viết tiếp cái kết mở",
+      "action": "Chọn 1 bài cũ có kết đóng, viết thêm 80 từ mở ra 1 hướng mới.",
+      "check": "Viết thêm được 80 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 259,
+      "title": "So sánh bản cũ–mới",
+      "action": "Đặt 1 bài cũ và bản viết lại cạnh nhau, viết 80 từ: bản mới hơn ở đâu.",
+      "check": "Nêu được ít nhất 3 điểm hơn.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 260,
+      "title": "Bài tổng hợp 200 từ",
+      "action": "Viết 1 bài 200 từ mới áp dụng: dàn ý + giọng hài + cắt từ thừa.",
+      "check": "Bài đủ 200 từ, giọng hài rõ.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 261,
+      "title": "Bài giọng trang trọng 200 từ",
+      "action": "Viết 1 bài 200 từ giọng trang trọng về 1 giá trị bạn tin.",
+      "check": "Bài đủ 200 từ, giọng trang trọng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 262,
+      "title": "Bài giọng giản dị 200 từ",
+      "action": "Viết 1 bài 200 từ giọng giản dị kể 1 ngày bình thường mà đẹp.",
+      "check": "Bài đủ 200 từ, giọng giản dị.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 263,
+      "title": "Tự biên tập bài mới",
+      "action": "Lấy bài hôm qua, qua 3 vòng: cắt ý thừa, cắt từ thừa, đọc to sửa nhịp.",
+      "check": "Bài qua đủ 3 vòng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 264,
+      "title": "Soạn tuyển tập mùa 3",
+      "action": "Chọn 5 bài hay nhất mùa 3, sắp xếp thứ tự, viết 1 câu giới thiệu mỗi bài.",
+      "check": "Có 5 bài và 5 câu giới thiệu.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 265,
+      "title": "Viết lời tựa tuyển tập",
+      "action": "Viết 100 từ lời tựa cho tuyển tập mùa 3 của bạn.",
+      "check": "Lời tựa đủ 100 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 266,
+      "title": "Tổng hợp kỹ thuật",
+      "action": "Viết 100 từ liệt kê mọi kỹ thuật sửa bài bạn đã học mùa 3 (không nhìn lại).",
+      "check": "Liệt kê được ít nhất 6 kỹ thuật.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 267,
+      "title": "Chọn bài để hoàn thiện",
+      "action": "Chọn 1 bài tâm đắc nhất 3 mùa, viết 3 câu: vì sao chọn bài này.",
+      "check": "Có bài được chọn và 3 câu lý do.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 268,
+      "title": "Dàn ý viết lại",
+      "action": "Lập dàn ý viết lại bài đã chọn: giữ gì, bỏ gì, thêm gì.",
+      "check": "Dàn ý có đủ giữ–bỏ–thêm.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 269,
+      "title": "Viết lại lần 1",
+      "action": "Viết lại bài đã chọn (200 từ) theo dàn ý mới.",
+      "check": "Bản mới đủ 200 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 270,
+      "title": "Biên tập lần 1",
+      "action": "Cắt 15% số từ bản hôm qua, thay 5 từ yếu.",
+      "check": "Giảm 15% số từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 271,
+      "title": "Đọc to + sửa nhịp",
+      "action": "Đọc to bản hôm qua, sửa mọi chỗ vấp.",
+      "check": "Đọc to trôi chảy.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 272,
+      "title": "Bài hoàn thiện nhất",
+      "action": "Hoàn thiện 1 bài 200 từ đã qua viết lại + biên tập, đây là bài hay nhất của bạn tới nay.",
+      "check": "Bài sẵn sàng cho người khác đọc.",
+      "minutes": 10,
+      "type": "project"
+    },
+    {
+      "day": 273,
+      "title": "Tổng kết mùa 3",
+      "action": "Viết 150 từ tổng kết mùa 3: giọng văn của bạn là gì, kỹ thuật sửa bài tâm đắc nhất.",
+      "check": "Có đủ 2 phần.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 274,
+      "title": "Liệt kê 5 chủ đề ứng viên",
+      "action": "Liệt kê 5 chủ đề bạn muốn viết bài dài, mỗi chủ đề 1 câu vì sao.",
+      "check": "Có 5 chủ đề kèm lý do.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 275,
+      "title": "Chốt 1 chủ đề",
+      "action": "Chọn 1 chủ đề trong 5, viết 100 từ: vì sao chủ đề này xứng đáng 800 từ.",
+      "check": "Viết được 100 từ thuyết phục.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 276,
+      "title": "Liệt kê 10 ý tưởng",
+      "action": "Liệt kê 10 ý tưởng/câu chuyện liên quan tới chủ đề đã chọn.",
+      "check": "Có đủ 10 ý tưởng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 277,
+      "title": "Dàn ý 5 phần",
+      "action": "Lập dàn ý 5 phần cho bài dài: mở bài, 3 phần thân, kết bài, mỗi phần 1–2 câu.",
+      "check": "Dàn ý có đủ 5 phần.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 278,
+      "title": "Thu thập chất liệu",
+      "action": "Viết 10 ghi chú chất liệu: ví dụ, số liệu, câu chuyện, câu nói liên quan chủ đề.",
+      "check": "Có đủ 10 ghi chú.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 279,
+      "title": "3 câu mở đầu",
+      "action": "Viết 3 câu mở đầu khác nhau cho bài dài, chọn 1 câu ưng nhất.",
+      "check": "Có 3 câu và 1 câu được chọn.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 280,
+      "title": "Ôn tuần chọn chủ đề",
+      "action": "Đọc lại 6 bài tuần này, viết 80 từ: vì sao chủ đề bạn chọn xứng đáng.",
+      "check": "Viết được 80 từ thuyết phục.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 281,
+      "title": "Viết hook mở bài",
+      "action": "Viết 1 đoạn hook 50 từ cho bài dài: câu chuyện, câu hỏi hoặc con số gây tò mò.",
+      "check": "Hook đủ 50 từ, gây tò mò.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 282,
+      "title": "Viết bối cảnh",
+      "action": "Viết 1 đoạn 60 từ đặt bối cảnh cho chủ đề: vì sao chủ đề này quan trọng.",
+      "check": "Đoạn đủ 60 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 283,
+      "title": "Viết câu luận điểm",
+      "action": "Viết 1 câu luận điểm (dưới 30 từ) nêu điều chính bài viết muốn nói.",
+      "check": "Câu luận điểm dưới 30 từ, rõ ý.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 284,
+      "title": "Ghép mở bài",
+      "action": "Ghép hook + bối cảnh + luận điểm thành mở bài 150 từ liền mạch.",
+      "check": "Mở bài đủ 150 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 285,
+      "title": "Sửa mở bài",
+      "action": "Đọc lại mở bài hôm qua, cắt 20 từ thừa, đọc to kiểm tra nhịp.",
+      "check": "Cắt được 20 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 286,
+      "title": "Chốt mở bài",
+      "action": "Viết lại mở bài lần cuối (150 từ), đây là bản sẽ dùng.",
+      "check": "Có bản mở bài chốt.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 287,
+      "title": "Ôn mở bài",
+      "action": "Đọc to mở bài đã chốt, viết 3 câu: điểm mạnh và 1 điểm còn lăn tăn.",
+      "check": "Có 3 câu nhận xét.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 288,
+      "title": "Dàn ý phần 1",
+      "action": "Lập dàn ý chi tiết phần 1 thân bài: ý chính + 2 ví dụ.",
+      "check": "Dàn ý có ý chính và 2 ví dụ.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 289,
+      "title": "Viết nháp phần 1",
+      "action": "Viết nháp phần 1 (150 từ) theo dàn ý, không sửa.",
+      "check": "Viết được 150 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 290,
+      "title": "Thêm ví dụ phần 1",
+      "action": "Đọc lại nháp, thêm 1 ví dụ cụ thể hoặc câu chuyện vào phần 1.",
+      "check": "Thêm được 1 ví dụ cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 291,
+      "title": "Sửa phần 1",
+      "action": "Cắt từ thừa ở phần 1, kiểm tra mỗi câu đều phục vụ ý chính.",
+      "check": "Mọi câu đều phục vụ ý chính.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 292,
+      "title": "Câu chuyển sang phần 2",
+      "action": "Viết 2 câu chuyển ý nối phần 1 sang phần 2.",
+      "check": "Có 2 câu chuyển ý.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 293,
+      "title": "Chốt phần 1",
+      "action": "Viết lại phần 1 lần cuối (150–200 từ), đây là bản sẽ dùng.",
+      "check": "Có bản phần 1 chốt.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 294,
+      "title": "So sánh phần 1 với dàn ý",
+      "action": "Đặt phần 1 cạnh dàn ý gốc, viết 3 câu: có lệch không, lệch ở đâu.",
+      "check": "Có 3 câu so sánh.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 295,
+      "title": "Dàn ý phần 2",
+      "action": "Lập dàn ý chi tiết phần 2 thân bài: ý chính + 2 ví dụ, khác góc nhìn phần 1.",
+      "check": "Dàn ý khác góc nhìn phần 1.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 296,
+      "title": "Viết nháp phần 2",
+      "action": "Viết nháp phần 2 (150 từ) theo dàn ý, không sửa.",
+      "check": "Viết được 150 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 297,
+      "title": "Thêm chi tiết phần 2",
+      "action": "Thêm 3 chi tiết giác quan hoặc con số cụ thể vào phần 2.",
+      "check": "Thêm được 3 chi tiết.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 298,
+      "title": "Sửa phần 2",
+      "action": "Cắt từ thừa ở phần 2, đọc to kiểm tra nhịp.",
+      "check": "Đọc to không vấp.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 299,
+      "title": "Nối phần 2–3",
+      "action": "Viết 2 câu chuyển ý nối phần 2 sang phần 3.",
+      "check": "Có 2 câu chuyển ý.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 300,
+      "title": "Chốt phần 2",
+      "action": "Viết lại phần 2 lần cuối (150–200 từ), đây là bản sẽ dùng.",
+      "check": "Có bản phần 2 chốt.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 301,
+      "title": "Đọc liền phần 1–2",
+      "action": "Đọc liền mạch phần 1 và 2, viết 3 câu: mạch chuyển có mượt không.",
+      "check": "Có 3 câu nhận xét mạch.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 302,
+      "title": "Dàn ý phần 3",
+      "action": "Lập dàn ý chi tiết phần 3 thân bài: ý chính + 1 câu chuyện minh họa.",
+      "check": "Dàn ý có câu chuyện minh họa.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 303,
+      "title": "Viết nháp phần 3",
+      "action": "Viết nháp phần 3 (150 từ) theo dàn ý, không sửa.",
+      "check": "Viết được 150 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 304,
+      "title": "Thêm đối thoại phần 3",
+      "action": "Chèn 1 đoạn đối thoại ngắn vào câu chuyện ở phần 3.",
+      "check": "Chèn được đối thoại hợp mạch.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 305,
+      "title": "Sửa phần 3",
+      "action": "Cắt từ thừa ở phần 3, kiểm tra ý không trùng phần 1–2.",
+      "check": "Ý phần 3 khác phần 1–2.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 306,
+      "title": "Nối phần 3–kết",
+      "action": "Viết 2 câu chuyển ý từ phần 3 sang kết bài.",
+      "check": "Có 2 câu chuyển ý.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 307,
+      "title": "Chốt phần 3",
+      "action": "Viết lại phần 3 lần cuối (150–200 từ), đây là bản sẽ dùng.",
+      "check": "Có bản phần 3 chốt.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 308,
+      "title": "Ôn cả 3 phần thân",
+      "action": "Đọc lại 3 phần thân, viết 80 từ tóm tắt mạch chính của bài.",
+      "check": "Tóm tắt đủ 80 từ.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 309,
+      "title": "Đọc toàn bài lần 1",
+      "action": "Ghép mở + 3 phần thân, đọc liền mạch, đánh dấu 5 chỗ chưa ổn.",
+      "check": "Đánh dấu được 5 chỗ.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 310,
+      "title": "Vá chỗ hổng ý",
+      "action": "Với 5 chỗ đã đánh dấu, viết thêm hoặc sửa để ý liền mạch.",
+      "check": "Sửa được 5 chỗ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 311,
+      "title": "Kiểm tra trùng lặp",
+      "action": "Đọc toàn bài, tìm ý hoặc ví dụ bị lặp, xóa hoặc viết lại.",
+      "check": "Không còn ý lặp.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 312,
+      "title": "Cân bằng 3 phần thân",
+      "action": "Đếm số từ 3 phần thân, viết thêm/cắt bớt để 3 phần tương đương nhau.",
+      "check": "3 phần chênh nhau dưới 30 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 313,
+      "title": "Đọc to toàn bài",
+      "action": "Đọc to mở + 3 phần thân, sửa mọi chỗ vấp.",
+      "check": "Đọc to trôi chảy.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 314,
+      "title": "Tóm tắt bài 100 từ",
+      "action": "Viết 100 từ tóm tắt bài dài tới lúc này, kiểm tra mạch chính có rõ không.",
+      "check": "Tóm tắt đủ 100 từ, mạch rõ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 315,
+      "title": "Kể lại bài từ trí nhớ",
+      "action": "Không nhìn bài, viết 100 từ kể lại bài dài của bạn nói về gì.",
+      "check": "Kể được mạch chính từ trí nhớ.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 316,
+      "title": "Dàn ý kết bài",
+      "action": "Lập dàn ý kết bài 3 ý: tóm tắt, bài học, câu kết.",
+      "check": "Dàn ý có đủ 3 ý.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 317,
+      "title": "Viết tóm tắt kết",
+      "action": "Viết 1 đoạn 50 từ tóm tắt lại 3 ý chính của bài.",
+      "check": "Tóm tắt đủ 3 ý chính.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 318,
+      "title": "Viết bài học",
+      "action": "Viết 1 đoạn 50 từ nêu bài học/lời nhắn gửi người đọc.",
+      "check": "Đoạn đủ 50 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 319,
+      "title": "Viết câu kết đắt",
+      "action": "Viết 3 câu kết khác nhau (mỗi câu dưới 20 từ), chọn 1.",
+      "check": "Có 3 câu và 1 câu được chọn.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 320,
+      "title": "Ghép kết bài",
+      "action": "Ghép 3 đoạn thành kết bài 150 từ liền mạch.",
+      "check": "Kết bài đủ 150 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 321,
+      "title": "Chốt kết bài",
+      "action": "Đọc to kết bài, sửa nhịp, đây là bản sẽ dùng.",
+      "check": "Có bản kết bài chốt.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 322,
+      "title": "Ôn kết bài",
+      "action": "Đọc to kết bài, viết 3 câu: kết bài có xứng với thân bài không.",
+      "check": "Có 3 câu nhận xét.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 323,
+      "title": "Biên tập vòng 1: cấu trúc",
+      "action": "Đọc toàn bài 800+ từ, kiểm tra mạch mở–thân–kết, xóa đoạn lạc đề.",
+      "check": "Không còn đoạn lạc đề.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 324,
+      "title": "Biên tập vòng 2: cắt từ",
+      "action": "Cắt 10% số từ toàn bài mà ý không đổi.",
+      "check": "Đếm số từ giảm 10%.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 325,
+      "title": "Thay từ yếu",
+      "action": "Tìm 10 từ yếu trong bài, thay bằng từ mạnh, cụ thể hơn.",
+      "check": "Thay được 10 từ.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 326,
+      "title": "Sửa nhịp toàn bài",
+      "action": "Đọc to toàn bài, sửa mọi chỗ vấp, trộn câu ngắn dài.",
+      "check": "Đọc to trôi chảy.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 327,
+      "title": "Kiểm tra chính tả",
+      "action": "Đọc chậm toàn bài, sửa mọi lỗi chính tả, dấu câu.",
+      "check": "Không còn lỗi chính tả.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 328,
+      "title": "Đếm từ lần 1",
+      "action": "Đếm tổng số từ bài viết, ghi lại con số, mục tiêu 800–1000 từ.",
+      "check": "Có con số tổng từ.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 329,
+      "title": "Chấm 3 vòng biên tập",
+      "action": "Tự chấm bài qua 3 vòng biên tập, viết 3 câu: vòng nào hiệu quả nhất.",
+      "check": "Có 3 câu nhận xét.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 330,
+      "title": "Chọn người đọc",
+      "action": "Chọn 1 người bạn/người thân sẽ đọc bài, viết 3 câu nhờ họ góp ý chân thành.",
+      "check": "Có người được chọn và lời nhờ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 331,
+      "title": "Gửi bài xin góp ý",
+      "action": "Gửi bài cho người đã chọn, kèm 3 câu hỏi cụ thể (chỗ nào khó hiểu, chỗ nào hay nhất...).",
+      "check": "Gửi được bài kèm 3 câu hỏi.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 332,
+      "title": "Tự góp ý trước",
+      "action": "Trong lúc chờ, tự viết 5 nhận xét chê bài mình như 1 biên tập viên.",
+      "check": "Có 5 nhận xét cụ thể.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 333,
+      "title": "Sửa theo góp ý",
+      "action": "Nhận góp ý, liệt kê các ý, sửa bài theo từng ý.",
+      "check": "Sửa được mọi ý góp ý.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 334,
+      "title": "Viết thư cảm ơn",
+      "action": "Viết 80 từ cảm ơn người đã góp ý, nêu 1 ý góp ý hữu ích nhất.",
+      "check": "Thư đủ 80 từ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 335,
+      "title": "Chốt bản sau góp ý",
+      "action": "Đọc lại bản đã sửa theo góp ý, đây là bản gần cuối.",
+      "check": "Có bản gần cuối.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 336,
+      "title": "Ôn góp ý",
+      "action": "Đọc lại mọi góp ý đã nhận, viết 80 từ: ý nào thay đổi bài nhiều nhất.",
+      "check": "Nêu được ý thay đổi nhiều nhất.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 337,
+      "title": "Chọn 5 bài portfolio",
+      "action": "Đọc lại bài cả năm, chọn 5 bài đại diện cho hành trình của bạn.",
+      "check": "Có 5 bài được chọn.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 338,
+      "title": "Viết giới thiệu portfolio",
+      "action": "Viết 100 từ giới thiệu portfolio: bạn là ai, bạn viết về gì.",
+      "check": "Giới thiệu đủ 100 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 339,
+      "title": "Sắp xếp portfolio",
+      "action": "Sắp 5 bài theo thứ tự kể câu chuyện về bạn, viết 1 câu giới thiệu mỗi bài.",
+      "check": "Có thứ tự và 5 câu giới thiệu.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 340,
+      "title": "Chỉnh 5 bài portfolio",
+      "action": "Đọc lại 5 bài, sửa nhanh lỗi chính tả và câu vấp.",
+      "check": "5 bài không còn lỗi.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 341,
+      "title": "Viết lời tựa portfolio",
+      "action": "Viết 80 từ lời tựa đặt đầu portfolio.",
+      "check": "Lời tựa đủ 80 từ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 342,
+      "title": "Hoàn thiện portfolio",
+      "action": "Ghép lời tựa + giới thiệu + 5 bài thành 1 portfolio hoàn chỉnh.",
+      "check": "Portfolio đầy đủ các phần.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 343,
+      "title": "Ôn portfolio",
+      "action": "Đọc lại portfolio 5 bài, viết 80 từ: 5 bài kể câu chuyện gì về bạn.",
+      "check": "Viết được 80 từ.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 344,
+      "title": "Viết 10 tiêu đề",
+      "action": "Viết 10 tiêu đề khác nhau cho bài dài, chọn 1 tiêu đề ưng nhất.",
+      "check": "Có 10 tiêu đề và 1 được chọn.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 345,
+      "title": "Viết đoạn mở đầu giới thiệu",
+      "action": "Viết 60 từ giới thiệu ngắn đặt trước bài dài (như đoạn sapo).",
+      "check": "Đoạn đủ 60 từ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 346,
+      "title": "Chia mục cho bài",
+      "action": "Chia bài dài thành các mục nhỏ, đặt tiêu đề phụ cho mỗi mục.",
+      "check": "Mỗi mục có tiêu đề phụ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 347,
+      "title": "Chọn nơi đăng",
+      "action": "Chọn nơi sẽ đăng bài (blog, note công khai...), viết 1 câu vì sao chọn nơi đó.",
+      "check": "Có nơi đăng và 1 câu lý do.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 348,
+      "title": "Chuẩn bị ảnh minh họa",
+      "action": "Chọn hoặc miêu tả 1 ảnh minh họa cho bài (ảnh tự chụp hoặc ảnh miễn phí).",
+      "check": "Có ảnh minh họa phù hợp.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 349,
+      "title": "Đọc soát lần cuối",
+      "action": "Đọc chậm toàn bài lần cuối: chính tả, dấu câu, tên riêng.",
+      "check": "Không còn lỗi nào.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 350,
+      "title": "Kể lại hành trình bài dài",
+      "action": "Viết 100 từ kể lại: từ lúc chọn chủ đề tới nay, bài đã thay đổi thế nào.",
+      "check": "Nêu được ít nhất 3 thay đổi.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 351,
+      "title": "Kiểm tra mạch bài",
+      "action": "Viết dàn ý ngược: đọc bài và rút ra dàn ý, so với dàn ý gốc.",
+      "check": "Dàn ý ngược khớp dàn ý gốc.",
+      "minutes": 10,
+      "type": "learn"
+    },
+    {
+      "day": 352,
+      "title": "Kiểm tra số từ",
+      "action": "Đếm tổng số từ lần 2, đảm bảo trong khoảng 800–1000 từ.",
+      "check": "Tổng từ trong khoảng 800–1000.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 353,
+      "title": "Đọc to lần cuối",
+      "action": "Đọc to toàn bài lần cuối, sửa mọi chỗ còn vấp.",
+      "check": "Đọc to trôi chảy hoàn toàn.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 354,
+      "title": "Nhờ đọc lần 2",
+      "action": "Nhờ 1 người khác (hoặc người cũ) đọc lại bản gần cuối, ghi nhận góp ý.",
+      "check": "Có góp ý lần 2.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 355,
+      "title": "Sửa lần cuối",
+      "action": "Sửa mọi góp ý lần 2, đây là bản cuối cùng.",
+      "check": "Có bản cuối cùng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 356,
+      "title": "Viết lời cảm ơn",
+      "action": "Viết 60 từ lời cảm ơn đặt cuối bài (cảm ơn người đọc, người góp ý).",
+      "check": "Lời cảm ơn đủ 60 từ.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 357,
+      "title": "Tổng duyệt trước xuất bản",
+      "action": "Đọc toàn bài lần cuối như 1 độc giả mới, viết 5 câu nhận xét.",
+      "check": "Có 5 câu nhận xét.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 358,
+      "title": "Tập đăng nháp",
+      "action": "Đăng bài ở chế độ nháp/riêng tư, kiểm tra hiển thị: tiêu đề, mục, ảnh.",
+      "check": "Bản nháp hiển thị đúng.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 359,
+      "title": "Viết mô tả ngắn",
+      "action": "Viết 2 câu mô tả ngắn về bài để đăng kèm khi chia sẻ.",
+      "check": "Có 2 câu mô tả.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 360,
+      "title": "Chuẩn bị chia sẻ",
+      "action": "Viết 80 từ chia sẻ khi đăng bài: vì sao bạn viết bài này.",
+      "check": "Đoạn chia sẻ đủ 80 từ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 361,
+      "title": "Kiểm tra ảnh minh họa",
+      "action": "Mở bản nháp, kiểm tra mọi ảnh hiển thị đúng, không vỡ hình, không lệch bố cục.",
+      "check": "Mọi ảnh hiển thị đúng.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 362,
+      "title": "Hít thở trước giờ G",
+      "action": "Đọc lại tiêu đề + câu mở + câu kết lần cuối, viết 50 từ: cảm xúc của bạn lúc này.",
+      "check": "Viết được 50 từ cảm xúc.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 363,
+      "title": "Hoàn thiện bản thảo",
+      "action": "Hoàn thiện bản thảo bài dài 800–1000 từ, sẵn sàng bấm nút đăng vào ngày mai.",
+      "check": "Bản thảo đủ 800–1000 từ, sẵn sàng đăng.",
+      "minutes": 10,
+      "type": "project"
+    },
+    {
+      "day": 364,
+      "title": "Tổng kết mùa 4",
+      "action": "Viết 150 từ tổng kết mùa 4: bài dài của bạn nói về gì, điều tự hào nhất.",
+      "check": "Có đủ 2 phần.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 365,
+      "title": "Xuất bản bài viết của bạn",
+      "action": "Đăng bài viết hoàn chỉnh (800–1000 từ) lên blog hoặc note công khai, rồi viết 1 đoạn 150 từ tổng kết hành trình 365 ngày: điều học được và điều tự hào nhất.",
+      "check": "Có link bài đã đăng công khai và đoạn tổng kết đủ 150 từ.",
+      "minutes": 10,
+      "type": "capstone"
+    }
+  ]
+}

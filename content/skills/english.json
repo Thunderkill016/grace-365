@@ -1,0 +1,2953 @@
+{
+  "id": "english",
+  "name": "Tiếng Anh giao tiếp",
+  "tagline": "Mỗi ngày 1 cụm từ + nói thành tiếng",
+  "seasons": [
+    {
+      "season": 1,
+      "range": "1–91",
+      "name": "Phát âm + từ vựng cốt lõi",
+      "focus": "Luyện âm cơ bản, trọng âm và 300 từ/cụm giao tiếp cốt lõi qua nói to và ghi âm mỗi ngày."
+    },
+    {
+      "season": 2,
+      "range": "92–182",
+      "name": "Câu hoàn chỉnh, kể chuyện ngắn",
+      "focus": "Nói câu hoàn chỉnh qua 3 thì cơ bản, kể chuyện 1 phút và đóng vai hội thoại đời thường."
+    },
+    {
+      "season": 3,
+      "range": "183–273",
+      "name": "Nghe–đáp, tranh luận đơn giản",
+      "focus": "Phản xạ nghe–đáp ngay, nêu ý kiến có lý do và tranh luận lịch sự hai chiều."
+    },
+    {
+      "season": 4,
+      "range": "274–364",
+      "name": "Thuyết trình 3 phút",
+      "focus": "Xây dàn ý, mở rộng từ vựng theo chủ đề và thuyết trình 3 phút trôi chảy."
+    }
+  ],
+  "tasks": [
+    {
+      "day": 1,
+      "title": "Chào 5 cụm từ",
+      "action": "Đọc to 5 cụm chào hỏi (Hello, Hi, Good morning, Good afternoon, Good evening), mỗi cụm 3 lần, rồi ghi âm 1 lượt liền mạch.",
+      "check": "Nghe lại ghi âm, phát âm rõ và đúng cả 5 cụm.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 2,
+      "title": "Giới thiệu tên tuổi",
+      "action": "Nói to 3 câu giới thiệu tên, tuổi, nơi sống bằng tiếng Anh, lặp lại 3 vòng, ghi âm vòng cuối.",
+      "check": "Ghi âm nghe trôi chảy, không ngập ngừng quá 2 lần.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 3,
+      "title": "Đóng vai hỏi tên",
+      "action": "Đóng vai cả 2 người: hỏi to What is your name và Where are you from, rồi tự trả lời, lặp 3 lượt.",
+      "check": "Cả hỏi và đáp đều nói to, rõ ràng, đúng ngữ điệu câu hỏi.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 4,
+      "title": "Đếm số 1–10",
+      "action": "Đọc to số 1 đến 10 ba lượt, sau đó nói to số điện thoại của mình bằng tiếng Anh, ghi âm lại.",
+      "check": "Nghe lại ghi âm, đọc đúng thứ tự và rõ từng số.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 5,
+      "title": "Đếm số 11–20",
+      "action": "Đọc to số 11 đến 20, chú ý trọng âm thirteen và thirty, lặp 3 lượt rồi ghi âm.",
+      "check": "Phân biệt rõ thirteen với thirty, fourteen với forty khi nghe lại.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 6,
+      "title": "Số chục và năm sinh",
+      "action": "Đọc to 20, 30 cho đến 100, rồi nói to năm sinh và tuổi của mình bằng tiếng Anh, ghi âm.",
+      "check": "Nói đúng năm sinh và tuổi, không lẫn số chục với số đơn vị.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 7,
+      "title": "Kể lại tuần 1 không nhìn vở",
+      "action": "Kể lại 5 cụm chào hỏi và giới thiệu bản thân 30 giây bằng tiếng Anh mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: nói được hết ý chính mà không cần nhìn tài liệu.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 8,
+      "title": "Hỏi giờ bằng tiếng Anh",
+      "action": "Đọc to 5 mẫu câu hỏi giờ (What time is it, Do you have the time), mỗi câu 3 lần, ghi âm.",
+      "check": "Nghe lại: phát âm rõ cả 5 mẫu câu hỏi giờ.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 9,
+      "title": "Nói giờ đúng",
+      "action": "Nhìn đồng hồ, nói to giờ hiện tại theo 2 cách (three thirty và half past three), lặp với 5 mốc giờ khác nhau.",
+      "check": "Nói đúng cả 2 cách cho 5 mốc giờ đã chọn.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 10,
+      "title": "Ngày trong tuần",
+      "action": "Đọc to 7 ngày trong tuần 3 lượt, rồi nói to hôm nay thứ mấy, hôm qua và ngày mai là thứ mấy.",
+      "check": "Nói đúng thứ của hôm nay, hôm qua và ngày mai.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 11,
+      "title": "Tháng trong năm",
+      "action": "Đọc to 12 tháng 2 lượt, rồi nói to tháng sinh của mình và tháng hiện tại.",
+      "check": "Đọc đúng tên tháng sinh và tháng hiện tại.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 12,
+      "title": "Hẹn giờ giấc",
+      "action": "Đóng vai 2 người hẹn gặp: nói to Let us meet at 3 pm on Friday, đổi 3 khung giờ khác nhau, đọc to cả 2 vai.",
+      "check": "Cả 3 khung giờ hẹn đều nói to, rõ ràng, đúng cấu trúc.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 13,
+      "title": "Kể lịch hôm nay",
+      "action": "Nói to 4 việc hôm nay kèm giờ giấc bằng tiếng Anh, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 việc, mỗi việc có giờ giấc cụ thể.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 14,
+      "title": "Ôn giờ giấc tuần 2",
+      "action": "Nói to giờ hiện tại, hôm nay thứ mấy, tháng mấy mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: nói đúng giờ, thứ, tháng mà không cần nhìn tài liệu.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 15,
+      "title": "Phân biệt ship–sheep",
+      "action": "Đọc to từng cặp ship và sheep, bit và beat, sit và seat, mỗi cặp 5 lần, ghi âm và nghe lại.",
+      "check": "Nghe lại: phân biệt rõ âm ngắn và âm dài ở cả 3 cặp.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 16,
+      "title": "Phân biệt pen–pan",
+      "action": "Đọc to các cặp pen và pan, bed và bad, men và man, mỗi cặp 5 lần, ghi âm.",
+      "check": "Nghe lại: phân biệt rõ 2 âm ở cả 3 cặp.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 17,
+      "title": "Âm ơ trong câu",
+      "action": "Đọc to 5 từ có âm ơ (about, sofa, banana, doctor, mother), rồi đọc to 1 câu chứa cả 5 từ.",
+      "check": "Đọc trôi chảy cả câu, âm ơ nhẹ và tự nhiên.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 18,
+      "title": "Cặp cot–caught",
+      "action": "Đọc to các cặp cot và caught, stock và stalk, mỗi cặp 5 lần, ghi âm nghe lại.",
+      "check": "Nghe lại: phân biệt rõ 2 âm ở cả 2 cặp.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 19,
+      "title": "Cặp full–fool",
+      "action": "Đọc to các cặp full và fool, pull và pool, mỗi cặp 5 lần, rồi đặt mỗi từ vào 1 câu nói to.",
+      "check": "Đặt đúng 4 câu, phát âm phân biệt rõ từng cặp.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 20,
+      "title": "Ôn 5 cặp nguyên âm",
+      "action": "Đọc to lại 1 cặp mẫu của mỗi âm đã học tuần này, mỗi cặp 3 lần, ghi âm 1 lượt liền mạch.",
+      "check": "Nghe lại: đọc đúng và phân biệt rõ cả 5 cặp.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 21,
+      "title": "Ôn nguyên âm tuần 3",
+      "action": "Đọc to lại 1 cặp mẫu của mỗi âm đã học tuần này, mỗi cặp 3 lần, ghi âm 2 phút.",
+      "check": "Nghe lại: phân biệt rõ từng cặp âm đã học.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 22,
+      "title": "Từ vựng gia đình",
+      "action": "Đọc to 8 từ chỉ người thân (father, mother, brother, sister, son, daughter, husband, wife), mỗi từ kèm 1 câu This is my nói to.",
+      "check": "Đặt đúng 8 câu, phát âm rõ cả 8 từ.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 23,
+      "title": "Giới thiệu gia đình",
+      "action": "Nói to 4 câu giới thiệu các thành viên trong nhà, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu, thông tin rõ ràng.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 24,
+      "title": "Từ vựng nghề nghiệp",
+      "action": "Đọc to 8 nghề (teacher, doctor, driver, farmer, nurse, engineer, cook, seller), mỗi nghề 2 lần, rồi nói to nghề của mình.",
+      "check": "Đọc đúng cả 8 nghề và nói được nghề của mình.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 25,
+      "title": "Hỏi nghề người khác",
+      "action": "Đóng vai hỏi đáp What do you do và I am a với 3 nghề khác nhau, đọc to cả 2 vai.",
+      "check": "Cả 3 lượt hỏi đáp đều trôi chảy, đúng mẫu câu.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 26,
+      "title": "Kể về một người thân",
+      "action": "Nói to 5 câu về một người thân (tên, tuổi, nghề, sở thích), ghi âm.",
+      "check": "Nghe lại: đủ 5 câu với 4 thông tin yêu cầu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 27,
+      "title": "Đóng vai gặp người mới",
+      "action": "Đóng vai 2 người mới quen: chào, hỏi tên, hỏi nghề, hỏi nơi sống, hẹn gặp lại — đọc to trọn đoạn 3 lượt.",
+      "check": "Đọc trôi chảy cả đoạn, đúng ngữ điệu hội thoại.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 28,
+      "title": "Ôn gia đình tuần 4",
+      "action": "Giới thiệu 3 người thân và nghề của họ bằng tiếng Anh mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: nói được tên, tuổi, nghề của 3 người thân.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 29,
+      "title": "Cụm hỏi giá",
+      "action": "Đọc to 5 cụm hỏi giá (How much is this, How much are they, What is the price), mỗi cụm 3 lần, ghi âm.",
+      "check": "Nghe lại: phát âm rõ cả 5 cụm hỏi giá.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 30,
+      "title": "Nói giá tiền",
+      "action": "Đọc to 8 mức giá bằng tiếng Anh (5 dollars, 20 thousand dong), rồi tự đặt giá cho 3 món đồ trong nhà và nói to.",
+      "check": "Nói đúng 8 mức giá mẫu và giá của 3 món đồ tự chọn.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 31,
+      "title": "Mặc cả đơn giản",
+      "action": "Đóng vai người mua và người bán mặc cả 1 món đồ, đọc to cả 2 vai 3 lượt.",
+      "check": "Cả 2 vai đều nói to, rõ ràng, đúng trình tự mặc cả.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 32,
+      "title": "Từ vựng cửa hàng",
+      "action": "Đọc to 10 từ đồ dùng mua sắm (bag, receipt, change, discount, price tag), mỗi từ đặt 1 câu nói to.",
+      "check": "Đặt đúng 10 câu, phát âm rõ cả 10 từ.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 33,
+      "title": "Đóng vai ở chợ",
+      "action": "Đóng vai mua 3 món ở chợ: hỏi giá, trả giá, cảm ơn — đọc to trọn đoạn, ghi âm.",
+      "check": "Nghe lại: trọn đoạn trôi chảy, đủ 3 món.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 34,
+      "title": "Kể món đồ đã mua",
+      "action": "Nói to 4 câu về một món đồ mới mua (tên, giá, mua ở đâu, có thích không), ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu với 4 thông tin yêu cầu.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 35,
+      "title": "Ôn mua sắm tuần 5",
+      "action": "Đóng vai mua 1 món đồ (hỏi giá, trả giá, cảm ơn) mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 3 bước hỏi giá, trả giá, cảm ơn.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 36,
+      "title": "Cụm hỏi đường",
+      "action": "Đọc to 5 cụm hỏi đường (Excuse me, where is, How do I get to), mỗi cụm 3 lần.",
+      "check": "Phát âm rõ cả 5 cụm, ngữ điệu lịch sự.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 37,
+      "title": "Từ chỉ hướng",
+      "action": "Đọc to 8 từ chỉ hướng (left, right, straight, corner, next to, opposite, behind, near), mỗi từ kèm 1 câu ví dụ nói to.",
+      "check": "Đặt đúng 8 câu ví dụ, phát âm rõ cả 8 từ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 38,
+      "title": "Chỉ đường đơn giản",
+      "action": "Nhìn bản đồ trên điện thoại, chỉ đường từ nhà đến 1 địa điểm quen thuộc bằng tiếng Anh, nói to 3 lượt.",
+      "check": "Chỉ đúng đường đi, dùng đúng từ chỉ hướng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 39,
+      "title": "Đóng vai hỏi đường",
+      "action": "Đóng vai khách du lịch hỏi đường đến bưu điện và người dân chỉ đường — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, rõ ràng, đúng trình tự.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 40,
+      "title": "Từ vựng địa điểm",
+      "action": "Đọc to 10 địa điểm (bank, hospital, market, station, pharmacy), mỗi từ 2 lần, rồi nói to 3 nơi gần nhà mình.",
+      "check": "Đọc đúng 10 địa điểm và nói được 3 nơi gần nhà.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 41,
+      "title": "Kể đường đi làm",
+      "action": "Nói to 5 câu mô tả đường từ nhà đến chỗ làm hoặc chỗ học bằng tiếng Anh, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu, mô tả đúng trình tự đường đi.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 42,
+      "title": "Ôn hỏi đường tuần 6",
+      "action": "Chỉ đường từ nhà đến chợ bằng tiếng Anh mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: chỉ đúng đường đi với từ chỉ hướng đã học.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 43,
+      "title": "Gọi món cơ bản",
+      "action": "Đọc to 5 cụm gọi món (I would like, Can I have, I will take), mỗi cụm 3 lần, ghi âm.",
+      "check": "Nghe lại: phát âm rõ cả 5 cụm gọi món.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 44,
+      "title": "Từ vựng món ăn",
+      "action": "Đọc to 10 món ăn quen thuộc bằng tiếng Anh, mỗi từ 2 lần, rồi nói to 3 món mình thích.",
+      "check": "Đọc đúng 10 món và nói được 3 món mình thích.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 45,
+      "title": "Đóng vai ở quán ăn",
+      "action": "Đóng vai khách gọi 2 món và nhân viên xác nhận — đọc to cả 2 vai 3 lượt.",
+      "check": "Cả 2 vai đều nói to, rõ ràng, đúng trình tự gọi món.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 46,
+      "title": "Nói về khẩu vị",
+      "action": "Nói to 5 câu về món mình thích hoặc ghét kèm lý do ngắn (I like pho because), ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, mỗi câu có lý do.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 47,
+      "title": "Từ vựng đồ uống",
+      "action": "Đọc to 8 đồ uống, mỗi từ đặt 1 câu I usually drink nói to.",
+      "check": "Đặt đúng 8 câu, phát âm rõ cả 8 từ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 48,
+      "title": "Kể bữa ăn hôm qua",
+      "action": "Nói to 5 câu kể mình đã ăn gì hôm qua bằng tiếng Anh, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu, kể đúng các bữa đã ăn.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 49,
+      "title": "Ôn đồ ăn tuần 7",
+      "action": "Đóng vai gọi 2 món ở quán ăn mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: gọi đủ 2 món, đúng mẫu câu gọi món.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 50,
+      "title": "Cụm nói thời tiết",
+      "action": "Đọc to 6 cụm thời tiết (It is sunny, It is raining, It is cloudy), mỗi cụm 3 lần, rồi nói to thời tiết hôm nay.",
+      "check": "Phát âm rõ 6 cụm và nói đúng thời tiết hôm nay.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 51,
+      "title": "Hỏi về thời tiết",
+      "action": "Đóng vai hỏi đáp What is the weather like today với 3 kiểu thời tiết khác nhau, đọc to.",
+      "check": "Cả 3 lượt hỏi đáp đều trôi chảy, đúng mẫu câu.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 52,
+      "title": "Từ vựng cảm xúc",
+      "action": "Đọc to 10 từ cảm xúc (happy, tired, excited, sad, angry), mỗi từ kèm 1 câu I feel nói to.",
+      "check": "Đặt đúng 10 câu, phát âm rõ cả 10 từ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 53,
+      "title": "Kể tâm trạng hôm nay",
+      "action": "Nói to 4 câu về tâm trạng hôm nay và lý do, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu, mỗi câu có lý do rõ ràng.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 54,
+      "title": "An ủi đơn giản",
+      "action": "Đóng vai 2 người: một người buồn, một người an ủi bằng 3 câu tiếng Anh — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, lời an ủi chân thành, đúng ngữ điệu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 55,
+      "title": "Kể thời tiết quê mình",
+      "action": "Nói to 5 câu mô tả thời tiết quê mình theo mùa, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, mô tả đúng đặc trưng các mùa.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 56,
+      "title": "Ôn thời tiết tuần 8",
+      "action": "Nói to thời tiết hôm nay và tâm trạng của mình mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: nói đúng thời tiết và diễn đạt được tâm trạng.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 57,
+      "title": "Âm th trong think",
+      "action": "Đọc to 8 từ có âm th (think, thank, three, month, tooth), mỗi từ 5 lần, ghi âm nghe lại.",
+      "check": "Nghe lại: đặt lưỡi đúng, âm th rõ ở cả 8 từ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 58,
+      "title": "Âm th trong this",
+      "action": "Đọc to 8 từ (this, that, they, mother, father), mỗi từ 5 lần, rồi đọc to 3 câu chứa các từ này.",
+      "check": "Đọc trôi chảy 3 câu, âm th rung đúng.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 59,
+      "title": "Phân biệt s–z",
+      "action": "Đọc to các cặp sip và zip, price và prize, bus và buzz, mỗi cặp 5 lần, ghi âm.",
+      "check": "Nghe lại: phân biệt rõ âm xì và âm rung ở cả 3 cặp.",
+      "minutes": 4,
+      "type": "learn"
+    },
+    {
+      "day": 60,
+      "title": "Phân biệt r–l",
+      "action": "Đọc to các cặp right và light, road và load, red và led, mỗi cặp 5 lần, rồi đặt mỗi từ vào 1 câu nói to.",
+      "check": "Đặt đúng 6 câu, phát âm phân biệt rõ từng cặp.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 61,
+      "title": "Âm cuối từ",
+      "action": "Đọc to 10 từ, nhấn rõ phụ âm cuối (book, cup, bus, hand, milk), mỗi từ 3 lần, ghi âm.",
+      "check": "Nghe lại: bật rõ phụ âm cuối ở cả 10 từ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 62,
+      "title": "Ôn phụ âm tuần này",
+      "action": "Đọc to lại 2 từ mẫu của mỗi âm đã học, mỗi từ 3 lần, ghi âm 1 lượt liền mạch.",
+      "check": "Nghe lại: phát âm đúng cả 4 nhóm âm khó.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 63,
+      "title": "Ôn phụ âm tuần 9",
+      "action": "Đọc to lại 2 từ mẫu của mỗi âm đã học tuần này, mỗi từ 3 lần, ghi âm 2 phút.",
+      "check": "Nghe lại: phát âm đúng cả 4 nhóm âm khó.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 64,
+      "title": "Trọng âm 2 âm tiết",
+      "action": "Đọc to 8 từ 2 âm tiết, nhấn đúng trọng âm (table, hotel, happy, begin), mỗi từ 3 lần.",
+      "check": "Nhấn đúng trọng âm cả 8 từ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 65,
+      "title": "Trọng âm đổi nghĩa",
+      "action": "Đọc to các cặp present (danh từ và động từ), record (danh từ và động từ), mỗi cặp 3 lần, đặt câu nói to.",
+      "check": "Đặt đúng 4 câu, trọng âm đổi đúng theo loại từ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 66,
+      "title": "Ngữ điệu câu hỏi yes-no",
+      "action": "Đọc to 5 câu hỏi yes-no với giọng lên ở cuối câu, mỗi câu 3 lần, ghi âm.",
+      "check": "Nghe lại: giọng lên rõ ở cuối cả 5 câu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 67,
+      "title": "Ngữ điệu câu hỏi wh",
+      "action": "Đọc to 5 câu hỏi wh với giọng xuống ở cuối câu, mỗi câu 3 lần, ghi âm.",
+      "check": "Nghe lại: giọng xuống rõ ở cuối cả 5 câu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 68,
+      "title": "Nhấn từ quan trọng",
+      "action": "Đọc to 3 câu, nhấn mạnh từ mang nghĩa chính trong mỗi câu, lặp 3 lượt, ghi âm.",
+      "check": "Nghe lại: từ khóa được nhấn rõ trong cả 3 câu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 69,
+      "title": "Nối âm đơn giản",
+      "action": "Đọc to 5 cụm có nối âm (an apple, lots of, pick it up), mỗi cụm 5 lần, tăng tốc dần.",
+      "check": "Đọc nhanh dần mà vẫn rõ nghĩa cả 5 cụm.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 70,
+      "title": "Ôn ngữ điệu tuần 10",
+      "action": "Đọc to 2 câu hỏi yes-no và 2 câu hỏi wh đã học, đúng ngữ điệu, ghi âm 1 phút.",
+      "check": "Nghe lại: giọng lên đúng ở câu yes-no, xuống đúng ở câu wh.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 71,
+      "title": "Từ vựng phòng ốc",
+      "action": "Đọc to 8 từ chỉ phòng (kitchen, bedroom, bathroom, living room), mỗi từ 2 lần, rồi nói to 3 phòng trong nhà mình.",
+      "check": "Đọc đúng 8 từ và nói được 3 phòng trong nhà.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 72,
+      "title": "Từ vựng đồ đạc",
+      "action": "Đọc to 10 đồ vật trong nhà, mỗi từ kèm 1 câu There is a nói to.",
+      "check": "Đặt đúng 10 câu, phát âm rõ cả 10 từ.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 73,
+      "title": "Mô tả phòng khách",
+      "action": "Nói to 5 câu mô tả phòng khách nhà mình bằng tiếng Anh, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu, mô tả đúng phòng khách thật.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 74,
+      "title": "Hỏi mượn đồ",
+      "action": "Đóng vai hỏi mượn 1 món đồ và được đồng ý hoặc từ chối lịch sự — đọc to cả 2 vai 3 lượt.",
+      "check": "Cả 2 vai đều nói to, đúng mẫu câu mượn đồ.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 75,
+      "title": "Mô tả món đồ yêu thích",
+      "action": "Nói to 5 câu về món đồ yêu thích (màu sắc, mua ở đâu, vì sao thích), ghi âm.",
+      "check": "Nghe lại: đủ 5 câu với 3 thông tin yêu cầu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 76,
+      "title": "Đóng vai khách đến nhà",
+      "action": "Đóng vai chủ nhà mời khách vào và giới thiệu các phòng — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đúng trình tự tiếp khách.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 77,
+      "title": "Ôn nhà cửa tuần 11",
+      "action": "Mô tả phòng ngủ của mình bằng 5 câu tiếng Anh mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu mô tả đúng phòng ngủ của mình.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 78,
+      "title": "Từ vựng sở thích",
+      "action": "Đọc to 10 sở thích (reading, swimming, cooking, singing), mỗi từ 2 lần, rồi nói to 3 sở thích của mình.",
+      "check": "Đọc đúng 10 từ và nói được 3 sở thích của mình.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 79,
+      "title": "Nói về cuối tuần",
+      "action": "Nói to 5 câu về việc thường làm vào cuối tuần, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu, đúng thói quen cuối tuần thật.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 80,
+      "title": "Rủ bạn đi chơi",
+      "action": "Đóng vai rủ bạn đi xem phim cuối tuần: mời, hẹn giờ, đồng ý — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 3 bước mời, hẹn, đồng ý.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 81,
+      "title": "Kể về phim yêu thích",
+      "action": "Nói to 5 câu về 1 bộ phim hoặc cuốn sách yêu thích bằng tiếng Anh, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, nêu được lý do yêu thích.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 82,
+      "title": "Hỏi sở thích người khác",
+      "action": "Đóng vai hỏi đáp What do you like doing với 3 sở thích khác nhau, đọc to.",
+      "check": "Cả 3 lượt hỏi đáp đều trôi chảy, đúng mẫu câu.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 83,
+      "title": "Kể kế hoạch cuối tuần này",
+      "action": "Nói to 4 câu về dự định cuối tuần này, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu, kế hoạch cụ thể.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 84,
+      "title": "Ôn sở thích tuần 12",
+      "action": "Kể 3 sở thích của mình và rủ bạn đi chơi cuối tuần mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: kể đủ 3 sở thích và có câu rủ đi chơi.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 85,
+      "title": "Ôn chào hỏi nâng cao",
+      "action": "Đọc to 5 cách chào trang trọng và thân mật (How is it going, Nice to meet you), mỗi cụm 3 lần.",
+      "check": "Phát âm rõ cả 5 cách chào, đúng ngữ cảnh.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 86,
+      "title": "Giới thiệu bản thân 60 giây",
+      "action": "Nói to giới thiệu bản thân 60 giây không dừng (tên, tuổi, nghề, sở thích), ghi âm.",
+      "check": "Nghe lại: nói liền 60 giây, đủ 4 thông tin.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 87,
+      "title": "Đóng vai tổng hợp",
+      "action": "Đóng vai 2 người mới quen: chào, giới thiệu, hỏi nghề, hẹn gặp lại — đọc to trọn đoạn 2 lượt.",
+      "check": "Đọc trôi chảy cả đoạn, đúng trình tự gặp gỡ.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 88,
+      "title": "Kể 1 ngày bằng tiếng Anh",
+      "action": "Nói to 6 câu kể các việc trong ngày hôm nay, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 6 câu theo trình tự thời gian.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 89,
+      "title": "Đọc to đoạn hội thoại",
+      "action": "Đọc 1 đoạn hội thoại ngắn bất kỳ rồi đóng vai đọc to cả 2 vai, ghi âm 2 phút.",
+      "check": "Nghe lại: cả 2 vai đều rõ ràng, đúng ngữ điệu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 90,
+      "title": "Thu âm giới thiệu bản thân",
+      "action": "Thu âm 1 bản giới thiệu bản thân 90 giây hoàn chỉnh nhất có thể, nghe lại 2 lần.",
+      "check": "Nghe lại 2 lần: bản thu trôi chảy, ít lỗi phát âm.",
+      "minutes": 8,
+      "type": "project"
+    },
+    {
+      "day": 91,
+      "title": "Kiểm tra cuối mùa 1",
+      "action": "Giới thiệu bản thân 60 giây, đếm số 1 đến 20, kể 3 cụm mua sắm mà không nhìn tài liệu, ghi âm 3 phút.",
+      "check": "Nghe lại: hoàn thành cả 3 phần mà không cần nhìn tài liệu.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 92,
+      "title": "Thói quen buổi sáng",
+      "action": "Nói to 5 câu về thói quen buổi sáng dùng I always và I usually (I wake up at 6), ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, dùng đúng always và usually.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 93,
+      "title": "Hỏi thói quen bạn bè",
+      "action": "Đóng vai hỏi đáp What time do you wake up với 3 thói quen khác nhau, đọc to.",
+      "check": "Cả 3 lượt hỏi đáp đều trôi chảy, đúng mẫu câu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 94,
+      "title": "Kể công việc hằng ngày",
+      "action": "Nói to 6 câu về công việc hằng ngày dùng thì hiện tại đơn, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 6 câu, động từ chia đúng.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 95,
+      "title": "Câu phủ định đơn giản",
+      "action": "Nói to 5 câu phủ định về thói quen (I do not smoke, She does not like coffee), mỗi câu 2 lần.",
+      "check": "Nói đúng cấu trúc phủ định cả 5 câu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 96,
+      "title": "Đóng vai phỏng vấn nhỏ",
+      "action": "Đóng vai phóng viên hỏi 5 câu về thói quen hằng ngày, người kia trả lời — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 5 câu hỏi đáp.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 97,
+      "title": "Kể lịch trình 1 ngày",
+      "action": "Nói to 7 câu kể lịch trình hôm qua từ sáng đến tối, ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 7 câu theo trình tự thời gian.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 98,
+      "title": "Ôn hiện tại đơn tuần 14",
+      "action": "Kể 5 thói quen hằng ngày dùng thì hiện tại đơn mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu, động từ chia đúng thì hiện tại đơn.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 99,
+      "title": "Đang làm gì bây giờ",
+      "action": "Nói to 5 câu về việc đang làm (I am sitting, You are listening), mỗi câu 2 lần.",
+      "check": "Nói đúng cấu trúc tiếp diễn cả 5 câu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 100,
+      "title": "Mô tả người xung quanh",
+      "action": "Nhìn quanh, nói to 5 câu mô tả người hoặc vật đang làm gì, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu mô tả đúng thực tế.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 101,
+      "title": "Phân biệt đơn và tiếp diễn",
+      "action": "Nói to 5 cặp câu (I live in Hanoi và I am living with my friend now), mỗi cặp 2 lần.",
+      "check": "Nói đúng cả 5 cặp, phân biệt rõ 2 thì.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 102,
+      "title": "Đóng vai gọi điện",
+      "action": "Đóng vai 2 người gọi điện: What are you doing — đọc to cả 2 vai 3 lượt.",
+      "check": "Cả 2 vai đều nói to, đúng mẫu câu điện thoại.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 103,
+      "title": "Kể việc đang diễn ra",
+      "action": "Mở 1 video bất kỳ tắt tiếng, nói to 5 câu mô tả việc đang diễn ra, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu mô tả đúng video.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 104,
+      "title": "Kể dự định tối nay",
+      "action": "Nói to 4 câu về dự định tối nay dùng I am meeting và I am going, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu, dùng đúng cấu trúc dự định.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 105,
+      "title": "Ôn tiếp diễn tuần 15",
+      "action": "Mô tả 4 việc đang diễn ra quanh mình mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu, dùng đúng cấu trúc đang diễn ra.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 106,
+      "title": "Kể việc hôm qua",
+      "action": "Nói to 6 câu kể hôm qua đã làm gì dùng quá khứ đơn (I woke up, I ate), ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 6 câu, động từ quá khứ đúng.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 107,
+      "title": "Động từ bất quy tắc",
+      "action": "Đọc to 10 động từ bất quy tắc kèm dạng quá khứ (go và went, eat và ate), mỗi cặp 3 lần.",
+      "check": "Đọc đúng dạng quá khứ cả 10 động từ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 108,
+      "title": "Hỏi về cuối tuần qua",
+      "action": "Đóng vai hỏi đáp What did you do last weekend với 3 chủ đề khác nhau, đọc to.",
+      "check": "Cả 3 lượt hỏi đáp đều trôi chảy, đúng mẫu câu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 109,
+      "title": "Kể kỷ niệm vui",
+      "action": "Nói to 6 câu kể 1 kỷ niệm vui trong quá khứ, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 6 câu, có mở đầu và kết thúc.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 110,
+      "title": "Câu phủ định quá khứ",
+      "action": "Nói to 5 câu phủ định quá khứ (I did not go, She did not call), mỗi câu 2 lần.",
+      "check": "Nói đúng cấu trúc phủ định cả 5 câu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 111,
+      "title": "Kể bộ phim đã xem",
+      "action": "Nói to 5 câu kể nội dung 1 bộ phim đã xem bằng quá khứ đơn, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, kể đúng mạch phim.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 112,
+      "title": "Ôn quá khứ đơn tuần 16",
+      "action": "Kể 5 việc đã làm hôm qua dùng quá khứ đơn mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu, động từ quá khứ đúng.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 113,
+      "title": "Dự định cuối tuần",
+      "action": "Nói to 5 câu về dự định dùng will và going to (I will visit, I am going to), ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, dùng đúng 2 cấu trúc.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 114,
+      "title": "Hứa hẹn đơn giản",
+      "action": "Nói to 5 câu hứa (I will call you, I will help), mỗi câu 2 lần, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu hứa, phát âm rõ ràng.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 115,
+      "title": "Đóng vai lên kế hoạch",
+      "action": "Đóng vai 2 bạn lên kế hoạch đi chơi cuối tuần bằng thì tương lai — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, dùng đúng thì tương lai.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 116,
+      "title": "Kể ước mơ 5 năm tới",
+      "action": "Nói to 5 câu về ước mơ 5 năm tới, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 5 câu, ước mơ cụ thể.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 117,
+      "title": "Dự đoán vui",
+      "action": "Nói to 5 câu dự đoán về bản thân năm sau (I think I will), ghi âm.",
+      "check": "Nghe lại: đủ 5 câu dự đoán thú vị.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 118,
+      "title": "Kể lịch ngày mai",
+      "action": "Nói to 6 câu kể lịch ngày mai từ sáng đến tối, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 6 câu theo trình tự thời gian.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 119,
+      "title": "Ôn tương lai tuần 17",
+      "action": "Kể 4 dự định tuần tới dùng thì tương lai mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu, dùng đúng will hoặc going to.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 120,
+      "title": "Kể buổi sáng 30 giây",
+      "action": "Bấm giờ, kể buổi sáng hôm nay trong 30 giây không dừng, ghi âm, nghe lại.",
+      "check": "Nghe lại: nói liền 30 giây không dừng.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 121,
+      "title": "Kể buổi chiều 30 giây",
+      "action": "Bấm giờ, kể buổi chiều hôm nay trong 30 giây không dừng, ghi âm.",
+      "check": "Nghe lại: nói liền 30 giây không dừng.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 122,
+      "title": "Kể cả ngày 1 phút",
+      "action": "Bấm giờ 1 phút, kể trọn 1 ngày hôm nay không dừng, ghi âm, nghe lại.",
+      "check": "Nghe lại: nói liền 1 phút, đủ sáng chiều tối.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 123,
+      "title": "Kể lại có thêm chi tiết",
+      "action": "Kể lại 1 ngày hôm nay trong 1 phút, thêm 3 chi tiết cảm xúc (I felt happy because), ghi âm.",
+      "check": "Nghe lại: đủ 3 chi tiết cảm xúc trong 1 phút.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 124,
+      "title": "Kể ngày hôm qua 1 phút",
+      "action": "Bấm giờ 1 phút, kể ngày hôm qua dùng quá khứ đơn, không dừng, ghi âm.",
+      "check": "Nghe lại: nói liền 1 phút, động từ quá khứ đúng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 125,
+      "title": "Kể ngày mai 1 phút",
+      "action": "Bấm giờ 1 phút, kể dự định ngày mai dùng thì tương lai, không dừng, ghi âm.",
+      "check": "Nghe lại: nói liền 1 phút, dùng đúng thì tương lai.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 126,
+      "title": "Ôn kể 1 phút tuần 18",
+      "action": "Bấm giờ 1 phút, kể trọn 1 ngày hôm nay không dừng, ghi âm.",
+      "check": "Nghe lại: nói liền 1 phút, không dừng quá 3 giây.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 127,
+      "title": "Đọc thực đơn tiếng Anh",
+      "action": "Đọc to tên 10 món trong 1 thực đơn tiếng Anh bất kỳ, mỗi món 2 lần.",
+      "check": "Đọc đúng tên cả 10 món ăn.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 128,
+      "title": "Đóng vai gọi món",
+      "action": "Đóng vai khách và phục vụ: gọi 2 món, hỏi giá, xin hóa đơn — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 3 bước.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 129,
+      "title": "Phàn nàn lịch sự",
+      "action": "Đóng vai khách phàn nàn món ăn bị nguội và phục vụ xin lỗi — đọc to cả 2 vai 2 lượt.",
+      "check": "Cả 2 vai đều nói to, lời phàn nàn lịch sự.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 130,
+      "title": "Khen món ăn",
+      "action": "Nói to 5 câu khen món ăn (This is delicious, I love the), mỗi câu 2 lần, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu khen khác nhau.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 131,
+      "title": "Đóng vai thanh toán",
+      "action": "Đóng vai xin hóa đơn, hỏi có tính phí phục vụ không, cảm ơn — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 3 bước thanh toán.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 132,
+      "title": "Kể bữa ăn ngon nhất",
+      "action": "Nói to 6 câu kể về bữa ăn ngon nhất từng ăn, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 6 câu, tả được món ăn.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 133,
+      "title": "Ôn nhà hàng tuần 19",
+      "action": "Đóng vai gọi 1 món và xin hóa đơn mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 2 bước gọi món và xin hóa đơn.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 134,
+      "title": "Hỏi size và màu",
+      "action": "Đóng vai khách hỏi size, màu, thử đồ trong cửa hàng quần áo — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 3 bước hỏi.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 135,
+      "title": "Mặc cả ở chợ",
+      "action": "Đóng vai mua 1 món ở chợ: hỏi giá, trả giá 2 vòng, chốt mua — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 2 vòng trả giá.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 136,
+      "title": "Đổi trả hàng",
+      "action": "Đóng vai khách muốn đổi size áo và nhân viên đồng ý — đọc to cả 2 vai 2 lượt.",
+      "check": "Cả 2 vai đều nói to, đúng mẫu câu đổi trả.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 137,
+      "title": "Kể món đồ vừa mua",
+      "action": "Nói to 5 câu về món đồ gần đây đã mua (giá, ở đâu, có hài lòng không), ghi âm.",
+      "check": "Nghe lại: đủ 5 câu với 3 thông tin yêu cầu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 138,
+      "title": "So sánh 2 món đồ",
+      "action": "Nói to 5 câu so sánh 2 món đồ (cheaper, better, more beautiful), ghi âm.",
+      "check": "Nghe lại: đủ 5 câu so sánh đúng cấu trúc.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 139,
+      "title": "Đóng vai mua quà",
+      "action": "Đóng vai nhờ nhân viên tư vấn mua quà sinh nhật cho bạn — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ hỏi và tư vấn.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 140,
+      "title": "Ôn mua sắm tuần 20",
+      "action": "Đóng vai hỏi size và mặc cả 1 món đồ mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 2 bước hỏi size và mặc cả.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 141,
+      "title": "Đặt phòng khách sạn",
+      "action": "Đóng vai đặt phòng: hỏi giá, loại phòng, ngày nhận và trả — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 3 bước đặt phòng.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 142,
+      "title": "Hỏi đường ở phố lạ",
+      "action": "Đóng vai du khách hỏi đường đến 3 địa điểm, người dân chỉ đường — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, chỉ đúng 3 địa điểm.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 143,
+      "title": "Mua vé tàu xe",
+      "action": "Đóng vai mua vé: hỏi giờ chạy, giá vé, chọn ghế — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 3 bước mua vé.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 144,
+      "title": "Kể chuyến đi đã qua",
+      "action": "Nói to 6 câu kể 1 chuyến đi đáng nhớ bằng quá khứ đơn, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 6 câu, động từ quá khứ đúng.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 145,
+      "title": "Kể chuyến đi mơ ước",
+      "action": "Nói to 5 câu về nơi muốn đến du lịch và lý do, dùng thì tương lai, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, lý do rõ ràng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 146,
+      "title": "Đóng vai ở sân bay",
+      "action": "Đóng vai làm thủ tục: đưa hộ chiếu, hỏi cửa ra máy bay — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đúng trình tự sân bay.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 147,
+      "title": "Ôn du lịch tuần 21",
+      "action": "Đóng vai đặt 1 phòng khách sạn mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 3 bước hỏi giá, loại phòng, ngày nhận trả.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 148,
+      "title": "Kể chuyện 3 câu",
+      "action": "Nói to 1 câu chuyện mini chỉ 3 câu (mở đầu, diễn biến, kết thúc), lặp 3 lần cho trôi chảy, ghi âm.",
+      "check": "Nghe lại: đủ 3 phần, kể trôi chảy.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 149,
+      "title": "Kể chuyện 5 câu",
+      "action": "Nói to 1 câu chuyện 5 câu về 1 lần bị muộn giờ, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu, mạch chuyện rõ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 150,
+      "title": "Kể chuyện có hội thoại",
+      "action": "Kể 1 chuyện ngắn 5 câu, trong đó 2 câu là lời thoại trực tiếp, đọc to, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, 2 câu thoại đúng ngữ điệu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 151,
+      "title": "Kể chuyện cười",
+      "action": "Kể 1 mẩu chuyện cười bằng tiếng Anh trong 1 phút, ghi âm, nghe lại.",
+      "check": "Nghe lại: kể hết chuyện trong 1 phút, có điểm gây cười.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 152,
+      "title": "Kể lại phim hoạt hình",
+      "action": "Kể lại nội dung 1 tập phim hoạt hình đã xem trong 90 giây, ghi âm.",
+      "check": "Nghe lại: kể đúng mạch phim trong 90 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 153,
+      "title": "Kể chuyện cổ tích",
+      "action": "Kể lại 1 truyện cổ tích quen thuộc bằng tiếng Anh trong 90 giây, ghi âm.",
+      "check": "Nghe lại: kể đúng cốt truyện trong 90 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 154,
+      "title": "Ôn kể chuyện tuần 22",
+      "action": "Kể 1 câu chuyện 5 câu có mở đầu và kết thúc mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu, có mở đầu và kết thúc rõ.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 155,
+      "title": "So sánh hơn",
+      "action": "Nói to 8 câu so sánh hơn (bigger, more expensive, taller), mỗi câu 2 lần.",
+      "check": "Nói đúng cấu trúc so sánh hơn cả 8 câu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 156,
+      "title": "So sánh nhất",
+      "action": "Nói to 6 câu so sánh nhất (the best, the tallest, the cheapest), mỗi câu 2 lần.",
+      "check": "Nói đúng cấu trúc so sánh nhất cả 6 câu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 157,
+      "title": "So sánh 2 thành phố",
+      "action": "Nói to 5 câu so sánh quê mình với nơi đang sống, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu so sánh cụ thể.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 158,
+      "title": "So sánh 2 người bạn",
+      "action": "Nói to 5 câu so sánh 2 người bạn (ai cao hơn, vui tính hơn), ghi âm.",
+      "check": "Nghe lại: đủ 5 câu so sánh rõ ràng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 159,
+      "title": "So sánh bằng",
+      "action": "Nói to 5 câu dùng as tall as và as good as, mỗi câu 2 lần.",
+      "check": "Nói đúng cấu trúc so sánh bằng cả 5 câu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 160,
+      "title": "Chọn cái tốt hơn",
+      "action": "Đóng vai 2 người tranh luận mua điện thoại nào tốt hơn, mỗi người 3 câu — đọc to.",
+      "check": "Cả 2 vai đều nói to, mỗi người đủ 3 câu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 161,
+      "title": "Ôn so sánh tuần 23",
+      "action": "Nói 4 câu so sánh 2 người bạn mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu so sánh đúng cấu trúc.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 162,
+      "title": "Kinh nghiệm đã từng",
+      "action": "Nói to 5 câu dùng I have been to và I have tried (I have been to Da Lat), mỗi câu 2 lần.",
+      "check": "Nói đúng cấu trúc cả 5 câu.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 163,
+      "title": "Việc vừa mới xong",
+      "action": "Nói to 5 câu dùng I have just finished về việc hôm nay, mỗi câu 2 lần.",
+      "check": "Nói đúng cấu trúc cả 5 câu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 164,
+      "title": "Hỏi kinh nghiệm",
+      "action": "Đóng vai hỏi đáp Have you ever tried với 3 trải nghiệm khác nhau, đọc to.",
+      "check": "Cả 3 lượt hỏi đáp đều trôi chảy, đúng mẫu câu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 165,
+      "title": "Kể 3 việc đã làm tuần này",
+      "action": "Nói to 3 câu dùng I have và quá khứ phân từ về tuần này, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 3 câu, phân từ đúng.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 166,
+      "title": "Chưa từng làm",
+      "action": "Nói to 5 câu dùng I have never (I have never flown), mỗi câu 2 lần, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, cấu trúc đúng.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 167,
+      "title": "Kể thành tích tự hào",
+      "action": "Nói to 4 câu về việc tự hào đã làm được dùng hiện tại hoàn thành, ghi âm.",
+      "check": "Nghe lại: đủ 4 câu, cấu trúc đúng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 168,
+      "title": "Ôn hoàn thành tuần 24",
+      "action": "Nói 3 câu về việc đã từng làm dùng cấu trúc đã học mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 3 câu, cấu trúc đúng.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 169,
+      "title": "Mở đầu cuộc gọi",
+      "action": "Đọc to 5 mẫu mở đầu cuộc gọi (Hello, this is, May I speak to), mỗi mẫu 3 lần.",
+      "check": "Phát âm rõ cả 5 mẫu mở đầu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 170,
+      "title": "Đóng vai gọi bạn",
+      "action": "Đóng vai 2 người gọi điện rủ đi cà phê: chào, hỏi thăm, hẹn giờ — đọc to.",
+      "check": "Cả 2 vai đều nói to, đủ 3 bước.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 171,
+      "title": "Nhắn lại lời nhắn",
+      "action": "Đóng vai để lại lời nhắn thoại 30 giây cho bạn vắng nhà, ghi âm, nghe lại.",
+      "check": "Nghe lại: lời nhắn đủ 30 giây, rõ ràng.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 172,
+      "title": "Gọi đặt bàn",
+      "action": "Đóng vai gọi điện đặt bàn nhà hàng cho 4 người tối thứ Bảy — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ thông tin đặt bàn.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 173,
+      "title": "Gọi xin nghỉ phép",
+      "action": "Đóng vai gọi điện xin nghỉ ốm 1 ngày, sếp đồng ý — đọc to cả 2 vai 2 lượt.",
+      "check": "Cả 2 vai đều nói to, đúng mẫu câu xin nghỉ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 174,
+      "title": "Kết thúc cuộc gọi",
+      "action": "Đọc to 5 mẫu kết thúc cuộc gọi (Nice talking to you, Talk to you soon), mỗi mẫu 3 lần, ghi âm.",
+      "check": "Nghe lại: phát âm rõ cả 5 mẫu kết thúc.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 175,
+      "title": "Ôn điện thoại tuần 25",
+      "action": "Đóng vai gọi điện rủ bạn đi cà phê mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 3 bước chào, hỏi thăm, hẹn giờ.",
+      "minutes": 5,
+      "type": "review"
+    },
+    {
+      "day": 176,
+      "title": "Kể tuần này 90 giây",
+      "action": "Bấm giờ 90 giây, kể 5 việc nổi bật tuần này không dừng, ghi âm.",
+      "check": "Nghe lại: nói liền 90 giây, đủ 5 việc.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 177,
+      "title": "Đóng vai tổng hợp",
+      "action": "Đóng vai 2 bạn cũ gặp lại: hỏi thăm, kể chuyện, hẹn gặp — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 3 phần.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 178,
+      "title": "Kể 3 thì trong 1 bài",
+      "action": "Nói to 1 bài 90 giây gồm quá khứ (hôm qua), hiện tại (bây giờ), tương lai (ngày mai), ghi âm.",
+      "check": "Nghe lại: đủ 3 thì, chuyển thì đúng.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 179,
+      "title": "Đọc to truyện ngắn",
+      "action": "Đọc 1 truyện ngắn tiếng Anh bất kỳ rồi kể lại bằng lời mình trong 90 giây, ghi âm.",
+      "check": "Nghe lại: kể lại đúng ý chính trong 90 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 180,
+      "title": "Phỏng vấn bản thân",
+      "action": "Tự hỏi và tự trả lời 5 câu về bản thân (sở thích, ước mơ), đọc to, ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 5 cặp hỏi đáp.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 181,
+      "title": "Thu âm kể tuần của mình",
+      "action": "Thu âm 1 bài kể về tuần của mình dài 2 phút, dùng cả 3 thì, nghe lại 2 lần.",
+      "check": "Nghe lại 2 lần: đủ 2 phút, cả 3 thì đúng.",
+      "minutes": 9,
+      "type": "project"
+    },
+    {
+      "day": 182,
+      "title": "Kiểm tra cuối mùa 2",
+      "action": "Kể 1 ngày hôm qua (quá khứ), 1 dự định (tương lai), đóng vai gọi món 1 phút mà không nhìn tài liệu, ghi âm 4 phút.",
+      "check": "Nghe lại: hoàn thành cả 3 phần, thì dùng đúng.",
+      "minutes": 9,
+      "type": "review"
+    },
+    {
+      "day": 183,
+      "title": "Đáp nhanh yes-no",
+      "action": "Tự ghi âm 6 câu hỏi yes-no về bản thân, phát lại, trả lời ngay mỗi câu trong 5 giây, ghi âm phần trả lời.",
+      "check": "Nghe lại: trả lời đủ 6 câu, mỗi câu trong 5 giây.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 184,
+      "title": "Đáp câu hỏi thói quen",
+      "action": "Tự ghi âm 5 câu hỏi về thói quen của mình, phát lại, trả lời ngay không suy nghĩ, ghi âm.",
+      "check": "Nghe lại: trả lời ngay cả 5 câu, không ngập ngừng lâu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 185,
+      "title": "Đáp đúng trọng tâm",
+      "action": "Nghe lại ghi âm câu hỏi hôm qua, trả lời lại nhưng mỗi câu chỉ dùng 1 câu ngắn gọn, ghi âm.",
+      "check": "Nghe lại: câu trả lời ngắn gọn, đúng trọng tâm.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 186,
+      "title": "Hỏi–đáp tốc độ",
+      "action": "Đặt hẹn giờ 2 phút, tự hỏi và tự đáp liên tục càng nhiều câu yes-no càng tốt, ghi âm.",
+      "check": "Nghe lại: hỏi đáp liên tục đủ 2 phút.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 187,
+      "title": "Đáp câu hỏi bất ngờ",
+      "action": "Viết 8 câu hỏi yes-no ra giấy, xáo trộn, bốc từng câu đọc to và trả lời ngay, ghi âm.",
+      "check": "Nghe lại: trả lời ngay cả 8 câu bốc được.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 188,
+      "title": "Đáp dài hơn 1 câu",
+      "action": "Đáp lại 5 câu hỏi yes-no, mỗi câu trả lời 2 đến 3 câu đầy đủ, ghi âm 2 phút.",
+      "check": "Nghe lại: mỗi câu trả lời đủ 2 đến 3 câu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 189,
+      "title": "Ôn đáp nhanh tuần 27",
+      "action": "Tự ghi âm 5 câu hỏi yes-no mới, phát lại, trả lời ngay trong 5 giây, ghi âm.",
+      "check": "Nghe lại: trả lời đủ 5 câu, mỗi câu trong 5 giây.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 190,
+      "title": "Đáp nhanh what-where",
+      "action": "Tự ghi âm 6 câu hỏi what và where, phát lại, trả lời ngay trong 5 giây, ghi âm.",
+      "check": "Nghe lại: trả lời đủ 6 câu, mỗi câu trong 5 giây.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 191,
+      "title": "Đáp nhanh when-why",
+      "action": "Tự ghi âm 6 câu hỏi when và why, phát lại, trả lời ngay trong 5 giây, ghi âm.",
+      "check": "Nghe lại: trả lời đủ 6 câu, mỗi câu trong 5 giây.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 192,
+      "title": "Đáp who-which-how",
+      "action": "Tự ghi âm 6 câu hỏi who, which và how, phát lại, trả lời ngay, ghi âm.",
+      "check": "Nghe lại: trả lời đủ 6 câu không dừng lâu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 193,
+      "title": "Trả lời có mở rộng",
+      "action": "Đáp 4 câu hỏi wh, mỗi câu trả lời 2 câu (trả lời và thêm chi tiết), ghi âm.",
+      "check": "Nghe lại: mỗi câu trả lời đủ 2 câu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 194,
+      "title": "Hỏi ngược lại",
+      "action": "Trả lời 5 câu hỏi rồi hỏi ngược lại 1 câu liên quan mỗi lần (And you), ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 5 lượt trả lời và hỏi ngược.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 195,
+      "title": "Đáp câu hỏi dài",
+      "action": "Tự ghi âm 4 câu hỏi dài hơn 10 từ, phát lại, trả lời ngay không dừng, ghi âm.",
+      "check": "Nghe lại: trả lời ngay cả 4 câu dài.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 196,
+      "title": "Ôn wh-questions tuần 28",
+      "action": "Tự ghi âm 5 câu hỏi wh mới, phát lại, trả lời ngay trong 5 giây, ghi âm.",
+      "check": "Nghe lại: trả lời đủ 5 câu, mỗi câu trong 5 giây.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 197,
+      "title": "Tôi nghĩ vì",
+      "action": "Nói to 5 câu theo mẫu I think kèm because về chủ đề ăn uống, mỗi câu 2 lần.",
+      "check": "Nói đúng mẫu cả 5 câu.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 198,
+      "title": "Ý kiến về phim",
+      "action": "Nói to 4 câu nêu ý kiến về 1 bộ phim kèm 1 lý do, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu, mỗi câu có lý do.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 199,
+      "title": "Ý kiến về nơi sống",
+      "action": "Nói to 4 câu nêu ý kiến về nơi đang sống kèm lý do, ghi âm.",
+      "check": "Nghe lại: đủ 4 câu, lý do cụ thể.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 200,
+      "title": "Ý kiến trái chiều",
+      "action": "Nói to 1 ý kiến rồi tự phản biện bằng 1 ý kiến ngược lại có lý do, ghi âm.",
+      "check": "Nghe lại: có đủ ý kiến và phản biện có lý do.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 201,
+      "title": "Bình chọn vui",
+      "action": "Nói to ý kiến chọn 1 trong 2 (trà hay cà phê, biển hay núi) kèm 2 lý do, ghi âm 90 giây.",
+      "check": "Nghe lại: chọn rõ 1 bên, đủ 2 lý do.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 202,
+      "title": "Ý kiến về công việc",
+      "action": "Nói to 4 câu nêu ý kiến về công việc hoặc học tập hiện tại kèm lý do, ghi âm.",
+      "check": "Nghe lại: đủ 4 câu, lý do rõ ràng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 203,
+      "title": "Ôn ý kiến tuần 29",
+      "action": "Nói to 3 ý kiến theo mẫu tôi nghĩ kèm lý do mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 3 ý kiến, mỗi ý kiến có 1 lý do.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 204,
+      "title": "Đồng ý lịch sự",
+      "action": "Đọc to 5 mẫu đồng ý (I agree, Exactly, You are right), mỗi mẫu 3 lần, rồi áp dụng đáp 3 ý kiến tự ghi âm.",
+      "check": "Áp dụng đúng 3 mẫu vào 3 ý kiến.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 205,
+      "title": "Không đồng ý nhẹ nhàng",
+      "action": "Đọc to 5 mẫu không đồng ý lịch sự (I see your point, but), mỗi mẫu 3 lần, ghi âm.",
+      "check": "Nghe lại: phát âm rõ cả 5 mẫu.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 206,
+      "title": "Đóng vai đồng thuận",
+      "action": "Tự nêu 1 ý kiến rồi đóng vai người thứ hai đồng ý và bổ sung 1 lý do — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, có bổ sung lý do.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 207,
+      "title": "Đóng vai phản biện",
+      "action": "Tự nêu 1 ý kiến rồi đóng vai người thứ hai không đồng ý lịch sự kèm lý do — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, phản biện lịch sự có lý do.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 208,
+      "title": "Thảo luận 2 vòng",
+      "action": "Chọn 1 chủ đề, nói 1 ý kiến, tự phản biện, rồi kết luận — 3 lượt nói, ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 3 lượt ý kiến, phản biện, kết luận.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 209,
+      "title": "Tóm tắt ý kiến người khác",
+      "action": "Nghe lại ghi âm ý kiến hôm qua của mình, tóm tắt lại bằng 2 câu (You said that), ghi âm.",
+      "check": "Nghe lại: tóm tắt đúng ý chính bằng 2 câu.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 210,
+      "title": "Ôn đồng thuận tuần 30",
+      "action": "Tự nêu 1 ý kiến rồi đóng vai người thứ hai đồng ý và phản đối lịch sự, ghi âm 2 phút.",
+      "check": "Nghe lại: có cả phần đồng ý và phản đối lịch sự.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 211,
+      "title": "Hỏi–đáp về sở thích",
+      "action": "Tự ghi âm 5 câu hỏi về sở thích, phát lại, trả lời ngay rồi hỏi ngược 1 câu, ghi âm.",
+      "check": "Nghe lại: đủ 5 lượt trả lời và hỏi ngược.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 212,
+      "title": "Đóng vai 2 người bạn",
+      "action": "Đóng vai 2 bạn nói về sở thích cuối tuần, mỗi người 4 câu hỏi đáp qua lại — đọc to.",
+      "check": "Cả 2 vai đều nói to, mỗi người đủ 4 câu.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 213,
+      "title": "Kể sâu 1 sở thích",
+      "action": "Đáp ngay 5 câu hỏi dồn dập về 1 sở thích (vì sao thích, từ khi nào), ghi âm 2 phút.",
+      "check": "Nghe lại: trả lời đủ 5 câu hỏi.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 214,
+      "title": "So sánh sở thích",
+      "action": "Đóng vai 2 người có sở thích khác nhau, mỗi người bảo vệ sở thích mình 3 câu — đọc to.",
+      "check": "Cả 2 vai đều nói to, mỗi người đủ 3 câu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 215,
+      "title": "Hỏi về sở thích lạ",
+      "action": "Tự ghi âm 5 câu hỏi về 1 sở thích mình chưa từng thử, trả lời ngay theo trí tưởng tượng, ghi âm.",
+      "check": "Nghe lại: trả lời ngay cả 5 câu tưởng tượng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 216,
+      "title": "Mời người khác thử",
+      "action": "Nói to 4 câu rủ bạn thử sở thích của mình kèm lý do hấp dẫn, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 4 câu rủ rê có lý do.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 217,
+      "title": "Ôn sở thích tuần 31",
+      "action": "Tự ghi âm 4 câu hỏi về sở thích, phát lại, trả lời ngay và hỏi ngược, ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 4 lượt trả lời và hỏi ngược.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 218,
+      "title": "Kể về công việc 1 phút",
+      "action": "Nói to 6 câu mô tả công việc hoặc học tập hiện tại, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 6 câu mô tả cụ thể.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 219,
+      "title": "Đáp câu hỏi phỏng vấn",
+      "action": "Tự ghi âm 5 câu hỏi phỏng vấn đơn giản, phát lại, trả lời ngay mỗi câu 2 đến 3 câu, ghi âm.",
+      "check": "Nghe lại: mỗi câu trả lời đủ 2 đến 3 câu.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 220,
+      "title": "Đóng vai phỏng vấn",
+      "action": "Đóng vai nhà tuyển dụng và ứng viên: 5 câu hỏi đáp qua lại — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 5 cặp hỏi đáp.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 221,
+      "title": "Kể khó khăn công việc",
+      "action": "Nói to 4 câu về 1 khó khăn trong công việc và cách xử lý, ghi âm.",
+      "check": "Nghe lại: đủ 4 câu, có cách xử lý.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 222,
+      "title": "Kể mục tiêu nghề nghiệp",
+      "action": "Nói to 4 câu về mục tiêu nghề nghiệp 2 năm tới, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 4 câu, mục tiêu cụ thể.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 223,
+      "title": "Hỏi về nghề mơ ước",
+      "action": "Tự hỏi và tự đáp 5 câu về nghề mơ ước (vì sao, cần gì), đọc to, ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 5 cặp hỏi đáp.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 224,
+      "title": "Ôn công việc tuần 32",
+      "action": "Tự ghi âm 4 câu hỏi về công việc, phát lại, trả lời ngay mỗi câu 2 câu, ghi âm 2 phút.",
+      "check": "Nghe lại: mỗi câu trả lời đủ 2 câu.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 225,
+      "title": "Tranh luận trà–cà phê",
+      "action": "Nói 2 câu bênh trà, 2 câu bênh cà phê, rồi kết luận chọn 1 — ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 2 bên và kết luận rõ.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 226,
+      "title": "Tranh luận quê–phố",
+      "action": "Nói 3 câu bênh ở quê, 3 câu bênh thành phố, kết luận — ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 2 bên, mỗi bên 3 câu.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 227,
+      "title": "Tranh luận sớm–khuya",
+      "action": "Đóng vai 2 người tranh luận dậy sớm hay thức khuya, mỗi người 3 câu có lý do — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, mỗi người đủ 3 câu.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 228,
+      "title": "Tranh luận sách–phim",
+      "action": "Nói 3 câu bênh đọc sách, 3 câu bênh xem phim, kết luận chọn 1, ghi âm.",
+      "check": "Nghe lại: đủ 2 bên và kết luận rõ.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 229,
+      "title": "Dùng liên từ tranh luận",
+      "action": "Nói to 1 bài tranh luận 90 giây, bắt buộc dùng however, on the other hand, in conclusion, ghi âm.",
+      "check": "Nghe lại: dùng đủ 3 liên từ yêu cầu.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 230,
+      "title": "Nghe lại và chấm điểm",
+      "action": "Nghe lại 2 bài tranh luận đã ghi âm, nói to 3 điểm cần sửa, ghi âm 2 phút.",
+      "check": "Nghe lại: nêu đúng 3 điểm cần sửa cụ thể.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 231,
+      "title": "Ôn tranh luận tuần 33",
+      "action": "Chọn 1 chủ đề cũ, nói bài tranh luận 2 phút có mở và kết, ghi âm.",
+      "check": "Nghe lại: đủ 2 phút, có mở bài và kết luận.",
+      "minutes": 7,
+      "type": "review"
+    },
+    {
+      "day": 232,
+      "title": "Mô tả ảnh 30 giây",
+      "action": "Mở 1 ảnh bất kỳ, bấm giờ 30 giây mô tả những gì thấy, ghi âm.",
+      "check": "Nghe lại: nói liền 30 giây mô tả đúng ảnh.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 233,
+      "title": "Trả lời 3 câu về ảnh",
+      "action": "Nhìn 1 ảnh, tự đặt 3 câu hỏi (ai, đang làm gì, ở đâu) rồi trả lời ngay, ghi âm.",
+      "check": "Nghe lại: đủ 3 cặp hỏi và đáp ngay.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 234,
+      "title": "Đoán chuyện sau ảnh",
+      "action": "Nhìn 1 ảnh, nói to 4 câu đoán chuyện gì đang xảy ra, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu đoán hợp lý.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 235,
+      "title": "Mô tả ảnh gia đình",
+      "action": "Mở 1 ảnh gia đình hoặc du lịch của mình, mô tả 90 giây bằng tiếng Anh, ghi âm.",
+      "check": "Nghe lại: mô tả đủ 90 giây, đúng ảnh thật.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 236,
+      "title": "So sánh 2 ảnh",
+      "action": "Mở 2 ảnh, nói to 5 câu so sánh điểm giống và khác, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, có giống và khác.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 237,
+      "title": "Kể kỷ niệm qua ảnh",
+      "action": "Chọn 1 ảnh cũ, kể 90 giây kỷ niệm gắn với ảnh đó, ghi âm.",
+      "check": "Nghe lại: kể đủ 90 giây, kỷ niệm cụ thể.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 238,
+      "title": "Ôn mô tả ảnh tuần 34",
+      "action": "Mở 1 ảnh mới, mô tả 30 giây rồi tự hỏi tự đáp 3 câu, ghi âm 2 phút.",
+      "check": "Nghe lại: đủ phần mô tả và 3 cặp hỏi đáp.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 239,
+      "title": "Nghe–lặp số điện thoại",
+      "action": "Tự ghi âm đọc 5 số điện thoại, phát lại, lặp lại ngay từng số, ghi âm phần lặp.",
+      "check": "Nghe lại: lặp đúng cả 5 số điện thoại.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 240,
+      "title": "Nghe–lặp giờ giấc",
+      "action": "Tự ghi âm 6 mốc giờ, phát lại, lặp lại ngay và nói thêm sáng hoặc chiều, ghi âm.",
+      "check": "Nghe lại: lặp đúng cả 6 mốc giờ.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 241,
+      "title": "Nghe–lặp địa chỉ",
+      "action": "Tự ghi âm 4 địa chỉ tiếng Anh, phát lại, lặp lại ngay từng địa chỉ, ghi âm.",
+      "check": "Nghe lại: lặp đúng cả 4 địa chỉ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 242,
+      "title": "Nghe–nhớ 3 món",
+      "action": "Tự ghi âm đọc 1 danh sách 5 món đồ, phát lại, kể lại ngay không nhìn, ghi âm.",
+      "check": "Nghe lại: kể lại đúng cả 5 món.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 243,
+      "title": "Nghe–đáp tin nhắn thoại",
+      "action": "Tự ghi âm 1 tin nhắn thoại 30 giây (lời mời đi ăn), phát lại, đáp lại ngay 3 câu, ghi âm.",
+      "check": "Nghe lại: đáp đủ 3 câu phù hợp lời mời.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 244,
+      "title": "Nghe–tóm tắt 1 phút",
+      "action": "Tự ghi âm kể 1 câu chuyện 1 phút, phát lại, tóm tắt lại trong 30 giây, ghi âm.",
+      "check": "Nghe lại: tóm tắt đúng ý chính trong 30 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 245,
+      "title": "Ôn nghe–lặp tuần 35",
+      "action": "Tự ghi âm 1 danh sách 5 món đồ, phát lại, kể lại ngay không nhìn, ghi âm.",
+      "check": "Nghe lại: kể lại đúng cả 5 món đồ.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 246,
+      "title": "Ý kiến 2 lý do",
+      "action": "Nói to 3 ý kiến theo mẫu I believe, firstly, secondly về chủ đề sức khỏe, ghi âm.",
+      "check": "Nghe lại: đủ 3 ý kiến, mỗi ý kiến 2 lý do.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 247,
+      "title": "Nên–không nên",
+      "action": "Nói to 4 câu dùng should và should not về thói quen tốt, mỗi câu 2 lần.",
+      "check": "Nói đúng cấu trúc cả 4 câu.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 248,
+      "title": "Khuyên bạn",
+      "action": "Đóng vai khuyên bạn 3 điều nên làm khi căng thẳng, mỗi lời khuyên kèm 1 lý do — đọc to.",
+      "check": "Đủ 3 lời khuyên, mỗi lời khuyên có lý do.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 249,
+      "title": "Ý kiến về mạng xã hội",
+      "action": "Nói to 5 câu nêu quan điểm về mạng xã hội kèm 2 lý do, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 5 câu, có 2 lý do rõ.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 250,
+      "title": "Ý kiến về học tiếng Anh",
+      "action": "Nói to 5 câu nêu quan điểm về cách học tiếng Anh hiệu quả kèm 2 lý do, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, có 2 lý do rõ.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 251,
+      "title": "Bảo vệ quan điểm",
+      "action": "Nói to 1 quan điểm, tự đặt 3 câu hỏi khó rồi trả lời ngay, ghi âm 2 phút.",
+      "check": "Nghe lại: trả lời ngay cả 3 câu hỏi khó.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 252,
+      "title": "Ôn quan điểm tuần 36",
+      "action": "Nói to 2 quan điểm, mỗi quan điểm 2 lý do mà không nhìn vở, ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 2 quan điểm, mỗi quan điểm 2 lý do.",
+      "minutes": 7,
+      "type": "review"
+    },
+    {
+      "day": 253,
+      "title": "Giới thiệu khi phỏng vấn",
+      "action": "Nói to 1 bài giới thiệu 60 giây cho buổi phỏng vấn việc làm, ghi âm.",
+      "check": "Nghe lại: đủ 60 giây, giới thiệu chuyên nghiệp.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 254,
+      "title": "Đáp điểm mạnh–yếu",
+      "action": "Tự ghi âm 2 câu hỏi điểm mạnh và điểm yếu, phát lại, trả lời ngay mỗi câu 3 câu, ghi âm.",
+      "check": "Nghe lại: mỗi câu trả lời đủ 3 câu.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 255,
+      "title": "Đóng vai phỏng vấn việc",
+      "action": "Đóng vai nhà tuyển dụng và ứng viên: 6 câu hỏi đáp qua lại — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 6 cặp hỏi đáp.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 256,
+      "title": "Đáp câu hỏi tình huống",
+      "action": "Tự ghi âm 3 câu hỏi tình huống (khi mâu thuẫn với đồng nghiệp), trả lời ngay, ghi âm.",
+      "check": "Nghe lại: trả lời ngay cả 3 câu.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 257,
+      "title": "Hỏi ngược nhà tuyển dụng",
+      "action": "Nói to 4 câu hỏi ngược dành cho nhà tuyển dụng cuối buổi phỏng vấn, mỗi câu 2 lần.",
+      "check": "Nói đúng cả 4 câu hỏi ngược.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 258,
+      "title": "Tổng duyệt phỏng vấn",
+      "action": "Đóng vai trọn 1 buổi phỏng vấn 3 phút từ chào đến cảm ơn, ghi âm.",
+      "check": "Nghe lại: đủ 3 phút, trình tự chuyên nghiệp.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 259,
+      "title": "Ôn phỏng vấn tuần 37",
+      "action": "Đóng vai trọn 1 buổi phỏng vấn 2 phút từ chào đến cảm ơn, ghi âm.",
+      "check": "Nghe lại: đủ các phần chào, hỏi đáp, cảm ơn.",
+      "minutes": 7,
+      "type": "review"
+    },
+    {
+      "day": 260,
+      "title": "Tranh luận có mở–kết",
+      "action": "Nói 1 bài tranh luận 2 phút đủ 3 phần: mở bài, 2 lý do, kết luận — ghi âm.",
+      "check": "Nghe lại: đủ 3 phần trong 2 phút.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 261,
+      "title": "Phản biện chính mình",
+      "action": "Nói to 1 quan điểm 3 câu, rồi phản biện lại 3 câu, rồi chốt quan điểm cuối — ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 3 phần, chốt rõ ràng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 262,
+      "title": "Tranh luận tiền–hạnh phúc",
+      "action": "Đóng vai 2 người tranh luận tiền có mua được hạnh phúc không, mỗi người 4 câu — đọc to.",
+      "check": "Cả 2 vai đều nói to, mỗi người đủ 4 câu.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 263,
+      "title": "Tranh luận học đại học",
+      "action": "Nói to 3 câu ủng hộ và 3 câu phản đối việc học đại học, kết luận, ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 2 bên và kết luận.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 264,
+      "title": "Dùng số liệu minh họa",
+      "action": "Nói 1 bài tranh luận 90 giây có dùng số liệu minh họa (nghiên cứu cho thấy), ghi âm.",
+      "check": "Nghe lại: có số liệu minh họa hợp lý.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 265,
+      "title": "Nghe lại bài hay nhất",
+      "action": "Nghe lại các bài tranh luận đã thu, chọn bài hay nhất, nói to 3 điểm mạnh của nó, ghi âm.",
+      "check": "Nghe lại: nêu đúng 3 điểm mạnh cụ thể.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 266,
+      "title": "Ôn tranh luận tuần 38",
+      "action": "Nói to 1 quan điểm 3 câu, tự phản biện 3 câu, rồi chốt — ghi âm 2 phút.",
+      "check": "Nghe lại: đủ 3 phần quan điểm, phản biện, chốt.",
+      "minutes": 7,
+      "type": "review"
+    },
+    {
+      "day": 267,
+      "title": "Hỏi–đáp tổng hợp 3 phút",
+      "action": "Tự ghi âm 8 câu hỏi trộn mọi chủ đề, phát lại, trả lời ngay không dừng, ghi âm 3 phút.",
+      "check": "Nghe lại: trả lời ngay cả 8 câu trong 3 phút.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 268,
+      "title": "Tranh luận tự chọn",
+      "action": "Chọn 1 chủ đề yêu thích, nói bài tranh luận 2 phút có đủ mở, lý do, kết, ghi âm.",
+      "check": "Nghe lại: đủ 3 phần trong 2 phút.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 269,
+      "title": "Đóng vai khó",
+      "action": "Đóng vai 2 người bất đồng gay gắt nhưng vẫn lịch sự, mỗi người 4 câu — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, gay gắt mà lịch sự.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 270,
+      "title": "Kể quan điểm dài nhất",
+      "action": "Nói 1 bài quan điểm 3 phút về điều quan trọng nhất trong cuộc sống, ghi âm.",
+      "check": "Nghe lại: nói liền 3 phút có lập luận.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 271,
+      "title": "Phỏng vấn người thân",
+      "action": "Đóng vai phỏng vấn người thân hoặc bạn 5 câu bằng tiếng Anh (hoặc tự đóng 2 vai), ghi âm 3 phút.",
+      "check": "Nghe lại: đủ 5 câu hỏi đáp trong 3 phút.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 272,
+      "title": "Thu âm tranh luận 2 phút",
+      "action": "Thu âm 1 bài tranh luận 2 phút hoàn chỉnh nhất về chủ đề tự chọn, nghe lại 2 lần.",
+      "check": "Nghe lại 2 lần: bài thu trôi chảy, lập luận rõ.",
+      "minutes": 9,
+      "type": "project"
+    },
+    {
+      "day": 273,
+      "title": "Kiểm tra cuối mùa 3",
+      "action": "Đáp 5 câu hỏi bất ngờ tự ghi âm, nêu 1 quan điểm 2 lý do mà không nhìn tài liệu, ghi âm 4 phút.",
+      "check": "Nghe lại: đáp ngay 5 câu và nêu đủ quan điểm 2 lý do.",
+      "minutes": 9,
+      "type": "review"
+    },
+    {
+      "day": 274,
+      "title": "Chọn 3 chủ đề",
+      "action": "Nói to 3 chủ đề mình muốn thuyết trình và 1 câu lý do cho mỗi chủ đề, ghi âm.",
+      "check": "Nghe lại: đủ 3 chủ đề, mỗi chủ đề có lý do.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 275,
+      "title": "Dàn ý 3 ý chính",
+      "action": "Viết dàn ý 3 ý chính cho chủ đề đã chọn, rồi nói to dàn ý 60 giây, ghi âm.",
+      "check": "Nghe lại: nói đúng 3 ý chính trong 60 giây.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 276,
+      "title": "Mở rộng mỗi ý 2 câu",
+      "action": "Lấy dàn ý 3 ý chính, với mỗi ý nói to thêm 2 câu giải thích, ghi âm 2 phút.",
+      "check": "Nghe lại: mỗi ý có thêm 2 câu giải thích.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 277,
+      "title": "Sắp xếp thứ tự ý",
+      "action": "Nói to dàn ý theo 2 thứ tự khác nhau, chọn thứ tự hay hơn, ghi âm 90 giây.",
+      "check": "Nghe lại: thử đủ 2 thứ tự và chọn 1.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 278,
+      "title": "Viết câu mở đầu",
+      "action": "Viết 3 câu mở đầu khác nhau cho bài thuyết trình, đọc to từng câu 2 lần, chọn 1 câu, ghi âm.",
+      "check": "Nghe lại: đọc đủ 3 câu và chọn 1 câu.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 279,
+      "title": "Viết câu kết luận",
+      "action": "Viết 2 câu kết luận, đọc to 2 lần, rồi nói to trọn dàn ý mở, thân, kết 90 giây, ghi âm.",
+      "check": "Nghe lại: đủ 3 phần mở, thân, kết.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 280,
+      "title": "Ôn dàn ý tuần 40",
+      "action": "Nói to dàn ý 3 ý chính của bài thuyết trình trong 60 giây mà không nhìn giấy, ghi âm.",
+      "check": "Nghe lại: nói đúng cả 3 ý chính trong 60 giây.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 281,
+      "title": "Mở đầu bằng câu hỏi",
+      "action": "Nói to 3 cách mở đầu bằng câu hỏi gây tò mò cho chủ đề của mình, chọn 1, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 3 cách và chọn 1 cách.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 282,
+      "title": "Mở đầu bằng chuyện",
+      "action": "Kể 1 mẩu chuyện 30 giây làm mở đầu bài thuyết trình, nói to 3 lượt, ghi âm.",
+      "check": "Nghe lại: chuyện đủ 30 giây, kể trôi chảy.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 283,
+      "title": "Mở đầu bằng số liệu",
+      "action": "Nói to 1 câu mở đầu dùng số liệu hoặc con số ấn tượng về chủ đề, lặp 3 lần, ghi âm.",
+      "check": "Nghe lại: câu mở đầu có số liệu rõ ràng.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 284,
+      "title": "Giới thiệu khi thuyết trình",
+      "action": "Nói to 3 mẫu tự giới thiệu trước khi thuyết trình (Good morning everyone, I am), mỗi mẫu 2 lần.",
+      "check": "Nói đúng cả 3 mẫu giới thiệu.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 285,
+      "title": "Nêu mục đích bài nói",
+      "action": "Nói to 3 câu nêu mục đích bài thuyết trình (Today I am going to talk about), mỗi câu 2 lần, ghi âm.",
+      "check": "Nghe lại: đủ 3 câu nêu mục đích.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 286,
+      "title": "Tổng duyệt phần mở đầu",
+      "action": "Nói to trọn phần mở đầu 60 giây (chào, giới thiệu, mục đích) không dừng, ghi âm.",
+      "check": "Nghe lại: nói liền 60 giây đủ 3 phần.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 287,
+      "title": "Ôn mở đầu tuần 41",
+      "action": "Nói to trọn phần mở đầu 60 giây (chào, giới thiệu, mục đích) mà không nhìn giấy, ghi âm.",
+      "check": "Nghe lại: đủ 3 phần chào, giới thiệu, mục đích.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 288,
+      "title": "Từ vựng quê hương",
+      "action": "Đọc to 10 từ vựng về quê hương (hometown, countryside, paddy field), mỗi từ đặt 1 câu nói to.",
+      "check": "Đặt đúng 10 câu, phát âm rõ cả 10 từ.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 289,
+      "title": "Kể về quê mình 1 phút",
+      "action": "Nói to 6 câu giới thiệu quê mình, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 6 câu giới thiệu cụ thể.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 290,
+      "title": "Từ vựng gia đình mở rộng",
+      "action": "Đọc to 10 từ về gia đình mở rộng (relative, ancestor, reunion), mỗi từ 2 lần, đặt 3 câu nói to.",
+      "check": "Đọc đúng 10 từ và đặt đúng 3 câu.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 291,
+      "title": "Kể truyền thống gia đình",
+      "action": "Nói to 5 câu về 1 truyền thống gia đình mình, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 5 câu, truyền thống cụ thể.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 292,
+      "title": "Mô tả món ăn quê",
+      "action": "Nói to 5 câu mô tả 1 món ăn đặc trưng quê mình bằng tiếng Anh, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu tả món ăn rõ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 293,
+      "title": "Thuyết trình mini quê hương",
+      "action": "Nói 1 bài 90 giây giới thiệu quê mình có mở, thân, kết, ghi âm.",
+      "check": "Nghe lại: đủ 3 phần trong 90 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 294,
+      "title": "Ôn quê hương tuần 42",
+      "action": "Kể 5 câu giới thiệu quê mình mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 5 câu giới thiệu quê mình.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 295,
+      "title": "Từ vựng công việc",
+      "action": "Đọc to 10 từ vựng về công việc (deadline, promotion, colleague), mỗi từ đặt 1 câu nói to.",
+      "check": "Đặt đúng 10 câu, phát âm rõ cả 10 từ.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 296,
+      "title": "Kể về việc mơ ước",
+      "action": "Nói to 5 câu về công việc mơ ước và lý do, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 5 câu, lý do rõ ràng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 297,
+      "title": "Từ vựng mục tiêu",
+      "action": "Đọc to 8 từ về mục tiêu (goal, achieve, plan, effort), mỗi từ 2 lần, đặt 3 câu nói to.",
+      "check": "Đọc đúng 8 từ và đặt đúng 3 câu.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 298,
+      "title": "Kể mục tiêu năm nay",
+      "action": "Nói to 5 câu về 3 mục tiêu năm nay và cách thực hiện, ghi âm.",
+      "check": "Nghe lại: đủ 3 mục tiêu và cách thực hiện.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 299,
+      "title": "Kể người truyền cảm hứng",
+      "action": "Nói to 5 câu về 1 người truyền cảm hứng cho mình, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 5 câu, nêu được lý do.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 300,
+      "title": "Thuyết trình mini ước mơ",
+      "action": "Nói 1 bài 90 giây về ước mơ của mình có mở, thân, kết, ghi âm.",
+      "check": "Nghe lại: đủ 3 phần trong 90 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 301,
+      "title": "Ôn ước mơ tuần 43",
+      "action": "Kể 4 câu về ước mơ và mục tiêu của mình mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu về ước mơ và mục tiêu.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 302,
+      "title": "Liên từ thứ tự",
+      "action": "Đọc to 6 liên từ thứ tự (first, second, then, next, finally), mỗi từ đặt 1 câu nói to.",
+      "check": "Đặt đúng 6 câu, phát âm rõ cả 6 từ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 303,
+      "title": "Liên từ nguyên nhân",
+      "action": "Nói to 5 câu dùng because, so, therefore để nối ý, mỗi câu 2 lần.",
+      "check": "Nói đúng cả 5 câu nối ý.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 304,
+      "title": "Liên từ đối lập",
+      "action": "Nói to 5 câu dùng but, however, although, on the other hand, mỗi câu 2 lần, ghi âm.",
+      "check": "Nghe lại: dùng đúng 4 liên từ đối lập.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 305,
+      "title": "Nối 3 ý thành bài",
+      "action": "Lấy dàn ý 3 ý chính, nói to thành 1 bài 90 giây dùng đủ liên từ đã học, ghi âm.",
+      "check": "Nghe lại: đủ 3 ý, liên từ dùng đúng.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 306,
+      "title": "Chuyển ý mượt mà",
+      "action": "Nói to 5 câu chuyển ý mẫu (Now let us move on to, Another important point is), mỗi câu 2 lần.",
+      "check": "Nói đúng cả 5 câu chuyển ý.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 307,
+      "title": "Bài nói đủ liên từ",
+      "action": "Nói lại bài thuyết trình 90 giây, bắt buộc dùng ít nhất 5 liên từ khác nhau, ghi âm.",
+      "check": "Nghe lại: đếm đủ ít nhất 5 liên từ.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 308,
+      "title": "Ôn liên từ tuần 44",
+      "action": "Nói to 1 bài 90 giây dùng ít nhất 5 liên từ khác nhau, ghi âm.",
+      "check": "Nghe lại: đếm đủ ít nhất 5 liên từ khác nhau.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 309,
+      "title": "Thuyết trình 1 phút lần 1",
+      "action": "Bấm giờ 1 phút, thuyết trình về chủ đề đã chọn không dừng, ghi âm.",
+      "check": "Nghe lại: nói liền 1 phút không dừng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 310,
+      "title": "Sửa lỗi lần 1",
+      "action": "Nghe lại ghi âm hôm qua, nói to 3 lỗi cần sửa, rồi thuyết trình lại 1 phút, ghi âm.",
+      "check": "Nghe lại: nêu đúng 3 lỗi và sửa được.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 311,
+      "title": "Thuyết trình 1 phút lần 3",
+      "action": "Thuyết trình 1 phút lần 3, cố nói trôi chảy hơn 2 lần trước, ghi âm.",
+      "check": "Nghe lại: trôi chảy hơn bản lần 2.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 312,
+      "title": "Thêm ví dụ cụ thể",
+      "action": "Thêm 2 ví dụ cụ thể vào bài 1 phút, thuyết trình lại, ghi âm.",
+      "check": "Nghe lại: có đủ 2 ví dụ mới.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 313,
+      "title": "Thuyết trình trước gương",
+      "action": "Đứng trước gương thuyết trình 1 phút, chú ý ánh mắt và cử chỉ, ghi âm.",
+      "check": "Nghe lại: nói trôi chảy, giọng tự tin.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 314,
+      "title": "Thuyết trình cho người thân",
+      "action": "Thuyết trình 1 phút cho người thân hoặc bạn nghe (hoặc tưởng tượng có khán giả), ghi âm.",
+      "check": "Nghe lại: nói trọn 1 phút trước khán giả.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 315,
+      "title": "Ôn bài 1 phút tuần 45",
+      "action": "Thuyết trình 1 phút không dừng về chủ đề đã chọn, ghi âm.",
+      "check": "Nghe lại: nói liền 1 phút, có mở và kết.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 316,
+      "title": "Mở rộng bài lên 2 phút",
+      "action": "Thêm 2 ý phụ vào bài 1 phút, bấm giờ thuyết trình 2 phút không dừng, ghi âm.",
+      "check": "Nghe lại: đủ 2 phút, có 2 ý mới.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 317,
+      "title": "Kết luận ấn tượng",
+      "action": "Viết 3 câu kết luận khác nhau, đọc to, chọn 1 câu, gắn vào cuối bài 2 phút, ghi âm.",
+      "check": "Nghe lại: kết luận rõ ràng, ấn tượng.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 318,
+      "title": "Thuyết trình 2 phút lần 2",
+      "action": "Thuyết trình 2 phút lần 2, chú ý phân bổ thời gian đều 3 phần, ghi âm.",
+      "check": "Nghe lại: 3 phần phân bổ đều.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 319,
+      "title": "Giảm từ đệm",
+      "action": "Nghe lại ghi âm, đếm số lần nói um và uh, thuyết trình lại 2 phút cố giảm một nửa, ghi âm.",
+      "check": "Nghe lại: số từ đệm giảm một nửa.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 320,
+      "title": "Nhấn nhá giọng",
+      "action": "Thuyết trình 2 phút, cố nhấn giọng ở 5 từ khóa quan trọng, ghi âm.",
+      "check": "Nghe lại: 5 từ khóa được nhấn rõ.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 321,
+      "title": "Thuyết trình 2 phút hoàn chỉnh",
+      "action": "Thuyết trình 2 phút hoàn chỉnh từ mở đến kết, không dừng, ghi âm.",
+      "check": "Nghe lại: nói liền 2 phút không dừng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 322,
+      "title": "Ôn bài 2 phút tuần 46",
+      "action": "Thuyết trình 2 phút không dừng, phân bổ đều 3 phần, ghi âm.",
+      "check": "Nghe lại: đủ 2 phút, 3 phần cân đối.",
+      "minutes": 7,
+      "type": "review"
+    },
+    {
+      "day": 323,
+      "title": "Từ vựng công nghệ",
+      "action": "Đọc to 10 từ công nghệ (smartphone, app, artificial intelligence), mỗi từ đặt 1 câu nói to.",
+      "check": "Đặt đúng 10 câu, phát âm rõ cả 10 từ.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 324,
+      "title": "Kể về chiếc điện thoại",
+      "action": "Nói to 5 câu mô tả chiếc điện thoại của mình bằng tiếng Anh, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu mô tả cụ thể.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 325,
+      "title": "Ý kiến về mạng xã hội",
+      "action": "Nói to 5 câu nêu quan điểm về mạng xã hội (mặt tốt và xấu), ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 5 câu, có 2 mặt.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 326,
+      "title": "Kể 1 app yêu thích",
+      "action": "Nói to 5 câu giới thiệu 1 app yêu thích và cách dùng, ghi âm.",
+      "check": "Nghe lại: đủ 5 câu, hướng dẫn rõ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 327,
+      "title": "Thuyết trình mini công nghệ",
+      "action": "Nói 1 bài 90 giây về công nghệ thay đổi cuộc sống tôi có mở, thân, kết, ghi âm.",
+      "check": "Nghe lại: đủ 3 phần trong 90 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 328,
+      "title": "Từ vựng tương lai",
+      "action": "Đọc to 8 từ về tương lai (robot, virtual, innovation), mỗi từ 2 lần, đặt 3 câu nói to.",
+      "check": "Đọc đúng 8 từ và đặt đúng 3 câu.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 329,
+      "title": "Ôn công nghệ tuần 47",
+      "action": "Kể 4 câu về 1 thiết bị công nghệ mình dùng mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 câu mô tả thiết bị cụ thể.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 330,
+      "title": "Từ vựng sức khỏe",
+      "action": "Đọc to 10 từ sức khỏe (exercise, sleep, diet, energy), mỗi từ đặt 1 câu nói to.",
+      "check": "Đặt đúng 10 câu, phát âm rõ cả 10 từ.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 331,
+      "title": "Kể thói quen tốt",
+      "action": "Nói to 5 câu về 3 thói quen tốt của mình, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 3 thói quen tốt.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 332,
+      "title": "Kể thói quen muốn bỏ",
+      "action": "Nói to 4 câu về 1 thói quen muốn bỏ và kế hoạch bỏ, ghi âm.",
+      "check": "Nghe lại: đủ 4 câu, kế hoạch cụ thể.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 333,
+      "title": "Khuyên sống khỏe",
+      "action": "Nói to 5 lời khuyên sống khỏe cho bạn, mỗi lời khuyên 1 câu, ghi âm 90 giây.",
+      "check": "Nghe lại: đủ 5 lời khuyên.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 334,
+      "title": "Thuyết trình mini sức khỏe",
+      "action": "Nói 1 bài 90 giây về thói quen buổi sáng của tôi có mở, thân, kết, ghi âm.",
+      "check": "Nghe lại: đủ 3 phần trong 90 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 335,
+      "title": "Từ vựng cảm xúc nâng cao",
+      "action": "Đọc to 8 từ cảm xúc nâng cao (grateful, proud, nervous), mỗi từ đặt 1 câu nói to.",
+      "check": "Đặt đúng 8 câu, phát âm rõ cả 8 từ.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 336,
+      "title": "Ôn sức khỏe tuần 48",
+      "action": "Kể 3 thói quen tốt và 1 thói quen muốn bỏ mà không nhìn vở, ghi âm 1 phút.",
+      "check": "Nghe lại: đủ 4 ý về thói quen.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 337,
+      "title": "Đáp câu hỏi đơn giản",
+      "action": "Tự ghi âm 5 câu hỏi thường gặp sau thuyết trình, phát lại, trả lời ngay mỗi câu 2 câu, ghi âm.",
+      "check": "Nghe lại: mỗi câu trả lời đủ 2 câu.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 338,
+      "title": "Đáp khi không biết",
+      "action": "Đọc to 4 mẫu đáp khi không biết câu trả lời (That is a good question, I think), mỗi mẫu 3 lần, ghi âm.",
+      "check": "Nghe lại: thuộc cả 4 mẫu đáp.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 339,
+      "title": "Đóng vai hỏi–đáp",
+      "action": "Đóng vai khán giả hỏi 3 câu và diễn giả trả lời sau bài thuyết trình — đọc to cả 2 vai.",
+      "check": "Cả 2 vai đều nói to, đủ 3 cặp hỏi đáp.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 340,
+      "title": "Đáp câu hỏi khó",
+      "action": "Tự ghi âm 3 câu hỏi khó về chủ đề, phát lại, trả lời ngay không dừng, ghi âm.",
+      "check": "Nghe lại: trả lời ngay cả 3 câu khó.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 341,
+      "title": "Tóm tắt lại ý chính",
+      "action": "Trả lời 3 câu hỏi tự đặt rồi tóm tắt lại 3 ý chính của bài trong 30 giây, ghi âm.",
+      "check": "Nghe lại: tóm tắt đúng 3 ý chính.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 342,
+      "title": "Tổng duyệt có hỏi–đáp",
+      "action": "Thuyết trình 2 phút rồi tự hỏi và tự đáp 3 câu như có khán giả, ghi âm trọn 4 phút.",
+      "check": "Nghe lại: đủ phần thuyết trình và 3 câu hỏi đáp.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 343,
+      "title": "Ôn hỏi–đáp tuần 49",
+      "action": "Tự ghi âm 3 câu hỏi về bài thuyết trình, phát lại, trả lời ngay, ghi âm 2 phút.",
+      "check": "Nghe lại: trả lời ngay cả 3 câu hỏi.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 344,
+      "title": "Mở rộng bài lên 3 phút",
+      "action": "Thêm mở đầu câu chuyện và 1 ví dụ vào bài 2 phút, bấm giờ thuyết trình 3 phút, ghi âm.",
+      "check": "Nghe lại: đủ 3 phút, có chuyện mở đầu.",
+      "minutes": 9,
+      "type": "practice"
+    },
+    {
+      "day": 345,
+      "title": "Thuyết trình 3 phút lần 2",
+      "action": "Thuyết trình 3 phút lần 2, chú ý nhịp đều không vội, ghi âm.",
+      "check": "Nghe lại: nhịp đều, đủ 3 phút.",
+      "minutes": 9,
+      "type": "practice"
+    },
+    {
+      "day": 346,
+      "title": "Nghe lại và ghi 5 điểm sửa",
+      "action": "Nghe lại 2 bản ghi âm, nói to 5 điểm cần sửa, ghi âm 3 phút.",
+      "check": "Nghe lại: nêu đúng 5 điểm sửa cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 347,
+      "title": "Thuyết trình 3 phút lần 3",
+      "action": "Thuyết trình 3 phút lần 3 sau khi sửa lỗi, ghi âm.",
+      "check": "Nghe lại: ít lỗi hơn bản lần 2.",
+      "minutes": 9,
+      "type": "practice"
+    },
+    {
+      "day": 348,
+      "title": "Luyện phần khó nhất",
+      "action": "Chọn 30 giây khó nhất trong bài, luyện nói riêng 5 lượt, rồi thuyết trình trọn 3 phút, ghi âm.",
+      "check": "Nghe lại: phần khó nói trôi chảy.",
+      "minutes": 9,
+      "type": "practice"
+    },
+    {
+      "day": 349,
+      "title": "Thuyết trình không nhìn dàn ý",
+      "action": "Cất dàn ý đi, thuyết trình 3 phút hoàn toàn từ trí nhớ, ghi âm.",
+      "check": "Nghe lại: nói liền 3 phút không nhìn giấy.",
+      "minutes": 9,
+      "type": "practice"
+    },
+    {
+      "day": 350,
+      "title": "Ôn bài 3 phút tuần 50",
+      "action": "Thuyết trình 3 phút không nhìn dàn ý, ghi âm.",
+      "check": "Nghe lại: nói liền 3 phút từ trí nhớ.",
+      "minutes": 9,
+      "type": "review"
+    },
+    {
+      "day": 351,
+      "title": "So sánh 3 bản ghi âm",
+      "action": "Nghe lại 3 bản thuyết trình 3 phút, nói to bản nào hay nhất và vì sao (3 lý do), ghi âm.",
+      "check": "Nghe lại: chọn đúng bản hay nhất với 3 lý do.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 352,
+      "title": "Sửa phát âm 5 từ",
+      "action": "Nghe lại, chọn 5 từ phát âm chưa tốt, luyện đọc to mỗi từ 10 lần, ghi âm.",
+      "check": "Nghe lại: 5 từ được đọc đúng sau khi luyện.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 353,
+      "title": "Thuyết trình 3 phút bản tốt",
+      "action": "Thuyết trình 3 phút, áp dụng mọi điểm đã sửa, ghi âm.",
+      "check": "Nghe lại: áp dụng được các điểm đã sửa.",
+      "minutes": 9,
+      "type": "practice"
+    },
+    {
+      "day": 354,
+      "title": "Thêm cảm xúc vào bài",
+      "action": "Thuyết trình 3 phút, cố nói có cảm xúc ở 3 đoạn cao trào, ghi âm.",
+      "check": "Nghe lại: 3 đoạn cao trào có cảm xúc.",
+      "minutes": 9,
+      "type": "practice"
+    },
+    {
+      "day": 355,
+      "title": "Thuyết trình cho khán giả thật",
+      "action": "Thuyết trình 3 phút cho người thân hoặc bạn nghe trực tiếp (hoặc gọi video), ghi âm.",
+      "check": "Hoàn thành bài 3 phút trước khán giả thật.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 356,
+      "title": "Ghi nhận tiến bộ",
+      "action": "Nghe lại bản thuyết trình 1 phút tuần 45 và bản 3 phút hiện tại, nói to 3 tiến bộ rõ rệt, ghi âm.",
+      "check": "Nghe lại: nêu đúng 3 tiến bộ cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 357,
+      "title": "Ôn hoàn thiện tuần 51",
+      "action": "Thuyết trình 3 phút bản tốt nhất hiện tại, ghi âm.",
+      "check": "Nghe lại: bản thu trôi chảy, ít lỗi.",
+      "minutes": 9,
+      "type": "review"
+    },
+    {
+      "day": 358,
+      "title": "Tổng duyệt mở đầu",
+      "action": "Luyện riêng phần mở đầu 60 giây, 5 lượt cho thật ấn tượng, ghi âm lượt cuối.",
+      "check": "Nghe lại: phần mở đầu ấn tượng, đủ 60 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 359,
+      "title": "Tổng duyệt thân bài",
+      "action": "Luyện riêng thân bài 90 giây, đảm bảo đủ 3 ý chính rõ ràng, ghi âm.",
+      "check": "Nghe lại: đủ 3 ý chính trong 90 giây.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 360,
+      "title": "Tổng duyệt kết luận",
+      "action": "Luyện riêng phần kết luận 30 giây thật mạnh mẽ, 5 lượt, ghi âm lượt cuối.",
+      "check": "Nghe lại: kết luận mạnh mẽ, đủ 30 giây.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 361,
+      "title": "Tổng duyệt trọn bài lần 1",
+      "action": "Bấm giờ, thuyết trình trọn 3 phút không dừng, ghi âm.",
+      "check": "Nghe lại: nói liền 3 phút không dừng.",
+      "minutes": 9,
+      "type": "practice"
+    },
+    {
+      "day": 362,
+      "title": "Tổng duyệt trọn bài lần 2",
+      "action": "Thuyết trình trọn 3 phút lần 2, mỉm cười và nhìn vào camera hoặc ống kính, ghi âm.",
+      "check": "Nghe lại: đủ 3 phút, thần thái tự tin.",
+      "minutes": 9,
+      "type": "practice"
+    },
+    {
+      "day": 363,
+      "title": "Chuẩn bị cho ngày mai",
+      "action": "Nói to dàn ý ngày mai quay video: chủ đề, 3 ý chính, câu kết — ghi âm 2 phút.",
+      "check": "Nghe lại: dàn ý rõ chủ đề, 3 ý, câu kết.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 364,
+      "title": "Kể lại dàn ý không nhìn giấy",
+      "action": "Kể lại toàn bộ dàn ý bài thuyết trình 3 phút trong 2 phút mà không nhìn tài liệu, ghi âm.",
+      "check": "Nghe lại: kể đúng toàn bộ dàn ý trong 2 phút.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 365,
+      "title": "Video hành trình 365 ngày",
+      "action": "Thu 1 video hoặc audio thuyết trình 3 phút bằng tiếng Anh về hành trình 365 ngày học của mình: bắt đầu thế nào, khó khăn gì, tiến bộ ra sao, dự định tiếp theo.",
+      "check": "Video hoặc audio đủ 3 phút, nói liền mạch cả 4 ý: khởi đầu, khó khăn, tiến bộ, dự định.",
+      "minutes": 10,
+      "type": "capstone"
+    }
+  ]
+}

@@ -1,0 +1,2953 @@
+{
+  "id": "python",
+  "name": "Lập trình Python",
+  "tagline": "Từ 0 tới tự viết tool nhỏ",
+  "seasons": [
+    {
+      "season": 1,
+      "range": "1–91",
+      "name": "Cú pháp nền tảng",
+      "focus": "Gõ và chạy code thật mỗi ngày: biến, vòng lặp, hàm, list, dict."
+    },
+    {
+      "season": 2,
+      "range": "92–182",
+      "name": "File và mini-project",
+      "focus": "Đọc/ghi file, JSON, xử lý lỗi và 4 mini-project hoàn chỉnh."
+    },
+    {
+      "season": 3,
+      "range": "183–273",
+      "name": "Tool thật đầu tay",
+      "focus": "Tự tay xây tool đổi tên file hàng loạt và dùng cho việc thật."
+    },
+    {
+      "season": 4,
+      "range": "274–364",
+      "name": "Public project",
+      "focus": "Đưa tool lên GitHub, viết README, nhờ người dùng thử."
+    }
+  ],
+  "tasks": [
+    {
+      "day": 1,
+      "title": "Chạy dòng code đầu tiên",
+      "action": "Mở trình chạy Python trên điện thoại hoặc máy tính, gõ print('Xin chào') rồi chạy. Đổi nội dung trong ngoặc 3 lần và chạy lại.",
+      "check": "Màn hình in ra đúng 3 dòng chữ bạn gõ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 2,
+      "title": "In nhiều dòng liên tiếp",
+      "action": "Gõ 3 lệnh print liên tiếp, mỗi lệnh in 1 dòng: tên bạn, món ăn thích, 1 câu chào. Chạy và xem thứ tự hiện ra.",
+      "check": "3 dòng hiện đúng thứ tự bạn gõ.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 3,
+      "title": "Viết ghi chú bằng comment",
+      "action": "Gõ 1 dòng comment bắt đầu bằng # (ví dụ: # đây là ghi chú của tôi), rồi 1 dòng print ở dưới. Chạy và quan sát.",
+      "check": "Code chạy bình thường, dòng bắt đầu bằng # không in ra màn hình.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 4,
+      "title": "Sửa lỗi cú pháp đầu tiên",
+      "action": "Cố ý gõ print('thiếu ngoặc rồi bấm chạy, đọc kỹ thông báo lỗi màu đỏ. Thêm dấu ) còn thiếu vào cuối rồi chạy lại cho đúng.",
+      "check": "Hiểu dòng lỗi chỉ đúng chỗ sai, code chạy không còn báo đỏ.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 5,
+      "title": "In nhiều thứ một lúc",
+      "action": "Gõ print('Tôi', 'thích', 'Python') rồi chạy. Thử thêm từ khác vào giữa, xem các từ tự cách nhau bằng dấu cách.",
+      "check": "Các từ in ra cách nhau đúng 1 dấu cách.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 6,
+      "title": "In một tấm thiệp chào",
+      "action": "Dùng 4-5 lệnh print để in một tấm thiệp: viền sao, lời chào, tên bạn ở giữa. Chạy và ngắm thành quả.",
+      "check": "Tấm thiệp hiện đầy đủ, ngay hàng như bạn tưởng tượng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 7,
+      "title": "Ôn tuần 1: gõ lại không nhìn",
+      "action": "Không mở bài cũ: gõ lại từ trí nhớ một chương trình in 3 dòng chữ cộng 1 dòng comment, rồi chạy. So với bài cũ xem có đúng không.",
+      "check": "Gõ lại đúng mà không cần nhìn bài cũ, chạy ra kết quả.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 8,
+      "title": "Tạo biến đầu tiên",
+      "action": "Gõ ten = 'An' rồi print(ten) và chạy. Đổi giá trị của ten thành tên khác, chạy lại xem kết quả đổi theo.",
+      "check": "Màn hình in đúng giá trị mới nhất của biến.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 9,
+      "title": "Biến số và phép tính",
+      "action": "Gõ tuoi = 20 rồi print(tuoi + 5). Chạy, sau đó đổi tuoi thành số khác và chạy lại.",
+      "check": "Kết quả in ra bằng số mới cộng 5.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 10,
+      "title": "Đặt tên biến cho rõ nghĩa",
+      "action": "Tạo 3 biến tên rõ nghĩa: mon_an, gia_tien, so_luong; gán giá trị rồi in cả 3 ra. Chạy thử.",
+      "check": "Nhìn tên biến là đoán được nó chứa gì.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 11,
+      "title": "Nối chuỗi vào biến",
+      "action": "Gõ loi_chao = 'Xin chào, ' + ten rồi print(loi_chao), với ten là tên bạn. Chạy và xem câu chào hoàn chỉnh.",
+      "check": "In ra câu chào đầy đủ tên bạn, không thừa thiếu dấu cách.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 12,
+      "title": "F-string: nhét biến vào câu",
+      "action": "Gõ ten = 'An'; tuoi = 20; print(f'Tôi là {ten}, {tuoi} tuổi') rồi chạy. Đổi giá trị 2 biến và chạy lại.",
+      "check": "Câu in ra tự cập nhật theo giá trị biến mới.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 13,
+      "title": "Làm thẻ tên cá nhân",
+      "action": "Dùng biến và f-string in một thẻ tên gồm tên, tuổi, sở thích, mỗi thứ 1 dòng. Chạy và kiểm tra.",
+      "check": "Thẻ tên in đủ 3 dòng thông tin đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 14,
+      "title": "Ôn tuần 2: biến và f-string",
+      "action": "Không nhìn bài cũ: viết chương trình tạo 3 biến rồi in 1 câu f-string, chạy đúng. Sau đó sửa đoạn sai: print(f'Tôi là {ten}) thiếu ngoặc nhọn đóng.",
+      "check": "Cả hai đoạn đều chạy ra kết quả đúng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 15,
+      "title": "Phân biệt int và float",
+      "action": "Gõ print(type(10)) và print(type(3.5)), chạy. Gõ tiếp print(10 + 3.5) xem kết quả là số thập phân.",
+      "check": "Hiểu int là số nguyên, float là số thập phân.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 16,
+      "title": "Chia lấy dư với %",
+      "action": "Gõ print(10 % 3) và print(11 % 2), chạy. Đoán trước kết quả của print(20 % 6) rồi chạy kiểm tra.",
+      "check": "Đoán đúng 20 % 6 bằng 2 trước khi chạy.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 17,
+      "title": "Làm tròn số tiền",
+      "action": "Gõ gia = 19.955 rồi print(round(gia, 2)). Chạy, thử thêm print(round(gia)) không tham số thứ hai xem ra gì.",
+      "check": "In ra 19.96 và 20, hiểu round dùng để làm tròn.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 18,
+      "title": "Ép kiểu: chữ thành số",
+      "action": "Gõ print(int('42') + 8) rồi chạy. Thử print(int('4.2')) xem lỗi gì, ghi nhớ chuỗi thập phân không ép thẳng sang int được.",
+      "check": "Dòng đầu in 50; biết vì sao dòng hai báo lỗi.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 19,
+      "title": "Tính tiền chia đều",
+      "action": "Tạo biến tong = 250000, nguoi = 4; in số tiền mỗi người trả bằng tong / nguoi và phần dư bằng %. Chạy.",
+      "check": "In đúng 62500.0 và dư 0.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 20,
+      "title": "Máy tính tiền tip",
+      "action": "Tạo biến bill = 320000; tính tip 10 phần trăm bằng bill * 0.1 rồi tính tổng cộng; in cả hai bằng f-string. Chạy.",
+      "check": "In đúng tip 32000 và tổng 352000.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 21,
+      "title": "Ôn tuần 3: số và ép kiểu",
+      "action": "Không nhìn: viết chương trình chia bill cho 4 người dùng /, % và round, chạy đúng. Sửa lỗi: print(int('12.5')) báo lỗi, giải thích vì sao và sửa thành float.",
+      "check": "Chương trình chạy đúng; giải thích được vì sao int('12.5') lỗi.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 22,
+      "title": "Đếm độ dài chuỗi",
+      "action": "Gõ ten = 'Nguyen Van An'; print(len(ten)). Chạy, đếm tay kiểm tra kể cả dấu cách.",
+      "check": "Số in ra khớp số ký tự đếm tay.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 23,
+      "title": "Viết hoa, viết thường",
+      "action": "Gõ s = 'xin Chao PYTHON'; print(s.upper()); print(s.lower()); print(s.title()). Chạy và so sánh 3 dòng.",
+      "check": "3 dòng in đúng XIN CHAO PYTHON, xin chao python, Xin Chao Python.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 24,
+      "title": "Tách chuỗi thành list từ",
+      "action": "Gõ cau = 'Python rất vui'; print(cau.split()). Chạy, thử với câu có nhiều dấu cách xem kết quả.",
+      "check": "In ra ['Python', 'rất', 'vui'].",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 25,
+      "title": "Cắt chuỗi bằng slice",
+      "action": "Gõ s = 'abcdef'; print(s[0]); print(s[1:4]); print(s[-1]). Đoán trước mỗi kết quả rồi chạy.",
+      "check": "Đoán đúng a, bcd, f trước khi chạy.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 26,
+      "title": "Chuẩn hóa tên người dùng",
+      "action": "Gõ ten = '  an  '; print(ten.strip().title()). Chạy; thử bỏ .strip() đi xem khác gì.",
+      "check": "In ra An gọn gàng, hiểu strip bỏ khoảng trắng thừa.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 27,
+      "title": "Định dạng họ tên đẹp",
+      "action": "Tạo biến ho_ten = 'nguyen van an'; dùng .title() và f-string in ra Họ tên: Nguyen Van An (13 ký tự). Chạy.",
+      "check": "In đúng cả tên đẹp và số ký tự.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 28,
+      "title": "Ôn tuần 4: chuỗi",
+      "action": "Không nhìn: viết chương trình nhận 1 biến chuỗi tên viết lung tung, in ra tên chuẩn hóa kèm độ dài. Sửa lỗi: s[10] trên chuỗi 5 ký tự, giải thích lỗi index.",
+      "check": "Chương trình chạy đúng; giải thích được lỗi index vượt giới hạn.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 29,
+      "title": "Hỏi tên bằng input",
+      "action": "Gõ ten = input('Bạn tên gì? '); print(f'Chào {ten}!'). Chạy, gõ tên bạn khi chương trình hỏi.",
+      "check": "Chương trình hỏi, bạn gõ tên, nó chào đúng tên.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 30,
+      "title": "Hỏi 3 thông tin",
+      "action": "Dùng input hỏi tên, tuổi, món ăn thích; in 1 câu giới thiệu bằng f-string. Chạy và trả lời đủ 3 câu hỏi.",
+      "check": "Câu giới thiệu in đúng cả 3 thông tin bạn nhập.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 31,
+      "title": "Input luôn là chuỗi",
+      "action": "Gõ so = input('Nhập số: '); print(so + so). Chạy, nhập 5, quan sát ra 55 chứ không phải 10.",
+      "check": "Hiểu vì sao ra 55: input luôn trả về chuỗi.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 32,
+      "title": "Đổi input thành số",
+      "action": "Gõ so = int(input('Nhập số: ')); print(so + so). Chạy, nhập 5, lần này ra 10.",
+      "check": "Nhập 5 in ra 10, hiểu int() ép kiểu chuỗi thành số.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 33,
+      "title": "Máy tính cộng 2 số",
+      "action": "Hỏi 2 số bằng int(input(...)), in tổng, hiệu, tích bằng f-string. Chạy với 7 và 3.",
+      "check": "In đúng 10, 4, 21.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 34,
+      "title": "Tính tuổi từ năm sinh",
+      "action": "Hỏi năm sinh, tính 2026 - năm sinh rồi in Bạn khoảng X tuổi. Chạy.",
+      "check": "Nhập năm sinh ra đúng số tuổi.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 35,
+      "title": "Ôn tuần 5: input",
+      "action": "Không nhìn: viết chương trình hỏi tên và 2 số, in lời chào kèm tổng 2 số. Debug: sửa so = input('Số: ') + 5 bị lỗi cộng chuỗi với số.",
+      "check": "Chương trình chạy đúng; sửa được lỗi ép kiểu.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 36,
+      "title": "If đầu tiên",
+      "action": "Gõ tuoi = 20; rồi if tuoi >= 18: print('Đủ tuổi'), nhớ thụt đầu dòng 4 dấu cách. Chạy, đổi tuoi thành 15 xem không in gì.",
+      "check": "tuoi = 20 thì in ra câu, tuoi = 15 thì không in gì.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 37,
+      "title": "Thêm nhánh else",
+      "action": "Viết if/else kiểm tra chẵn lẻ: so = 7; if so % 2 == 0: print('chẵn') else: print('lẻ'). Chạy với 7 rồi đổi thành 8.",
+      "check": "7 in lẻ, 8 in chẵn.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 38,
+      "title": "Nhiều nhánh với elif",
+      "action": "Viết kiểm tra điểm: diem = 8; if diem >= 8: print('giỏi') elif diem >= 5: print('khá') else: print('yếu'). Chạy với 8, 6, 3.",
+      "check": "3 giá trị in đúng giỏi, khá, yếu.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 39,
+      "title": "Kết hợp điều kiện and/or",
+      "action": "Gõ tuoi = 20; co_bang = True; if tuoi >= 18 and co_bang: print('Được lái xe'). Chạy, đổi co_bang thành False xem sao.",
+      "check": "Hiểu and cần cả hai điều kiện đúng mới chạy.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 40,
+      "title": "Phân loại điểm số",
+      "action": "Hỏi điểm bằng float(input), dùng if/elif/else in Giỏi/Khá/Trung bình/Yếu theo mốc 8, 6.5, 5. Chạy với 3 số điểm khác nhau.",
+      "check": "3 lần nhập đều phân loại đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 41,
+      "title": "Máy đoán mệnh giá tiền",
+      "action": "Hỏi số tiền, dùng if/elif in: từ 500000 trở lên là Tờ lớn, từ 100000 là Tờ vừa, còn lại Tờ nhỏ. Chạy thử 3 mức.",
+      "check": "3 mức tiền đều ra nhãn đúng.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 42,
+      "title": "Ôn tuần 6: if/else",
+      "action": "Không nhìn: viết chương trình hỏi tuổi, in trẻ em/thanh niên/trung niên theo mốc 13 và 40. Debug: sửa if tuoi = 18 dùng = thay vì ==.",
+      "check": "Chương trình chạy đúng; sửa được lỗi = thành ==.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 43,
+      "title": "For đầu tiên với range",
+      "action": "Gõ for i in range(5): print(i). Chạy, quan sát in từ 0 tới 4 chứ không có 5.",
+      "check": "In đúng 0 1 2 3 4, hiểu range dừng trước số cuối.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 44,
+      "title": "Range với điểm bắt đầu",
+      "action": "Gõ for i in range(1, 6): print(i). Chạy; thử range(2, 11, 2), đoán trước kết quả rồi chạy.",
+      "check": "Đoán đúng range(2, 11, 2) in 2 4 6 8 10.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 45,
+      "title": "In bảng cửu chương 5",
+      "action": "Dùng for i in range(1, 11): print(f'5 x {i} = {5*i}'). Chạy, kiểm tra dòng cuối là 5 x 10 = 50.",
+      "check": "10 dòng đúng, dòng cuối 5 x 10 = 50.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 46,
+      "title": "Lặp qua từng ký tự",
+      "action": "Gõ for ch in 'Python': print(ch). Chạy; thử đếm số chữ a trong tên bạn bằng vòng lặp cộng if.",
+      "check": "Mỗi ký tự in 1 dòng; đếm đúng số chữ a.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 47,
+      "title": "Tính tổng 1 tới 100",
+      "action": "Tạo tong = 0; for i in range(1, 101): tong = tong + i; rồi print(tong). Chạy.",
+      "check": "In ra đúng 5050.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 48,
+      "title": "Vẽ tam giác sao",
+      "action": "Dùng for i in range(1, 6): print('*' * i). Chạy, ngắm tam giác 5 hàng.",
+      "check": "Tam giác 5 hàng hiện đúng, hàng cuối 5 sao.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 49,
+      "title": "Ôn tuần 7: vòng lặp for",
+      "action": "Không nhìn: viết for in bảng cửu chương 7. Debug: sửa for i in range(5) print(i) thiếu dấu hai chấm và thụt dòng.",
+      "check": "Bảng cửu chương 7 in đúng; sửa được lỗi thiếu dấu hai chấm.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 50,
+      "title": "While đầu tiên",
+      "action": "Gõ dem = 1; while dem <= 5: print(dem); dem = dem + 1. Chạy; thử bỏ dòng tăng dem xem chuyện gì (nhấn Ctrl+C để dừng).",
+      "check": "In 1-5 rồi dừng; hiểu quên tăng biến gây lặp vô hạn.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 51,
+      "title": "Đếm ngược bằng while",
+      "action": "Gõ dem = 5; while dem > 0: print(dem); dem = dem - 1; rồi print('Hết giờ!'). Chạy.",
+      "check": "In 5 4 3 2 1 rồi Hết giờ!.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 52,
+      "title": "Thoát sớm với break",
+      "action": "Viết while True: hỏi so = input('Nhập 0 để thoát: '); nếu so == '0' thì break; ngược lại in Bạn nhập X. Chạy, nhập vài số rồi nhập 0.",
+      "check": "Nhập 0 thì vòng lặp dừng hẳn.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 53,
+      "title": "Bỏ qua với continue",
+      "action": "Gõ for i in range(1, 11): if i % 2 == 0: continue; print(i). Chạy.",
+      "check": "Chỉ in 1 3 5 7 9, hiểu continue bỏ qua vòng hiện tại.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 54,
+      "title": "Hỏi tới khi trả lời đúng",
+      "action": "Viết while True hỏi Thủ đô Việt Nam là gì?; trả lời đúng Hà Nội thì break và khen, sai thì bảo thử lại. Chạy.",
+      "check": "Trả lời sai bị hỏi lại, đúng thì thoát và được khen.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 55,
+      "title": "Game đoán số phiên bản 1",
+      "action": "Tạo so_bi_mat = 7; dùng while True hỏi đoán bằng int(input); đoán đúng thì break và chúc mừng, sai thì gợi ý lớn hơn hay nhỏ hơn. Chạy và thắng game.",
+      "check": "Đoán đúng thì thắng, gợi ý lớn/nhỏ chính xác.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 56,
+      "title": "Ôn tuần 8: while",
+      "action": "Không nhìn: viết while đếm ngược từ 10 về 1. Debug: chỉ ra dòng còn thiếu trong vòng while quên tăng biến.",
+      "check": "Đếm ngược in đúng; chỉ đúng dòng cần thêm.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 57,
+      "title": "Tạo list đầu tiên",
+      "action": "Gõ mon_an = ['phở', 'cơm', 'bún']; print(mon_an); print(mon_an[0]). Chạy, nhớ index bắt đầu từ 0.",
+      "check": "In cả list và phở ở vị trí 0.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 58,
+      "title": "Thêm món với append",
+      "action": "Tạo list rỗng gio_hang = []; gio_hang.append('sữa'); gio_hang.append('bánh'); print(gio_hang). Chạy.",
+      "check": "List in ra ['sữa', 'bánh'] đúng thứ tự thêm.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 59,
+      "title": "Đếm số món bằng len",
+      "action": "Tạo list 5 món ăn, in len(list) rồi dùng for in từng món. Chạy.",
+      "check": "In đúng số 5 và đủ 5 món.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 60,
+      "title": "Sửa phần tử trong list",
+      "action": "Gõ ds = ['a', 'b', 'c']; ds[1] = 'B'; print(ds). Chạy; thử ds[5] = 'x' xem lỗi gì.",
+      "check": "In ['a', 'B', 'c']; biết gán index không tồn tại thì lỗi.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 61,
+      "title": "Danh sách mua sắm",
+      "action": "Hỏi 3 món cần mua bằng input, append vào list, in danh sách đánh số 1. 2. 3. bằng for và range. Chạy.",
+      "check": "3 món bạn nhập hiện đủ, đánh số đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 62,
+      "title": "Điểm trung bình cả lớp",
+      "action": "Tạo list điểm [8, 7, 9, 6, 10]; dùng for tính tổng rồi chia cho len, in điểm trung bình. Chạy.",
+      "check": "In đúng 8.0.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 63,
+      "title": "Ôn tuần 9: list",
+      "action": "Không nhìn: tạo list, append 3 món, in từng món bằng for. Debug: sửa mon_an[3] trên list 3 phần tử, giải thích lỗi index.",
+      "check": "Chương trình chạy đúng; giải thích được lỗi vượt index.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 64,
+      "title": "Viết hàm đầu tiên",
+      "action": "Gõ def chao(): print('Xin chào!') ở trên, rồi gọi chao() ở dòng dưới. Chạy, thử gọi 2 lần xem in 2 lần.",
+      "check": "Gọi bao nhiêu lần in bấy nhiêu lần.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 65,
+      "title": "Hàm có tham số",
+      "action": "Gõ def chao(ten): print(f'Chào {ten}!'); rồi gọi chao('An') và chao('Bình'). Chạy.",
+      "check": "In đúng Chào An! và Chào Bình!.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 66,
+      "title": "Hàm trả về với return",
+      "action": "Gõ def cong(a, b): return a + b; rồi print(cong(3, 4)). Chạy; thử print(cong('a', 'b')) xem ra gì.",
+      "check": "In 7; hiểu return đưa kết quả về chỗ gọi.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 67,
+      "title": "Tham số mặc định",
+      "action": "Gõ def chao(ten='bạn'): print(f'Chào {ten}'); rồi gọi chao() không đối số và chao('An'). Chạy.",
+      "check": "chao() in Chào bạn, chao('An') in Chào An.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 68,
+      "title": "Hàm tính tiền tip",
+      "action": "Viết def tinh_tip(bill, phan_tram=10): return bill * phan_tram / 100; gọi với 320000 và in kết quả. Chạy.",
+      "check": "In đúng 32000.0.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 69,
+      "title": "Hàm kiểm tra số nguyên tố",
+      "action": "Viết def la_nguyen_to(n): dùng for kiểm tra ước, return True/False; thử với 7 và 8 rồi in. Chạy.",
+      "check": "7 trả True, 8 trả False.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 70,
+      "title": "Ôn tuần 10: hàm",
+      "action": "Không nhìn: viết hàm tinh_dien_tich(dai, rong) return diện tích, gọi thử với 4 và 5. Debug: sửa def thiếu dấu hai chấm ở cuối dòng.",
+      "check": "Hàm chạy đúng; sửa được lỗi thiếu dấu hai chấm.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 71,
+      "title": "Cắt list bằng slice",
+      "action": "Gõ ds = [1, 2, 3, 4, 5]; print(ds[1:4]); print(ds[:2]); print(ds[-2:]). Đoán trước mỗi kết quả rồi chạy.",
+      "check": "Đoán đúng [2, 3, 4], [1, 2], [4, 5].",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 72,
+      "title": "Kiểm tra có trong list",
+      "action": "Gõ mon = ['phở', 'cơm']; print('phở' in mon); print('bún' in mon). Chạy.",
+      "check": "In True rồi False, hiểu in kiểm tra tồn tại.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 73,
+      "title": "Sắp xếp với sort",
+      "action": "Gõ ds = [5, 2, 8, 1]; ds.sort(); print(ds). Chạy; thử ds.sort(reverse=True) rồi in xem sao.",
+      "check": "In [1, 2, 5, 8] rồi [8, 5, 2, 1].",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 74,
+      "title": "Xóa phần tử: remove/pop",
+      "action": "Gõ ds = ['a', 'b', 'c']; ds.remove('b'); x = ds.pop(); print(ds, x). Chạy.",
+      "check": "In ['a'] và c, hiểu pop lấy ra phần tử cuối.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 75,
+      "title": "Lọc số chẵn",
+      "action": "Tạo ds = list(range(1, 21)); dùng for và if tạo list mới chỉ chứa số chẵn; in ra. Chạy.",
+      "check": "In đúng [2, 4, ..., 20] đủ 10 số.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 76,
+      "title": "List comprehension gọn",
+      "action": "Gõ chan = [x for x in range(1, 21) if x % 2 == 0]; print(chan). Chạy, so kết quả với bài hôm qua.",
+      "check": "Ra đúng list số chẵn như bài hôm qua, chỉ trong 1 dòng.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 77,
+      "title": "Ôn tuần 11: list nâng cao",
+      "action": "Không nhìn: viết list comprehension tạo bình phương các số 1-10. Debug: sửa lỗi gán x = ds.sort() vì sort trả về None.",
+      "check": "List bình phương đúng; sửa được lỗi gán sort.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 78,
+      "title": "Tuple: list không sửa được",
+      "action": "Gõ t = (1, 2, 3); print(t[0]); rồi thử t[0] = 9 xem lỗi gì. Chạy.",
+      "check": "Đọc được phần tử, biết gán vào tuple thì báo lỗi.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 79,
+      "title": "Dict đầu tiên",
+      "action": "Gõ sv = {'ten': 'An', 'tuoi': 20}; print(sv['ten']). Chạy; thử print(sv['diem']) xem lỗi KeyError.",
+      "check": "In An; hiểu key không có thì lỗi.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 80,
+      "title": "Thêm/sửa trong dict",
+      "action": "Tạo dict rỗng d = {}; d['ten'] = 'Bình'; d['tuoi'] = 22; print(d). Chạy.",
+      "check": "In đúng {'ten': 'Bình', 'tuoi': 22}.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 81,
+      "title": "Duyệt dict bằng for",
+      "action": "Với dict sv ở trên, gõ for k, v in sv.items(): print(f'{k}: {v}'). Chạy.",
+      "check": "In đủ từng cặp key: value.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 82,
+      "title": "Danh bạ đơn giản",
+      "action": "Tạo dict danh_ba = {'An': '0901', 'Bình': '0902'}; hỏi tên bằng input, in số điện thoại nếu có, không thì báo Không tìm thấy. Chạy thử cả 2 trường hợp.",
+      "check": "Nhập An ra số, nhập tên lạ ra thông báo.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 83,
+      "title": "Đếm từ bằng dict",
+      "action": "Với cau = 'a b a c a b': dùng for và dict đếm mỗi từ xuất hiện mấy lần; in dict kết quả. Chạy.",
+      "check": "In đúng {'a': 3, 'b': 2, 'c': 1}.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 84,
+      "title": "Ôn tuần 12: dict",
+      "action": "Không nhìn: tạo dict 3 món ăn và giá, in từng món kèm giá. Debug: sửa d['Ten'] trong khi key thật là 'ten', giải thích phân biệt hoa thường.",
+      "check": "Chương trình chạy đúng; giải thích được lỗi sai hoa thường.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 85,
+      "title": "Ôn: chương trình hỏi-đáp",
+      "action": "Viết chương trình hỏi tên và tuổi, dùng if in Bạn đã trưởng thành nếu tuổi từ 18 trở lên. Chạy.",
+      "check": "Nhập 20 thì in câu trưởng thành, nhập 15 thì không.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 86,
+      "title": "Ôn: for và list",
+      "action": "Tạo list 5 số, dùng for in từng số và bình phương của nó. Chạy.",
+      "check": "In đủ 5 cặp số và bình phương đúng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 87,
+      "title": "Ôn: hàm và dict",
+      "action": "Viết hàm tra_diem(ten) dùng dict điểm có sẵn, return điểm hoặc Không có; gọi thử 2 tên. Chạy.",
+      "check": "Tên có trong dict ra điểm, tên lạ ra Không có.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 88,
+      "title": "Ôn: while và input",
+      "action": "Viết menu lặp: nhập 1 in Chào, nhập 2 in Tạm biệt rồi break, nhập khác thì báo sai. Chạy thử cả 3.",
+      "check": "Cả 3 lựa chọn đều xử lý đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 89,
+      "title": "Project mùa 1: game đoán số",
+      "action": "Code hoàn chỉnh game đoán số: máy giữ số bí mật 42, gợi ý lớn hơn/nhỏ hơn, đếm số lượt đoán, chúc mừng khi thắng. Chạy và thắng thật 1 ván.",
+      "check": "Chơi thắng 1 ván từ đầu tới cuối không lỗi.",
+      "minutes": 10,
+      "type": "project"
+    },
+    {
+      "day": 90,
+      "title": "Chuẩn bị sang mùa 2",
+      "action": "Mở lại game đoán số, đọc toàn bộ code và tự hào 1 phút. Ghi ra giấy 3 thứ mùa 1 bạn đã làm được.",
+      "check": "Ghi được 3 kỹ năng cụ thể đã học.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 91,
+      "title": "Ôn tuần 13: tổng kết mùa 1",
+      "action": "Không nhìn code: kể lại game đoán số dùng những gì (biến, while, if, input). Mở game chạy demo thắng 1 ván.",
+      "check": "Kể đúng các thành phần; demo chạy thắng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 92,
+      "title": "Mở và đọc file",
+      "action": "Tạo file ghi_chu.txt bằng app soạn thảo, ghi vài dòng chữ vào. Rồi gõ f = open('ghi_chu.txt'); print(f.read()); f.close() và chạy.",
+      "check": "Nội dung file in ra đầy đủ.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 93,
+      "title": "Đọc bằng with open",
+      "action": "Gõ with open('ghi_chu.txt') as f: print(f.read()). Chạy; hiểu with tự đóng file giúp mình.",
+      "check": "Nội dung in ra đầy đủ, không cần gọi close.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 94,
+      "title": "Đọc từng dòng",
+      "action": "Gõ with open('ghi_chu.txt') as f: rồi for dong in f: print(dong.strip()). Chạy.",
+      "check": "Mỗi dòng file in 1 dòng, không có dòng trống thừa.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 95,
+      "title": "Đếm dòng và từ",
+      "action": "Đọc file ghi_chu.txt, đếm số dòng và tổng số từ bằng split, in cả hai kết quả. Chạy.",
+      "check": "Số dòng và số từ in ra khớp đếm tay.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 96,
+      "title": "Xử lý file không tồn tại",
+      "action": "Gõ try: open('khong_co.txt') except FileNotFoundError: print('Không thấy file!'). Chạy.",
+      "check": "In câu thông báo thay vì báo lỗi đỏ.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 97,
+      "title": "Đọc file thơ",
+      "action": "Tạo file tho.txt gồm 4 câu thơ, viết chương trình in mỗi câu kèm số thứ tự 1. 2. 3. 4. Chạy.",
+      "check": "4 câu thơ in đủ, đánh số đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 98,
+      "title": "Ôn tuần 14: đọc file",
+      "action": "Không nhìn: viết chương trình đọc 1 file và in số dòng của nó. Debug: sửa lỗi quên .strip() làm in thừa dòng trống.",
+      "check": "Chương trình chạy đúng; sửa được lỗi strip.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 99,
+      "title": "Ghi file lần đầu",
+      "action": "Gõ with open('moi.txt', 'w') as f: f.write('Dòng 1\\nDòng 2\\n'). Chạy xong mở file kiểm tra nội dung.",
+      "check": "File moi.txt có đúng 2 dòng.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 100,
+      "title": "Ghi nối thêm với append",
+      "action": "Gõ with open('moi.txt', 'a') as f: f.write('Dòng 3\\n'). Chạy xong mở file xem có 3 dòng, dòng cũ còn nguyên.",
+      "check": "File có 3 dòng, 2 dòng cũ không mất.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 101,
+      "title": "Nhật ký mỗi ngày",
+      "action": "Viết chương trình hỏi Hôm nay thế nào?, ghi câu trả lời vào nhat_ky.txt ở chế độ a. Chạy 2 lần, mở file kiểm tra.",
+      "check": "File có đủ 2 dòng nhật ký bạn vừa ghi.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 102,
+      "title": "Ghi cả list ra file",
+      "action": "Tạo ds = ['a\\n', 'b\\n', 'c\\n']; with open('ds.txt', 'w') as f: f.writelines(ds). Chạy xong mở file kiểm tra.",
+      "check": "File ds.txt có 3 dòng a, b, c.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 103,
+      "title": "Chép file",
+      "action": "Đọc toàn bộ ghi_chu.txt rồi ghi sang ban_sao.txt. Mở 2 file so sánh giống hệt nhau. Chạy.",
+      "check": "2 file nội dung giống hệt nhau.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 104,
+      "title": "Lưu điểm số ra file",
+      "action": "Tạo dict điểm của 3 bạn, ghi mỗi dòng Tên: điểm ra diem.txt. Mở file kiểm tra. Chạy.",
+      "check": "File có đủ 3 dòng điểm đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 105,
+      "title": "Ôn tuần 15: ghi file",
+      "action": "Không nhìn: viết chương trình ghi 3 dòng chữ vào 1 file mới. Debug: sửa open(ten_file) thiếu mode 'w' nên không ghi được.",
+      "check": "File được ghi đúng 3 dòng; sửa được lỗi thiếu mode.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 106,
+      "title": "Nối list thành chuỗi với join",
+      "action": "Gõ print(', '.join(['a', 'b', 'c'])). Chạy; thử '\\n'.join(['a', 'b']) xem mỗi chữ xuống 1 dòng.",
+      "check": "Dòng đầu in a, b, c; dòng thử mỗi chữ 1 dòng.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 107,
+      "title": "Thay thế với replace",
+      "action": "Gõ s = 'Tôi thích táo'; print(s.replace('táo', 'xoài')). Chạy.",
+      "check": "In ra Tôi thích xoài.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 108,
+      "title": "Đếm ký tự với count",
+      "action": "Tạo 1 câu tiếng Việt, dùng .count('a') đếm chữ a, in kết quả. Chạy.",
+      "check": "Số in ra khớp số chữ a đếm tay.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 109,
+      "title": "Kiểm tra đầu/cuối chuỗi",
+      "action": "Gõ s = 'hello.py'; print(s.startswith('hello')); print(s.endswith('.py')). Chạy.",
+      "check": "In True rồi True, hiểu 2 hàm kiểm tra đầu cuối.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 110,
+      "title": "Tách họ tên",
+      "action": "Hỏi họ tên đầy đủ, dùng split lấy từ cuối cùng làm tên, in Tên bạn là X. Chạy với tên 3-4 chữ.",
+      "check": "In đúng tên (từ cuối cùng) bạn nhập.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 111,
+      "title": "Làm sạch đoạn văn",
+      "action": "Tạo chuỗi có khoảng trắng thừa và chữ hoa lung tung; dùng strip, lower, split, join chuẩn hóa thành câu đẹp rồi in. Chạy.",
+      "check": "Câu in ra gọn gàng, đúng chính tả chữ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 112,
+      "title": "Ôn tuần 16: chuỗi",
+      "action": "Không nhìn: viết chương trình chuẩn hóa tên viết lung tung thành Tên Đẹp. Debug: sửa ', '.join(123) vì join chỉ nhận list chuỗi.",
+      "check": "Tên in ra chuẩn; sửa được lỗi join.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 113,
+      "title": "Try/except đầu tiên",
+      "action": "Gõ try: print(int('abc')) except ValueError: print('Không phải số!'). Chạy.",
+      "check": "In ra Không phải số! thay vì lỗi đỏ.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 114,
+      "title": "Bắt nhiều loại lỗi",
+      "action": "Viết try nhập x bằng int(input) rồi in 10 / x; viết except ValueError và except ZeroDivisionError riêng, mỗi loại 1 thông báo. Chạy thử nhập chữ và nhập 0.",
+      "check": "Nhập chữ và nhập 0 đều ra thông báo riêng đúng.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 115,
+      "title": "Khối finally",
+      "action": "Gõ try: print(1/0) except: print('lỗi') finally: print('xong'). Chạy; hiểu finally luôn chạy.",
+      "check": "In 2 dòng lỗi và xong, hiểu finally luôn chạy.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 116,
+      "title": "Hỏi số an toàn",
+      "action": "Viết hàm nhap_so() dùng while và try/except, hỏi tới khi nhập đúng số mới return. Chạy, thử nhập chữ trước.",
+      "check": "Nhập chữ bị hỏi lại, nhập số thì trả về đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 117,
+      "title": "Máy tính không sập",
+      "action": "Viết máy tính 2 số với 1 phép tính, bọc try/except để nhập sai không sập chương trình. Chạy thử nhập chữ.",
+      "check": "Nhập sai ra thông báo đẹp, chương trình không sập.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 118,
+      "title": "Đọc file an toàn",
+      "action": "Viết hàm doc_file(ten) dùng try/except FileNotFoundError, trả về nội dung hoặc File không tồn tại. Gọi thử 2 tên file. Chạy.",
+      "check": "File có thì ra nội dung, file không có thì ra thông báo.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 119,
+      "title": "Ôn tuần 17: try/except",
+      "action": "Không nhìn: viết try/except cho int(input) báo lỗi đẹp. Debug: sửa except viết sai tên lỗi (ví dụ ValuError).",
+      "check": "Chương trình chạy đúng; sửa được tên lỗi.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 120,
+      "title": "Import thư viện đầu tiên",
+      "action": "Gõ import math; print(math.sqrt(16)); print(math.pi). Chạy.",
+      "check": "In 4.0 và 3.14159..., hiểu import nạp thư viện.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 121,
+      "title": "Random số ngẫu nhiên",
+      "action": "Gõ import random; print(random.randint(1, 10)). Chạy 3 lần xem ra số khác nhau.",
+      "check": "3 lần chạy ra số khác nhau.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 122,
+      "title": "Tung xúc xắc",
+      "action": "Viết hàm tung_xuc_xac() return random.randint(1, 6); gọi 5 lần in kết quả. Chạy.",
+      "check": "5 kết quả đều từ 1 tới 6.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 123,
+      "title": "Chọn ngẫu nhiên từ list",
+      "action": "Gõ import random; print(random.choice(['phở', 'cơm', 'bún'])). Chạy 3 lần.",
+      "check": "3 lần ra món có thể khác nhau.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 124,
+      "title": "Máy chọn món ăn",
+      "action": "Tạo list 5 món, dùng random.choice gợi ý món trưa; hỏi ăn không (c/k), nếu không thì chọn lại bằng while. Chạy.",
+      "check": "Gõ k thì gợi ý món mới, gõ c thì dừng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 125,
+      "title": "Xáo trộn list",
+      "action": "Tạo list tên 4 bạn, dùng random.shuffle xáo trộn rồi in thứ tự mới. Chạy 2 lần xem khác nhau.",
+      "check": "2 lần in thứ tự khác nhau.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 126,
+      "title": "Ôn tuần 18: random",
+      "action": "Không nhìn: viết chương trình tung đồng xu bằng random.choice(['sấp', 'ngửa']). Debug: sửa lỗi quên import random.",
+      "check": "Chương trình chạy đúng; sửa được lỗi thiếu import.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 127,
+      "title": "Lấy ngày hôm nay",
+      "action": "Gõ from datetime import date; print(date.today()). Chạy.",
+      "check": "In ra ngày hôm nay đúng.",
+      "minutes": 5,
+      "type": "learn"
+    },
+    {
+      "day": 128,
+      "title": "Định dạng ngày đẹp",
+      "action": "Gõ from datetime import date; hom_nay = date.today(); print(hom_nay.strftime('%d/%m/%Y')). Chạy.",
+      "check": "In ngày dạng 19/10/2026.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 129,
+      "title": "Tính số ngày đã sống",
+      "action": "Hỏi năm, tháng, ngày sinh; dùng date tính (today - ngay_sinh).days rồi in số ngày. Chạy.",
+      "check": "In ra số ngày hợp lý với tuổi bạn.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 130,
+      "title": "Cộng trừ ngày",
+      "action": "Gõ from datetime import date, timedelta; print(date.today() + timedelta(days=7)). Chạy.",
+      "check": "In ra ngày đúng 7 ngày sau hôm nay.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 131,
+      "title": "Đếm ngược tới Tết",
+      "action": "Tạo ngay_tet = date(2027, 2, 6); tính (ngay_tet - date.today()).days rồi in số ngày còn lại. Chạy.",
+      "check": "In ra số ngày còn lại là số dương.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 132,
+      "title": "Nhật ký có timestamp",
+      "action": "Sửa bài nhật ký tuần 15: mỗi dòng ghi thêm ngày giờ hiện tại bằng datetime.now().strftime('%d/%m %H:%M'). Chạy 1 lần, mở file xem.",
+      "check": "Dòng nhật ký mới có ngày giờ đi kèm.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 133,
+      "title": "Ôn tuần 19: datetime",
+      "action": "Không nhìn: viết chương trình in hôm nay và ngày 30 ngày sau. Debug: sửa date.today() + 7 thiếu timedelta.",
+      "check": "In đúng 2 ngày; sửa được lỗi thiếu timedelta.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 134,
+      "title": "Dict thành chuỗi JSON",
+      "action": "Gõ import json; d = {'ten': 'An', 'tuoi': 20}; print(json.dumps(d)). Chạy.",
+      "check": "In ra chuỗi {\"ten\": \"An\", \"tuoi\": 20}.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 135,
+      "title": "Chuỗi JSON thành dict",
+      "action": "Gõ import json; s = '{\"ten\": \"An\"}'; d = json.loads(s); print(d['ten']). Chạy.",
+      "check": "In ra An, hiểu loads biến chuỗi thành dict.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 136,
+      "title": "Lưu setting ra file JSON",
+      "action": "Tạo dict setting = {'am_luong': 50, 'che_do': 'toi'}; ghi ra setting.json bằng json.dump. Mở file xem. Chạy.",
+      "check": "File setting.json có nội dung dict.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 137,
+      "title": "Đọc setting từ JSON",
+      "action": "Đọc setting.json bằng json.load, in từng cặp key: value. Chạy.",
+      "check": "In đủ 2 setting đã lưu.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 138,
+      "title": "Danh bạ JSON",
+      "action": "Tạo list 3 dict gồm ten và sdt, ghi ra danhba.json; đọc lại và in đẹp từng người. Chạy.",
+      "check": "In đủ 3 người với tên và số.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 139,
+      "title": "Sửa 1 mục trong JSON",
+      "action": "Đọc danhba.json, đổi số điện thoại của 1 người, ghi đè lại file; đọc lại kiểm tra. Chạy.",
+      "check": "Đọc lại thấy số mới đã đổi.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 140,
+      "title": "Ôn tuần 20: JSON",
+      "action": "Không nhìn: viết chương trình lưu 1 dict ra file JSON rồi đọc lại in ra. Debug: sửa json.load(f) khi f mở ở mode 'w'.",
+      "check": "Chương trình chạy đúng; sửa được lỗi sai mode.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 141,
+      "title": "Vẽ khung menu máy tính",
+      "action": "In menu 4 phép tính cộng trừ nhân chia và 0 để thoát; hỏi lựa chọn bằng input. Chạy.",
+      "check": "Menu hiện đủ 5 dòng, nhập được lựa chọn.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 142,
+      "title": "Cộng trừ hoàn chỉnh",
+      "action": "Code nhánh cộng và trừ: hỏi 2 số bằng hàm nhập số an toàn tuần 17, in kết quả. Chạy thử cả hai.",
+      "check": "Cộng trừ đều ra kết quả đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 143,
+      "title": "Nhân chia và chống chia 0",
+      "action": "Thêm nhánh nhân và chia; khi chia thì kiểm tra số chia khác 0, nếu bằng 0 thì báo không chia được. Chạy thử chia cho 0.",
+      "check": "Chia cho 0 ra thông báo đẹp, không sập.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 144,
+      "title": "Vòng lặp menu",
+      "action": "Bọc menu trong while True, chọn 0 thì break; mỗi phép tính xong lại hiện menu. Chạy 3 phép rồi thoát.",
+      "check": "Làm 3 phép liên tiếp rồi thoát được bằng 0.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 145,
+      "title": "Gói thành hàm",
+      "action": "Tách mỗi phép tính thành 1 hàm riêng (cong, tru, nhan, chia); menu chỉ gọi hàm. Chạy lại toàn bộ.",
+      "check": "Mọi phép tính vẫn đúng sau khi tách hàm.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 146,
+      "title": "Hoàn thiện máy tính",
+      "action": "Chạy thử mọi nhánh và nhập sai; sửa hết lỗi gặp; thêm dòng chào khi thoát. Chạy demo 1 lượt.",
+      "check": "Demo 1 lượt từ đầu tới cuối không lỗi.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 147,
+      "title": "Ôn tuần 21: máy tính",
+      "action": "Không nhìn: viết hàm chia an toàn chống chia 0. Debug: sửa menu while quên break ở lựa chọn 0.",
+      "check": "Hàm chạy đúng; sửa được lỗi thiếu break.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 148,
+      "title": "Thiết kế sổ chi tiêu",
+      "action": "Viết ra giấy: mỗi khoản chi cần lưu gì (ngày, nội dung, số tiền)? Tạo file chitieu.json chứa list rỗng []. Chạy kiểm tra file.",
+      "check": "File chitieu.json tồn tại với nội dung [].",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 149,
+      "title": "Thêm khoản chi",
+      "action": "Viết hàm them_chi(): hỏi nội dung và số tiền, thêm dict vào list, lưu ra JSON. Chạy, thêm 3 khoản.",
+      "check": "File JSON có đủ 3 khoản vừa thêm.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 150,
+      "title": "Xem toàn bộ chi tiêu",
+      "action": "Viết hàm xem(): đọc JSON, in từng khoản đánh số kèm tổng tiền cuối. Chạy.",
+      "check": "In đủ các khoản và tổng tiền đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 151,
+      "title": "Xóa khoản chi",
+      "action": "Viết hàm xoa(): hiện danh sách, hỏi số thứ tự, xóa khỏi list, lưu lại file. Chạy thử xóa 1 khoản.",
+      "check": "Khoản đã xóa biến mất khỏi file.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 152,
+      "title": "Menu sổ chi tiêu",
+      "action": "Ghép 3 hàm vào menu while: 1 thêm, 2 xem, 3 xóa, 0 thoát. Chạy thử đủ 3 chức năng.",
+      "check": "Cả 3 chức năng đều hoạt động.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 153,
+      "title": "Thống kê theo ngày",
+      "action": "Thêm chức năng 4: nhập ngày, in tổng chi của ngày đó. Chạy thử.",
+      "check": "Tổng chi theo ngày in ra đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 154,
+      "title": "Ôn tuần 22: sổ chi tiêu",
+      "action": "Không nhìn: viết hàm đọc file JSON trả về list. Debug: sửa lỗi ghi đè file JSON làm mất dữ liệu cũ vì quên đọc trước khi ghi.",
+      "check": "Hàm chạy đúng; sửa được lỗi mất dữ liệu.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 155,
+      "title": "Đọc đoạn văn từ file",
+      "action": "Tạo file vanban.txt vài câu tiếng Việt; viết chương trình đọc và in số ký tự. Chạy.",
+      "check": "In ra số ký tự đúng.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 156,
+      "title": "Đếm tổng số từ",
+      "action": "Đọc vanban.txt, dùng split đếm tổng số từ, in ra. Chạy.",
+      "check": "Số từ in ra khớp đếm tay.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 157,
+      "title": "Từ xuất hiện nhiều nhất",
+      "action": "Dùng dict đếm tần suất từng từ (lower() trước khi đếm), tìm từ nhiều nhất bằng max. In ra. Chạy.",
+      "check": "In đúng từ nhiều nhất và số lần.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 158,
+      "title": "Top 5 từ phổ biến",
+      "action": "Sắp xếp dict theo tần suất giảm dần bằng sorted với key, in top 5. Chạy.",
+      "check": "In đúng 5 từ đầu bảng theo thứ tự.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 159,
+      "title": "Loại bỏ dấu câu",
+      "action": "Trước khi đếm, thay dấu câu .,!? thành chuỗi rỗng bằng replace; chạy lại xem top 5 có đổi không.",
+      "check": "Top 5 sau khi bỏ dấu câu hợp lý hơn.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 160,
+      "title": "Báo cáo hoàn chỉnh",
+      "action": "In báo cáo đẹp: tổng số từ, số từ khác nhau, top 5. Chạy với 2 đoạn văn khác nhau.",
+      "check": "Báo cáo 2 đoạn văn đều đầy đủ 3 mục.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 161,
+      "title": "Ôn tuần 23: đếm từ",
+      "action": "Không nhìn: viết vòng lặp đếm từ bằng dict từ 1 câu. Debug: sửa KeyError khi đếm từ chưa có trong dict bằng .get().",
+      "check": "Đếm đúng; sửa được lỗi KeyError.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 162,
+      "title": "Thiết kế danh bạ",
+      "action": "Viết ra giấy: danh bạ cần chức năng gì (thêm, tìm, xem, xóa)? Tạo file danhba2.json chứa list rỗng. Chạy kiểm tra.",
+      "check": "File tồn tại; giấy ghi đủ 4 chức năng.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 163,
+      "title": "Thêm liên hệ",
+      "action": "Viết hàm thêm: hỏi tên và số điện thoại, lưu dict vào JSON. Chạy, thêm 3 người.",
+      "check": "File có đủ 3 liên hệ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 164,
+      "title": "Tìm kiếm tên",
+      "action": "Viết hàm tìm: hỏi tên, duyệt list in người khớp (dùng in để tìm gần đúng). Chạy thử.",
+      "check": "Nhập 1 phần tên vẫn tìm ra người.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 165,
+      "title": "Liệt kê danh bạ",
+      "action": "Viết hàm liệt kê: in bảng tên và số ngay hàng bằng ljust. Chạy.",
+      "check": "Bảng in ngay hàng, dễ đọc.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 166,
+      "title": "Xóa liên hệ",
+      "action": "Viết hàm xóa theo tên, hỏi xác nhận c/k trước khi xóa thật. Chạy thử.",
+      "check": "Gõ k thì không xóa, gõ c thì xóa.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 167,
+      "title": "Menu danh bạ hoàn chỉnh",
+      "action": "Ghép menu 4 chức năng và 0 thoát; chạy thử đủ luồng. Sửa lỗi phát sinh.",
+      "check": "Demo đủ 4 chức năng không lỗi.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 168,
+      "title": "Ôn tuần 24: danh bạ",
+      "action": "Không nhìn: viết hàm tìm kiếm gần đúng bằng in. Debug: sửa so sánh tên phân biệt hoa thường bằng lower() cả hai vế.",
+      "check": "Tìm đúng; sửa được lỗi hoa thường.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 169,
+      "title": "Đọc thông báo lỗi",
+      "action": "Cố ý tạo 3 lỗi: NameError, TypeError, IndexError; đọc kỹ từng thông báo xem nó chỉ dòng nào. Ghi nhớ.",
+      "check": "Chỉ đúng dòng lỗi cho cả 3 loại.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 170,
+      "title": "In giá trị để tìm lỗi",
+      "action": "Lấy 1 chương trình cũ bị sai kết quả; chèn print() ở giữa để xem giá trị biến, tìm chỗ sai rồi sửa. Chạy đúng.",
+      "check": "Tìm ra chỗ sai và sửa cho chạy đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 171,
+      "title": "Chia nhỏ để test",
+      "action": "Viết 1 hàm dài 15 dòng; tách thành 3 hàm nhỏ, test từng hàm riêng bằng print. Chạy.",
+      "check": "Cả 3 hàm nhỏ đều test ra đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 172,
+      "title": "Debug như người ngoài",
+      "action": "Tự viết 1 chương trình 20 dòng có 2 lỗi logic cố ý; để đó 10 phút rồi quay lại debug như người ngoài. Sửa xong chạy đúng.",
+      "check": "Tìm và sửa được cả 2 lỗi logic.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 173,
+      "title": "Viết code phòng thủ",
+      "action": "Mở lại máy tính tuần 21, thêm kiểm tra input rỗng và số âm ở chỗ cần thiết. Chạy thử các case.",
+      "check": "Nhập rỗng hoặc số âm đều được xử lý đẹp.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 174,
+      "title": "Dọn code cũ",
+      "action": "Mở lại game đoán số mùa 1, đổi tên biến cho rõ nghĩa, thêm 3 dòng comment. Chạy lại vẫn thắng được.",
+      "check": "Code sạch hơn mà game vẫn chạy thắng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 175,
+      "title": "Ôn tuần 25: debug",
+      "action": "Kể bằng lời mình 3 bước khi gặp lỗi (đọc thông báo, in biến, chia nhỏ), rồi demo 1 lần trên code thật.",
+      "check": "Kể đủ 3 bước và demo thành công.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 176,
+      "title": "Chọn project ưng nhất",
+      "action": "Mở lại 4 mini-project (máy tính, sổ chi tiêu, đếm từ, danh bạ); chọn 1 cái thích nhất để hoàn thiện. Chạy thử nó.",
+      "check": "Chọn được 1 project và chạy thử thành công.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 177,
+      "title": "Liệt kê điểm yếu",
+      "action": "Chạy project đã chọn, ghi ra giấy 5 thứ chưa ổn (lỗi, thiếu tính năng, khó dùng). Xong.",
+      "check": "Giấy ghi đủ 5 điểm cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 178,
+      "title": "Sửa 2 lỗi đầu",
+      "action": "Sửa 2 điểm yếu đầu tiên trong danh sách; chạy lại kiểm tra. Đánh dấu đã xong.",
+      "check": "2 điểm yếu đã sửa, chạy kiểm tra đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 179,
+      "title": "Thêm 1 tính năng mới",
+      "action": "Thêm 1 tính năng nhỏ tự nghĩ (ví dụ sổ chi tiêu thêm ghi chú). Code và chạy thử.",
+      "check": "Tính năng mới hoạt động đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 180,
+      "title": "Project mùa 2: bản hoàn thiện",
+      "action": "Sửa nốt các điểm yếu còn lại; chạy demo toàn bộ chức năng từ đầu tới cuối không lỗi. Ghi các bước demo ra giấy.",
+      "check": "Demo full không lỗi; giấy ghi đủ bước.",
+      "minutes": 10,
+      "type": "project"
+    },
+    {
+      "day": 181,
+      "title": "Chuẩn bị kể về project",
+      "action": "Tập nói 1 phút: project làm gì, khó nhất chỗ nào, tự hào nhất chỗ nào. Nói thành tiếng 2 lần.",
+      "check": "Nói trôi chảy 1 phút không ấp úng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 182,
+      "title": "Ôn mùa 2: kể lại hành trình",
+      "action": "Không nhìn code: kể lại 4 mini-project đã làm, mỗi cái 1 câu gồm làm gì và kỹ thuật chính. Mở 1 project chạy demo.",
+      "check": "Kể đủ 4 project; demo chạy thành công.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 183,
+      "title": "Chốt ý tưởng tool",
+      "action": "Viết ra giấy: tool đổi tên file hàng loạt sẽ làm gì (thêm tiền tố, đánh số thứ tự)? Ghi 3 việc thật bạn từng phải đổi tên bằng tay. Xong.",
+      "check": "Giấy ghi rõ tool làm gì và 3 việc thật.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 184,
+      "title": "Chia thành bước nhỏ",
+      "action": "Chia tool thành 6 bước nhỏ, mỗi bước 1 việc duy nhất; ghi ra giấy theo thứ tự làm. Xong.",
+      "check": "Giấy ghi đủ 6 bước theo thứ tự.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 185,
+      "title": "Vẽ luồng chương trình",
+      "action": "Vẽ sơ đồ ra giấy: bắt đầu, hỏi thư mục, liệt kê file, hỏi kiểu đổi tên, xem trước, xác nhận, đổi thật. Xong.",
+      "check": "Sơ đồ có đủ 7 bước nối nhau.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 186,
+      "title": "Tạo thư mục thử nghiệm",
+      "action": "Tạo thư mục test_doi_ten, chép 5 file bất kỳ vào rồi đổi tên thành file1.txt đến file5.txt. Mở thư mục kiểm tra.",
+      "check": "Thư mục có đủ 5 file đúng tên.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 187,
+      "title": "Viết dàn ý code",
+      "action": "Tạo file doi_ten.py với các hàm trống chỉ có def và pass: liet_ke, xem_truoc, doi_ten, main. Chạy file xem không lỗi.",
+      "check": "File chạy không lỗi dù hàm còn trống.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 188,
+      "title": "Cam kết với bản thân",
+      "action": "Viết 3 dòng comment đầu file: tool này giúp ai, làm việc gì, khi nào xong (ngày 273). Chạy file xem không lỗi.",
+      "check": "Đầu file có 3 dòng cam kết rõ ràng.",
+      "minutes": 6,
+      "type": "practice"
+    },
+    {
+      "day": 189,
+      "title": "Ôn tuần 27: kế hoạch tool",
+      "action": "Không nhìn giấy: kể lại 6 bước của tool. Debug: sửa file .py chạy báo IndentationError do thụt dòng sai.",
+      "check": "Kể đủ 6 bước; sửa được lỗi thụt dòng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 190,
+      "title": "Liệt kê file bằng os",
+      "action": "Gõ import os; print(os.listdir('test_doi_ten')). Chạy.",
+      "check": "In ra list 5 file trong thư mục.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 191,
+      "title": "Đường dẫn với pathlib",
+      "action": "Gõ from pathlib import Path; p = Path('test_doi_ten'); print(list(p.iterdir())). Chạy.",
+      "check": "In ra 5 đường dẫn file.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 192,
+      "title": "Lấy tên và đuôi file",
+      "action": "Với 1 Path của file1.txt, in .name, .suffix, .stem. Chạy.",
+      "check": "In đúng file1.txt, .txt, file1.",
+      "minutes": 6,
+      "type": "learn"
+    },
+    {
+      "day": 193,
+      "title": "Lọc chỉ file .txt",
+      "action": "Duyệt thư mục test_doi_ten, chỉ in file có .suffix == '.txt'. Chạy.",
+      "check": "Chỉ in các file .txt.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 194,
+      "title": "Đếm file theo loại",
+      "action": "Dùng dict đếm số file theo đuôi (.txt, .jpg...) trong thư mục test. In ra. Chạy.",
+      "check": "In đúng số lượng từng loại đuôi.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 195,
+      "title": "Viết hàm liet_ke()",
+      "action": "Điền code thật vào hàm liet_ke(thu_muc) trong doi_ten.py: trả về list Path các file. Gọi thử từ main và in ra. Chạy.",
+      "check": "Hàm trả về đúng 5 Path.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 196,
+      "title": "Ôn tuần 28: pathlib",
+      "action": "Không nhìn: viết 3 dòng liệt kê file .txt bằng pathlib. Debug: sửa lỗi đường dẫn sai làm không thấy file.",
+      "check": "Liệt kê đúng; sửa được lỗi đường dẫn.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 197,
+      "title": "Đổi tên 1 file",
+      "action": "Gõ from pathlib import Path; Path('test_doi_ten/file1.txt').rename('test_doi_ten/moi1.txt'). Chạy xong mở thư mục kiểm tra.",
+      "check": "File moi1.txt xuất hiện, file1.txt biến mất.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 198,
+      "title": "Đổi tên hàng loạt đơn giản",
+      "action": "Viết vòng for đổi file1 đến file5 thành anh1 đến anh5 bằng f-string. Mở thư mục kiểm tra đủ 5 file mới. Chạy.",
+      "check": "5 file mới đúng tên, file cũ biến mất.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 199,
+      "title": "Thêm tiền tố vào tên",
+      "action": "Viết vòng for đổi mỗi file thành 'backup_' + tên cũ. Mở thư mục kiểm tra. Chạy.",
+      "check": "Mọi file đều có tiền tố backup_.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 200,
+      "title": "Đánh số thứ tự",
+      "action": "Đổi tên 5 file thành 01_ten.txt, 02_ten.txt... dùng f'{i:02d}'. Mở thư mục kiểm tra. Chạy.",
+      "check": "5 file đánh số 01 đến 05 đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 201,
+      "title": "Viết hàm doi_ten()",
+      "action": "Điền code vào doi_ten(danh_sach, kieu): nhận kieu là tien_to hoặc danh_so rồi đổi tên thật. Test cả 2 kiểu. Chạy.",
+      "check": "Cả 2 kiểu đổi tên đều đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 202,
+      "title": "Khôi phục file test",
+      "action": "Đổi tên 5 file về lại file1.txt đến file5.txt để tuần sau test tiếp. Mở thư mục kiểm tra. Chạy.",
+      "check": "5 file về đúng tên ban đầu.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 203,
+      "title": "Ôn tuần 29: đổi tên",
+      "action": "Không nhìn: viết 2 dòng đổi tên 1 file bằng rename. Debug: sửa lỗi đổi tên đè lên file đã tồn tại.",
+      "check": "Đổi tên đúng; sửa được lỗi đè file.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 204,
+      "title": "In kế hoạch đổi tên",
+      "action": "Viết hàm xem_truoc(): in từng cặp dạng cũ -> mới mà chưa đổi thật. Chạy xem bảng.",
+      "check": "Bảng in đủ cặp cũ -> mới, file chưa đổi.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 205,
+      "title": "Hỏi xác nhận",
+      "action": "Sau khi xem trước, hỏi Đổi thật không (c/k)?; chỉ đổi khi gõ c. Chạy thử cả c và k.",
+      "check": "Gõ k thì file giữ nguyên, gõ c thì đổi.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 206,
+      "title": "Nối vào main()",
+      "action": "Viết main(): gọi liet_ke, rồi xem_truoc, rồi hỏi xác nhận, rồi doi_ten. Chạy demo 1 lượt.",
+      "check": "Demo 1 lượt chạy đúng thứ tự.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 207,
+      "title": "Test với file thật",
+      "action": "Chạy tool với thư mục test_doi_ten, đọc kỹ bảng xem trước rồi mới cho đổi. Kiểm tra kết quả.",
+      "check": "Bảng xem trước đúng, file đổi đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 208,
+      "title": "Ghi log đã đổi",
+      "action": "Mỗi lần đổi tên, ghi dòng dạng cũ -> mới vào log.txt ở chế độ a. Chạy 1 lượt, mở log xem.",
+      "check": "File log có đủ dòng đã đổi.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 209,
+      "title": "Đếm số file đã đổi",
+      "action": "In dòng Đã đổi X file ở cuối chương trình. Chạy, kiểm tra số đúng.",
+      "check": "Số X khớp số file thực tế đã đổi.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 210,
+      "title": "Ôn tuần 30: xem trước",
+      "action": "Giải thích bằng lời mình vì sao phải xem trước khi đổi file thật, rồi demo lại luồng xem trước trên tool.",
+      "check": "Giải thích được lý do; demo chạy đúng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 211,
+      "title": "Phát hiện tên trùng",
+      "action": "Tạo 2 file có tên đích giống nhau; viết if kiểm tra Path(ten_moi).exists() thì báo Trùng tên!. Chạy.",
+      "check": "Báo đúng Trùng tên! khi file đích đã có.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 212,
+      "title": "Tự thêm hậu tố",
+      "action": "Nếu tên mới đã tồn tại, tự thêm _1, _2... tới khi hết trùng. Code và test với 3 file trùng. Chạy.",
+      "check": "3 file trùng được đổi thành tên khác nhau.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 213,
+      "title": "Bỏ qua file trùng",
+      "action": "Thêm lựa chọn: gặp trùng thì hỏi bỏ qua (b) hay ghi đè (g)? Code nhánh bỏ qua. Chạy thử.",
+      "check": "Chọn b thì file được giữ nguyên.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 214,
+      "title": "Test ma trận trùng",
+      "action": "Tạo 6 file test với các case trùng khác nhau; chạy tool, kiểm tra không mất file nào. Chạy.",
+      "check": "Đủ 6 file sau khi chạy, không mất file.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 215,
+      "title": "Sao lưu trước khi đổi",
+      "action": "Trước khi đổi, chép toàn bộ file sang thư mục backup_ kèm ngày. Code và chạy, kiểm tra thư mục backup.",
+      "check": "Thư mục backup có đủ file gốc.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 216,
+      "title": "Hoàn tác đơn giản",
+      "action": "Đọc log.txt, viết hàm hoan_tac(): đổi tên ngược lại theo log. Test 1 lượt. Chạy.",
+      "check": "File về lại tên cũ sau hoàn tác.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 217,
+      "title": "Ôn tuần 31: trùng tên",
+      "action": "Không nhìn: kể 3 cách xử lý trùng tên đã học. Debug: sửa vòng while tìm tên không trùng bị lặp vô hạn.",
+      "check": "Kể đủ 3 cách; sửa được vòng lặp vô hạn.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 218,
+      "title": "Đọc sys.argv",
+      "action": "Gõ import sys; print(sys.argv). Chạy file với lệnh python doi_ten.py a b, xem argv có gì.",
+      "check": "In ra list gồm tên file và a, b.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 219,
+      "title": "Argparse cơ bản",
+      "action": "Viết parser với 1 đối số thư mục, chạy python doi_ten.py test_doi_ten. Chạy thử.",
+      "check": "Chương trình nhận đúng thư mục truyền vào.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 220,
+      "title": "Thêm tùy chọn kiểu",
+      "action": "Thêm --kieu với 2 giá trị tien_to/danh_so vào argparse; main đọc kieu từ đó. Chạy thử 2 kiểu.",
+      "check": "Cả 2 kiểu chạy đúng qua tham số.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 221,
+      "title": "Thêm cờ --kho",
+      "action": "Thêm cờ --kho: chỉ xem trước, không đổi thật. Chạy thử có và không có cờ.",
+      "check": "Có cờ thì file giữ nguyên, không cờ thì đổi.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 222,
+      "title": "Tin nhắn trợ giúp",
+      "action": "Chạy python doi_ten.py --help, đọc và sửa mô tả cho dễ hiểu. Chạy lại xem.",
+      "check": "Trợ giúp hiện rõ ràng, dễ hiểu.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 223,
+      "title": "Chạy tool không sửa code",
+      "action": "Dùng toàn bộ tham số dòng lệnh để đổi tên 1 thư mục ảnh cũ thật của bạn. Kiểm tra kết quả.",
+      "check": "Thư mục thật được đổi tên đúng ý.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 224,
+      "title": "Ôn tuần 32: tham số",
+      "action": "Không nhìn: viết argparse với 1 đối số bắt buộc. Debug: sửa lỗi quên ép kiểu int cho tham số số.",
+      "check": "Argparse chạy đúng; sửa được lỗi ép kiểu.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 225,
+      "title": "Tách file hàm riêng",
+      "action": "Chuyển các hàm sang file cong_cu.py; doi_ten.py chỉ import và gọi. Chạy lại vẫn đúng.",
+      "check": "Tool chạy đúng sau khi tách file.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 226,
+      "title": "Chuẩn if __name__",
+      "action": "Thêm if __name__ == '__main__': main() vào cuối file; thử import từ file khác xem không tự chạy. Chạy.",
+      "check": "Import không tự chạy, chạy trực tiếp thì chạy.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 227,
+      "title": "Đặt tên rõ nghĩa",
+      "action": "Đổi mọi tên biến 1 chữ (f, d, x) thành tên rõ nghĩa; chạy lại toàn bộ test.",
+      "check": "Mọi test vẫn pass sau khi đổi tên.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 228,
+      "title": "Thêm docstring",
+      "action": "Viết docstring 1 dòng cho mỗi hàm: làm gì, nhận gì, trả gì. Chạy, hành vi không đổi.",
+      "check": "Mọi hàm đều có docstring, tool vẫn chạy.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 229,
+      "title": "Xóa code chết",
+      "action": "Xóa hàm và biến không dùng, các dòng print debug cũ; chạy lại toàn bộ luồng.",
+      "check": "Luồng chạy đúng, code gọn hơn.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 230,
+      "title": "Test lại từ đầu",
+      "action": "Xóa thư mục test, tạo lại 5 file, chạy tool từ đầu tới cuối bằng tham số dòng lệnh. Kiểm tra.",
+      "check": "Chạy từ đầu tới cuối không lỗi.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 231,
+      "title": "Ôn tuần 33: đóng gói",
+      "action": "Giải thích bằng lời mình ý nghĩa của if __name__ == '__main__', rồi mở code chỉ ra chỗ dùng.",
+      "check": "Giải thích đúng; chỉ đúng chỗ trong code.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 232,
+      "title": "Đổi chữ hoa/thường",
+      "action": "Thêm kiểu viet_thuong: đổi tên file thành chữ thường bằng .lower(). Test. Chạy.",
+      "check": "File tên chữ hoa được đổi thành chữ thường.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 233,
+      "title": "Xóa khoảng trắng",
+      "action": "Thêm kiểu gach_noi: thay dấu cách trong tên thành _. Test với file có dấu cách. Chạy.",
+      "check": "Tên file không còn dấu cách.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 234,
+      "title": "Lọc theo đuôi file",
+      "action": "Thêm --duoi .jpg để chỉ đổi file đúng đuôi đó. Test. Chạy.",
+      "check": "Chỉ file .jpg bị đổi, file khác giữ nguyên.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 235,
+      "title": "Thống kê cuối",
+      "action": "In bảng cuối: tổng file, đã đổi, bỏ qua, lỗi. Test. Chạy.",
+      "check": "Bảng thống kê khớp thực tế.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 236,
+      "title": "Lưu cấu hình",
+      "action": "Đọc kiểu đổi tên mặc định từ setting.json như tuần 20. Test. Chạy.",
+      "check": "Không truyền --kieu vẫn dùng đúng mặc định.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 237,
+      "title": "Dọn thư mục test",
+      "action": "Chạy tool lên thư mục test lần cuối, đảm bảo mọi kiểu đều đúng; xóa file rác. Chạy.",
+      "check": "Mọi kiểu đều đúng, thư mục sạch.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 238,
+      "title": "Ôn tuần 34: tính năng",
+      "action": "Không nhìn: kể 3 tính năng phụ đã thêm vào tool. Tự demo 1 tính năng trên thư mục test.",
+      "check": "Kể đủ 3; demo chạy đúng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 239,
+      "title": "Lập danh sách test",
+      "action": "Ghi ra giấy 10 case test: thư mục rỗng, tên có dấu, file trùng, tên rất dài... Xong.",
+      "check": "Giấy ghi đủ 10 case cụ thể.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 240,
+      "title": "Test 5 case đầu",
+      "action": "Chạy tool với 5 case đầu, ghi pass/fail từng case. Sửa lỗi gặp.",
+      "check": "Ghi đủ kết quả 5 case; lỗi đã sửa.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 241,
+      "title": "Test 5 case sau",
+      "action": "Chạy 5 case còn lại, ghi kết quả. Sửa lỗi gặp.",
+      "check": "Ghi đủ kết quả 5 case; lỗi đã sửa.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 242,
+      "title": "Test tên tiếng Việt",
+      "action": "Tạo file tên có dấu kiểu ảnh đẹp.jpg; chạy tool đổi tên, kiểm tra không lỗi font. Chạy.",
+      "check": "File tiếng Việt đổi tên đúng, không lỗi.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 243,
+      "title": "Test thư mục lớn",
+      "action": "Tạo 50 file test bằng vòng for, chạy tool, kiểm tra đủ 50 file và đúng thứ tự. Chạy.",
+      "check": "Đủ 50 file, thứ tự đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 244,
+      "title": "Sửa hết lỗi tồn",
+      "action": "Sửa mọi lỗi còn lại từ danh sách test; chạy lại case của từng lỗi. Đánh dấu xong.",
+      "check": "Mọi case test đều pass.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 245,
+      "title": "Ôn tuần 35: test",
+      "action": "Không nhìn: kể 5 case test quan trọng nhất của tool. Chạy lại 2 case khó nhất.",
+      "check": "Kể đủ 5; 2 case khó chạy pass.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 246,
+      "title": "Tìm việc thật đầu tiên",
+      "action": "Mở thư mục ảnh hoặc tài liệu thật của bạn, tìm 1 thư mục cần đổi tên hàng loạt. Ghi tên thư mục ra giấy. Xong.",
+      "check": "Giấy ghi rõ thư mục sẽ xử lý.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 247,
+      "title": "Sao lưu trước khi chạy",
+      "action": "Chép toàn bộ thư mục thật sang chỗ backup. Đếm kiểm tra backup đủ file. Xong.",
+      "check": "Backup đủ số file như thư mục gốc.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 248,
+      "title": "Chạy khô trước",
+      "action": "Chạy tool với cờ --kho lên thư mục thật, đọc kỹ bảng xem trước. Chưa cho đổi thật.",
+      "check": "Đọc hết bảng xem trước, chưa đổi gì.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 249,
+      "title": "Chạy thật lần đầu",
+      "action": "Bỏ cờ --kho, xác nhận c, chạy tool lên thư mục thật. Kiểm tra kết quả từng file.",
+      "check": "Thư mục thật đã đổi tên đúng ý.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 250,
+      "title": "Kiểm tra sau chạy",
+      "action": "Mở thư mục so với backup: đếm số file bằng nhau, tên đã đổi đúng ý. Ghi nhận.",
+      "check": "Số file bằng backup, tên đúng ý.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 251,
+      "title": "Ghi lại cảm giác",
+      "action": "Viết 5 dòng vào file: tool tiết kiệm bao nhiêu thời gian, chỗ nào còn gượng. Xong.",
+      "check": "File có đủ 5 dòng cảm nhận.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 252,
+      "title": "Ôn tuần 36: việc thật",
+      "action": "Kể lại bằng lời mình: tool đã làm việc thật gì, tiết kiệm bao lâu. Mở thư mục ngắm lại thành quả.",
+      "check": "Kể rõ việc và thời gian tiết kiệm.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 253,
+      "title": "Sửa điểm gượng 1",
+      "action": "Lấy điểm gượng đầu tiên từ file cảm giác, sửa code. Chạy lại test.",
+      "check": "Điểm gượng 1 đã hết, test pass.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 254,
+      "title": "Sửa điểm gượng 2",
+      "action": "Sửa điểm gượng thứ hai. Chạy lại test.",
+      "check": "Điểm gượng 2 đã hết, test pass.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 255,
+      "title": "Thêm tính năng bạn muốn",
+      "action": "Thêm 1 tính năng tự nghĩ ra khi dùng thật. Code và test. Chạy.",
+      "check": "Tính năng mới hoạt động đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 256,
+      "title": "Tối ưu tốc độ",
+      "action": "Test với 200 file, đo thời gian bằng time; nếu chậm thì tìm chỗ tối ưu. Chạy.",
+      "check": "200 file xử lý xong trong thời gian hợp lý.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 257,
+      "title": "Dọn code lần 2",
+      "action": "Đọc lại toàn bộ code, sửa tên biến, xóa đoạn trùng lặp. Chạy lại full test.",
+      "check": "Full test pass, code gọn hơn.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 258,
+      "title": "Viết hướng dẫn dùng",
+      "action": "Viết file HUONG_DAN.txt: tool làm gì, chạy lệnh nào, 3 ví dụ lệnh. Xong.",
+      "check": "File có đủ 3 phần.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 259,
+      "title": "Ôn tuần 37: cải tiến",
+      "action": "Không nhìn: kể 3 cải tiến sau khi dùng thật. Mở HUONG_DAN.txt đọc lại.",
+      "check": "Kể đủ 3 cải tiến.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 260,
+      "title": "README là gì",
+      "action": "Mở 1 repo Python bất kỳ trên GitHub bằng trình duyệt, đọc README của họ xem gồm những mục gì. Ghi ra giấy 4 mục.",
+      "check": "Giấy ghi đủ 4 mục của README mẫu.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 261,
+      "title": "Viết mô tả project",
+      "action": "Viết đoạn 5 dòng: tool tên gì, giải quyết việc gì, cho ai dùng. Lưu vào README.md. Xong.",
+      "check": "README có đoạn mô tả 5 dòng rõ ràng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 262,
+      "title": "Viết cách cài đặt",
+      "action": "Thêm mục Cài đặt vào README: cần Python phiên bản mấy, có cần cài thêm gì không. Xong.",
+      "check": "Mục Cài đặt ghi đủ yêu cầu.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 263,
+      "title": "Viết cách chạy và ví dụ",
+      "action": "Thêm mục Cách dùng với 3 lệnh ví dụ copy-paste chạy được. Test từng lệnh. Xong.",
+      "check": "Cả 3 lệnh ví dụ đều chạy được.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 264,
+      "title": "Chụp màn hình demo",
+      "action": "Chạy tool, chụp màn hình terminal lúc trước và sau khi đổi tên; lưu ảnh vào thư mục demo. Xong.",
+      "check": "Thư mục demo có 2 ảnh trước/sau.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 265,
+      "title": "Đọc lại README",
+      "action": "Đọc to README từ đầu tới cuối, sửa câu khó hiểu; nhờ 1 người đọc thử xem hiểu không.",
+      "check": "Người đọc thử hiểu tool làm gì.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 266,
+      "title": "Ôn tuần 38: README",
+      "action": "Không nhìn: kể 4 mục của README. Mở README.md kiểm tra đủ.",
+      "check": "Kể đủ 4; file có đủ 4 mục.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 267,
+      "title": "Chạy demo từ A-Z",
+      "action": "Xóa test cũ, tạo file mới, chạy tool từ đầu tới cuối 1 lượt mượt mà. Ghi các bước ra giấy.",
+      "check": "1 lượt chạy mượt, giấy ghi đủ bước.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 268,
+      "title": "Sửa lỗi cuối mùa",
+      "action": "Chạy lại danh sách 10 case test tuần 35, sửa lỗi còn sót. Đánh dấu.",
+      "check": "10 case đều pass.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 269,
+      "title": "Dọn thư mục project",
+      "action": "Xóa file test thừa, sắp xếp gọn: code, README, HUONG_DAN, demo, log mẫu. Xong.",
+      "check": "Thư mục gọn gàng, đủ 5 nhóm.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 270,
+      "title": "Viết nhật ký mùa 3",
+      "action": "Viết 10 dòng: bắt đầu từ ý tưởng nào, khó nhất chỗ nào, học được gì. Lưu file. Xong.",
+      "check": "File có đủ 10 dòng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 271,
+      "title": "Tập giới thiệu tool",
+      "action": "Nói thành tiếng 2 phút: tool làm gì, demo 3 lệnh. Tập 2 lần.",
+      "check": "Nói trôi chảy 2 phút.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 272,
+      "title": "Project mùa 3: tool chạy độc lập",
+      "action": "Chạy tool từ thư mục khác bằng đường dẫn đầy đủ, không sửa code; mọi chức năng đúng. Đây là bản chốt mùa 3.",
+      "check": "Tool chạy độc lập đúng mọi chức năng.",
+      "minutes": 10,
+      "type": "project"
+    },
+    {
+      "day": 273,
+      "title": "Ôn mùa 3: kể lại tool",
+      "action": "Không nhìn code: kể lại tool làm gì, 6 bước chính, 3 khó khăn đã vượt. Mở tool chạy demo 1 lệnh.",
+      "check": "Kể đủ ý; demo 1 lệnh chạy đúng.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 274,
+      "title": "Kiểm tra git",
+      "action": "Mở terminal, gõ git --version. Nếu chưa có git thì cài theo hướng dẫn của hệ điều hành. Chạy xem ra số phiên bản.",
+      "check": "Terminal in ra số phiên bản git.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 275,
+      "title": "Tạo kho git",
+      "action": "Trong thư mục project, gõ git init. Kiểm tra có thư mục .git bằng lệnh ls -a. Chạy.",
+      "check": "Thư mục .git xuất hiện.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 276,
+      "title": "Commit đầu tiên",
+      "action": "Gõ git add . rồi git commit -m 'Ban dau tien'. Gõ git log xem thấy commit. Chạy.",
+      "check": "git log hiện 1 commit.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 277,
+      "title": "Sửa và commit tiếp",
+      "action": "Sửa 1 dòng trong README, rồi add và commit với message rõ nghĩa. Xem git log có 2 commit. Chạy.",
+      "check": "git log hiện 2 commit.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 278,
+      "title": "Xem thay đổi",
+      "action": "Sửa 1 file bất kỳ, gõ git diff xem khác gì, rồi git status. Chạy.",
+      "check": "Thấy rõ dòng sửa trong diff và status.",
+      "minutes": 7,
+      "type": "learn"
+    },
+    {
+      "day": 279,
+      "title": "Viết .gitignore",
+      "action": "Tạo file .gitignore ghi 3 dòng: __pycache__/, *.log, test_doi_ten/. Commit. Chạy.",
+      "check": "File .gitignore đã commit.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 280,
+      "title": "Ôn tuần 40: git",
+      "action": "Không nhìn: kể 4 lệnh git đã học và tác dụng. Gõ lại git status, git log trên project.",
+      "check": "Kể đúng 4 lệnh; 2 lệnh chạy được.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 281,
+      "title": "Tạo tài khoản GitHub",
+      "action": "Đăng ký tài khoản GitHub nếu chưa có, đặt tên dễ nhớ. Xong.",
+      "check": "Đăng nhập được vào GitHub.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 282,
+      "title": "Tạo repo mới",
+      "action": "Trên GitHub tạo repo mới tên doi-ten-file, để public, không tick thêm README. Copy đường link repo. Xong.",
+      "check": "Repo trống đã tạo, có link.",
+      "minutes": 8,
+      "type": "learn"
+    },
+    {
+      "day": 283,
+      "title": "Đẩy code lên",
+      "action": "Gõ git remote add origin <link repo> rồi git push -u origin main. Mở GitHub trên web thấy code. Chạy.",
+      "check": "Web GitHub hiện đủ code.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 284,
+      "title": "Sửa trên web",
+      "action": "Sửa 1 chữ trong README trực tiếp trên web GitHub và commit. Về máy gõ git pull để đồng bộ. Chạy.",
+      "check": "Máy và web đồng bộ nội dung mới.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 285,
+      "title": "Đẩy thay đổi mới",
+      "action": "Sửa code ở máy, add, commit, push. Mở web kiểm tra đã cập nhật. Chạy.",
+      "check": "Web hiện nội dung mới nhất.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 286,
+      "title": "Xem lịch sử trên web",
+      "action": "Mở tab Commits trên GitHub, đọc lại từng commit message mình đã viết. Xong.",
+      "check": "Đọc hết commit, message rõ nghĩa.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 287,
+      "title": "Ôn tuần 41: GitHub",
+      "action": "Không nhìn: kể 3 bước đưa code lên GitHub. Mở repo kiểm tra code còn đó.",
+      "check": "Kể đủ 3 bước; code còn trên web.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 288,
+      "title": "Thêm tiêu đề và mô tả",
+      "action": "Sửa README: tiêu đề rõ ràng, 1 đoạn mô tả việc tool giải quyết. Push. Chạy.",
+      "check": "Web hiện tiêu đề và mô tả mới.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 289,
+      "title": "Thêm ảnh demo",
+      "action": "Chèn 2 ảnh chụp tuần 38 vào README ở mục Demo. Push, mở web xem ảnh hiện.",
+      "check": "Web hiện đủ 2 ảnh.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 290,
+      "title": "Bảng tính năng",
+      "action": "Thêm bảng liệt kê 5 tính năng chính vào README. Push. Xong.",
+      "check": "Bảng 5 tính năng hiện trên web.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 291,
+      "title": "Mục FAQ",
+      "action": "Thêm 3 câu hỏi thường gặp và câu trả lời (ví dụ lỡ đổi sai thì sao?). Push. Xong.",
+      "check": "Mục FAQ có 3 câu hỏi.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 292,
+      "title": "Giấy phép",
+      "action": "Thêm file LICENSE chọn MIT bằng nút tạo sẵn của GitHub. Commit và push. Xong.",
+      "check": "Repo có file LICENSE.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 293,
+      "title": "Đọc README như người lạ",
+      "action": "Mở repo ở cửa sổ ẩn danh không đăng nhập, đọc README xem có hiểu và chạy được không. Sửa chỗ khó hiểu.",
+      "check": "Người lạ đọc hiểu và chạy được.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 294,
+      "title": "Ôn tuần 42: README",
+      "action": "Không nhìn: kể 5 mục trong README. Mở repo đối chiếu.",
+      "check": "Kể đủ 5; repo có đủ 5.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 295,
+      "title": "Chọn 1 người dùng thử",
+      "action": "Nhờ 1 người quen (bạn hoặc gia đình) thử chạy tool theo README. Ghi lại họ làm được tới đâu. Xong.",
+      "check": "Ghi được quá trình họ làm.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 296,
+      "title": "Ghi nhận phản hồi",
+      "action": "Hỏi người dùng thử: chỗ nào khó hiểu, chỗ nào lỗi? Ghi nguyên văn 3 ý. Xong.",
+      "check": "Giấy ghi đủ 3 ý phản hồi.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 297,
+      "title": "Sửa theo phản hồi 1",
+      "action": "Sửa ý phản hồi đầu tiên (code hoặc README). Push. Chạy test lại.",
+      "check": "Ý 1 đã sửa, test pass, đã push.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 298,
+      "title": "Sửa theo phản hồi 2",
+      "action": "Sửa ý phản hồi thứ hai. Push. Chạy test lại.",
+      "check": "Ý 2 đã sửa, test pass, đã push.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 299,
+      "title": "Cảm ơn và ghi nhận",
+      "action": "Cảm ơn người dùng thử; ghi tên họ vào mục Cảm ơn trong README. Push. Xong.",
+      "check": "README có mục Cảm ơn với tên họ.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 300,
+      "title": "Test lại toàn bộ",
+      "action": "Chạy lại 10 case test sau mọi sửa đổi; đảm bảo không hỏng cái cũ. Đánh dấu.",
+      "check": "10 case đều pass.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 301,
+      "title": "Ôn tuần 43: feedback",
+      "action": "Không nhìn: kể 3 phản hồi nhận được và cách sửa. Mở git log xem các commit sửa.",
+      "check": "Kể đủ 3; log có commit tương ứng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 302,
+      "title": "Chọn tính năng cuối",
+      "action": "Chọn 1 tính năng nhỏ cuối cùng cho bản public (ví dụ hoàn tác từ log). Ghi mô tả 3 dòng. Xong.",
+      "check": "Giấy ghi rõ tính năng sẽ làm.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 303,
+      "title": "Code tính năng cuối",
+      "action": "Code tính năng đã chọn, test trên thư mục test. Chạy.",
+      "check": "Tính năng mới chạy đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 304,
+      "title": "Cập nhật README",
+      "action": "Thêm tính năng mới vào README gồm mô tả và ví dụ lệnh. Push. Xong.",
+      "check": "README có tính năng mới.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 305,
+      "title": "Test hồi quy",
+      "action": "Chạy lại toàn bộ case test cũ cộng tính năng mới. Sửa lỗi nếu có.",
+      "check": "Mọi case cũ và mới đều pass.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 306,
+      "title": "Dọn code lần cuối",
+      "action": "Đọc lại toàn bộ code lần cuối: tên biến, comment, xóa thừa. Push bản sạch.",
+      "check": "Code sạch, đã push.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 307,
+      "title": "Gắn thẻ phiên bản",
+      "action": "Gõ git tag v1.0 rồi git push --tags. Mở GitHub xem tag. Chạy.",
+      "check": "GitHub hiện tag v1.0.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 308,
+      "title": "Ôn tuần 44: bản v1.0",
+      "action": "Không nhìn: kể tính năng cuối đã thêm. Mở GitHub kiểm tra tag v1.0.",
+      "check": "Kể đúng tính năng; tag tồn tại.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 309,
+      "title": "Viết bài giới thiệu",
+      "action": "Viết đoạn 10 dòng giới thiệu project: vì sao làm, làm gì, kèm link repo. Lưu file. Xong.",
+      "check": "File có đủ 10 dòng giới thiệu.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 310,
+      "title": "Chia sẻ cho 3 người",
+      "action": "Gửi link repo và đoạn giới thiệu cho 3 người quen. Ghi lại ai đã nhận. Xong.",
+      "check": "Ghi đủ 3 người đã nhận.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 311,
+      "title": "Đăng 1 nơi công khai",
+      "action": "Đăng giới thiệu project lên 1 nơi bạn hay dùng (nhóm chat, diễn đàn). Chụp màn hình bài đăng. Xong.",
+      "check": "Có ảnh chụp bài đăng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 312,
+      "title": "Trả lời câu hỏi",
+      "action": "Trả lời mọi câu hỏi và bình luận về project trong 24 giờ qua (nếu có). Ghi lại. Xong.",
+      "check": "Mọi câu hỏi đều được trả lời.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 313,
+      "title": "Ghi nhật ký public",
+      "action": "Viết 10 dòng: cảm giác khi code mình lên mạng, điều bất ngờ nhất. Lưu file. Xong.",
+      "check": "File có đủ 10 dòng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 314,
+      "title": "Kiểm tra repo lần cuối",
+      "action": "Mở repo kiểm tra: code đủ, README đẹp, LICENSE có, tag v1.0 có. Tick từng mục.",
+      "check": "Tick đủ 4 mục.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 315,
+      "title": "Ôn tuần 45: chia sẻ",
+      "action": "Không nhìn: kể 3 nơi đã chia sẻ project. Mở repo xem còn nguyên.",
+      "check": "Kể đủ 3 nơi; repo nguyên vẹn.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 316,
+      "title": "Đọc code 1 tool tương tự",
+      "action": "Tìm 1 repo Python tool đổi tên file của người khác trên GitHub, đọc code 15 phút. Ghi 3 điều họ làm hay hơn mình.",
+      "check": "Giấy ghi đủ 3 điều hay.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 317,
+      "title": "Học 1 kỹ thuật mới",
+      "action": "Chọn 1 kỹ thuật từ repo đó, thử áp dụng vào tool của mình trên nhánh thử. Chạy test.",
+      "check": "Kỹ thuật mới chạy được trong tool.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 318,
+      "title": "So sánh README",
+      "action": "So README của họ với của mình, ghi 2 điểm mình cần học. Sửa README của mình 1 điểm. Push.",
+      "check": "README mình đã sửa 1 điểm, đã push.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 319,
+      "title": "Đọc issue của repo khác",
+      "action": "Đọc 5 issue trong repo người khác, xem họ báo lỗi và sửa thế nào. Ghi 2 bài học.",
+      "check": "Giấy ghi đủ 2 bài học.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 320,
+      "title": "Áp dụng bài học",
+      "action": "Áp dụng 1 bài học từ issue vào tool của mình (ví dụ thông báo lỗi rõ hơn). Test và push.",
+      "check": "Bài học đã áp dụng, test pass.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 321,
+      "title": "Cảm ơn tác giả",
+      "action": "Bấm star cho repo đã học, tùy ý bình luận cảm ơn. Xong.",
+      "check": "Đã star repo.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 322,
+      "title": "Ôn tuần 46: học từ người khác",
+      "action": "Không nhìn: kể 3 điều học được từ repo người khác. Mở code chỉ ra chỗ đã áp dụng.",
+      "check": "Kể đủ 3; chỉ đúng chỗ áp dụng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 323,
+      "title": "Chọn nâng cấp",
+      "action": "Chọn 1 nâng cấp nhỏ từ cảm hứng tuần 46 (ví dụ màu sắc cho chế độ --kho). Ghi mô tả. Xong.",
+      "check": "Giấy ghi rõ nâng cấp sẽ làm.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 324,
+      "title": "Code nâng cấp",
+      "action": "Code nâng cấp đã chọn. Test kỹ. Chạy.",
+      "check": "Nâng cấp chạy đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 325,
+      "title": "Cập nhật README và push",
+      "action": "Cập nhật README, commit message rõ ràng, push. Mở web kiểm tra.",
+      "check": "Web hiện nội dung mới.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 326,
+      "title": "Test toàn bộ lại",
+      "action": "Chạy lại 10 case test sau nâng cấp. Sửa lỗi nếu có.",
+      "check": "10 case đều pass.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 327,
+      "title": "Gắn tag v1.1",
+      "action": "Gõ git tag v1.1 rồi git push --tags. Mở GitHub xem. Chạy.",
+      "check": "GitHub hiện tag v1.1.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 328,
+      "title": "Viết changelog",
+      "action": "Tạo file CHANGELOG.md ghi v1.0 và v1.1 khác nhau chỗ nào. Push. Xong.",
+      "check": "File CHANGELOG có đủ 2 phiên bản.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 329,
+      "title": "Ôn tuần 47: v1.1",
+      "action": "Không nhìn: kể v1.1 khác v1.0 chỗ nào. Mở CHANGELOG đối chiếu.",
+      "check": "Kể đúng; CHANGELOG khớp.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 330,
+      "title": "Viết kịch bản demo",
+      "action": "Viết kịch bản 5 phút: giới thiệu, chạy 3 lệnh, khoe tính năng hay nhất. Lưu file. Xong.",
+      "check": "File kịch bản có đủ 3 phần.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 331,
+      "title": "Tập demo 1 mình",
+      "action": "Chạy theo kịch bản 1 mình, bấm giờ 5 phút. Ghi chỗ nào vấp.",
+      "check": "Ghi được chỗ vấp (nếu có).",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 332,
+      "title": "Sửa chỗ vấp",
+      "action": "Sửa kịch bản hoặc code ở chỗ vấp hôm qua. Tập lại 1 lần mượt hơn.",
+      "check": "Lần tập 2 mượt hơn lần 1.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 333,
+      "title": "Chuẩn bị máy demo",
+      "action": "Dọn terminal, chuẩn bị sẵn thư mục demo và file test. Chạy thử 1 lượt khô.",
+      "check": "1 lượt khô chạy đúng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 334,
+      "title": "Mời 1 người xem",
+      "action": "Hẹn 1 người (bạn hoặc gia đình) xem demo vào ngày 365. Nhắn tin xác nhận giờ. Xong.",
+      "check": "Có tin nhắn xác nhận giờ hẹn.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 335,
+      "title": "Tập lần cuối",
+      "action": "Chạy demo lần cuối từ đầu tới cuối không vấp. Sẵn sàng cho ngày mai.",
+      "check": "Demo trôi chảy không vấp.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 336,
+      "title": "Ôn tuần 48: kịch bản demo",
+      "action": "Không nhìn kịch bản: kể 3 lệnh sẽ demo. Chạy thử 1 lệnh.",
+      "check": "Kể đủ 3 lệnh; 1 lệnh chạy đúng.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 337,
+      "title": "Mở lại code ngày 1",
+      "action": "Mở lại file code đầu tiên in Xin chào, đọc và cười. Chạy lại nó.",
+      "check": "Code ngày 1 vẫn chạy.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 338,
+      "title": "Đếm thành quả",
+      "action": "Đếm: bao nhiêu file .py đã viết, bao nhiêu commit, bao nhiêu dòng code bằng wc -l. Ghi ra.",
+      "check": "Ghi đủ 3 con số.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 339,
+      "title": "Viết thư cho mình",
+      "action": "Viết 15 dòng gửi bản thân ngày 1: lúc đó sợ gì, giờ làm được gì. Lưu file. Xong.",
+      "check": "File có đủ 15 dòng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 340,
+      "title": "Liệt kê kỹ năng đã có",
+      "action": "Ghi ra 20 thứ bạn làm được bằng Python mà ngày 1 chưa biết. Đánh số. Xong.",
+      "check": "Giấy ghi đủ 20 thứ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 341,
+      "title": "Chọn hướng đi tiếp",
+      "action": "Viết 5 dòng: sau 365 ngày muốn học tiếp gì (web, dữ liệu, AI...)? Vì sao? Xong.",
+      "check": "File có 5 dòng lý do rõ ràng.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 342,
+      "title": "Dọn dẹp máy",
+      "action": "Xóa file test thừa, sắp xếp thư mục project gọn gàng lần cuối. Push bản cuối.",
+      "check": "Thư mục gọn, đã push.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 343,
+      "title": "Ôn tuần 49: cả năm",
+      "action": "Không nhìn: kể 5 cột mốc lớn nhất của năm. Mở repo ngắm lại.",
+      "check": "Kể đủ 5 cột mốc.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 344,
+      "title": "Kiểm tra file thừa",
+      "action": "Liệt kê mọi file trong repo, xóa file không cần public. Commit và push.",
+      "check": "Repo không còn file thừa.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 345,
+      "title": "Chuẩn hóa tên file",
+      "action": "Đổi tên file cho nhất quán (chữ thường, gạch dưới). Cập nhật README nếu cần. Push.",
+      "check": "Tên file nhất quán, đã push.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 346,
+      "title": "Kiểm tra .gitignore",
+      "action": "Đảm bảo __pycache__, log, file test không bị push. Sửa nếu thiếu. Push.",
+      "check": ".gitignore chặn đủ 3 loại.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 347,
+      "title": "Mô tả repo",
+      "action": "Trên GitHub thêm mô tả ngắn và chủ đề (topics: python, tool) cho repo. Xong.",
+      "check": "Repo có mô tả và topics.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 348,
+      "title": "Ảnh đại diện repo",
+      "action": "Thêm ảnh demo vào đầu README cho bắt mắt. Push, mở web xem.",
+      "check": "Web hiện ảnh đầu README.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 349,
+      "title": "Người lạ đọc thử",
+      "action": "Nhờ 1 người chưa từng xem đọc README, hỏi họ hiểu tool làm gì không. Sửa theo góp ý.",
+      "check": "Người đọc hiểu; góp ý đã sửa.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 350,
+      "title": "Ôn tuần 50: repo",
+      "action": "Không nhìn: kể 4 việc đã làm để repo sạch đẹp. Mở repo kiểm tra.",
+      "check": "Kể đủ 4; repo sạch đẹp.",
+      "minutes": 8,
+      "type": "review"
+    },
+    {
+      "day": 351,
+      "title": "Chạy demo khô lần 1",
+      "action": "Chạy toàn bộ demo ngày 365 một mình, bấm giờ. Ghi thời gian.",
+      "check": "Ghi được thời gian demo.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 352,
+      "title": "Chạy demo khô lần 2",
+      "action": "Chạy lại, lần này giải thích to như đang có khán giả. Ghi chỗ vấp.",
+      "check": "Ghi được chỗ vấp.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 353,
+      "title": "Chuẩn bị câu hỏi",
+      "action": "Viết 5 câu hỏi khán giả có thể hỏi kèm câu trả lời. Học thuộc ý chính.",
+      "check": "Giấy có 5 cặp hỏi-đáp.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 354,
+      "title": "Backup mọi thứ",
+      "action": "Push code lần cuối, đảm bảo GitHub có bản mới nhất. Kiểm tra trên web.",
+      "check": "Web có bản mới nhất.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 355,
+      "title": "Chuẩn bị tâm lý",
+      "action": "Viết 5 dòng: mình đã đi 364 ngày, mai là ngày khoe thành quả. Đọc to 1 lần.",
+      "check": "Đọc to xong, thấy sẵn sàng.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 356,
+      "title": "Nghỉ sớm",
+      "action": "Hôm nay chỉ mở repo ngắm 5 phút rồi nghỉ, giữ sức cho ngày mai. Xong.",
+      "check": "Nghỉ ngơi, không code thêm.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 357,
+      "title": "Ôn tuần 51: sẵn sàng",
+      "action": "Không nhìn: kể lại tool làm gì trong 3 câu. Sẵn sàng cho capstone.",
+      "check": "Kể đủ 3 câu.",
+      "minutes": 6,
+      "type": "review"
+    },
+    {
+      "day": 358,
+      "title": "Tổng duyệt demo",
+      "action": "Chạy demo đầy đủ lần cuối, kiểm tra mọi lệnh trong kịch bản đều đúng. Sửa lỗi nếu có.",
+      "check": "Mọi lệnh trong kịch bản đều đúng.",
+      "minutes": 10,
+      "type": "practice"
+    },
+    {
+      "day": 359,
+      "title": "Dọn terminal demo",
+      "action": "Xóa lịch sử lộn xộn, phóng to chữ terminal cho khán giả dễ nhìn. Chụp ảnh setup.",
+      "check": "Có ảnh setup terminal.",
+      "minutes": 7,
+      "type": "practice"
+    },
+    {
+      "day": 360,
+      "title": "Viết lời mở đầu",
+      "action": "Viết và học thuộc lời mở đầu 30 giây: mình là ai, 365 ngày qua làm gì. Nói thử 3 lần.",
+      "check": "Nói trôi chảy 30 giây.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 361,
+      "title": "Viết lời kết",
+      "action": "Viết lời kết 30 giây: học được gì, tiếp theo làm gì. Nói thử 3 lần.",
+      "check": "Nói trôi chảy 30 giây.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 362,
+      "title": "Kiểm tra kỹ thuật",
+      "action": "Test máy, mạng, GitHub mở được, terminal chạy được. Liệt kê checklist tick đủ.",
+      "check": "Checklist tick đủ.",
+      "minutes": 8,
+      "type": "practice"
+    },
+    {
+      "day": 363,
+      "title": "Nhắc người xem",
+      "action": "Nhắn lại cho người xem: xác nhận giờ và địa điểm hoặc link. Chuẩn bị nước.",
+      "check": "Có xác nhận giờ hẹn.",
+      "minutes": 5,
+      "type": "practice"
+    },
+    {
+      "day": 364,
+      "title": "Ôn cuối: 365 ngày",
+      "action": "Không nhìn bất cứ gì: kể hành trình từ print('Xin chào') tới tool public trong 5 phút. Đây là buổi tổng duyệt lời kể.",
+      "check": "Kể trôi chảy 5 phút.",
+      "minutes": 10,
+      "type": "review"
+    },
+    {
+      "day": 365,
+      "title": "Capstone: demo tool trước khán giả",
+      "action": "Mở repo GitHub public của bạn, chạy demo tool trực tiếp cho 1 người xem theo kịch bản: giới thiệu, chạy 3 lệnh, trả lời câu hỏi. Kết thúc bằng việc khoe tag v1.1.",
+      "check": "1 người đã xem demo chạy thành công từ đầu tới cuối.",
+      "minutes": 10,
+      "type": "capstone"
+    }
+  ]
+}
